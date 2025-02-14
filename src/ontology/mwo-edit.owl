@@ -1,4 +1,3 @@
-
 Prefix(:=<http://purls.helmholtz-metadaten.de/mwo/mwo.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
@@ -10,42 +9,721 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo.owl>
-
-
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/iao_import.owl>)
-
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/nfdicore_import.owl>)
-
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/pmdco_import.owl>)
-
-
-
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "NFDI MatWerk Ontology")
 
-
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0000000>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001000>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001002>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001004>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001005>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001006>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001007>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001008>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001009>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001010>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001011>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001012>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001014>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001017>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001018>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001019>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001026>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001029>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001030>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001031>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001032>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001033>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001044>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001045>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001046>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001047>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001048>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001049>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001050>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001052>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001054>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001056>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001057>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001058>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001059>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001060>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001061>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001062>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001063>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001064>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001065>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001069>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001070>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001071>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001072>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001073>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001074>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001075>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001076>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001078>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001079>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001080>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001081>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001082>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001083>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001084>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001085>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001086>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001087>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001088>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001089>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001090>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001091>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001092>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001093>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001094>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001095>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001096>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001097>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001098>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001100>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001101>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001102>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001103>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001104>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001105>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001106>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001107>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001108>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001109>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001110>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001111>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001112>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-
 ############################
 #   Annotation Properties
 ############################
 
+# Annotation Property: dcterms:description (description)
+
 AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
 AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0000000> (root node)
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> (expert discussion)
 
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0000000> "root node"@en)
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> "expert discussion"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> (meeting)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "meeting"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> (Matwerk project)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> "Matwerk project"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> (collaboration)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> "collaboration"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> (strategic collaboration)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> "strategic collaboration"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> (networking)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> "networking"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> (project collaboration)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> "project collaboration"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> (joint efforting)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> "joint efforting"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> (joint servicing)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> "joint servicing"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> (alliancing)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> "alliancing"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> (parenting)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> "parenting"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001011> (organizer)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001011> "organizer"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001011> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> (co organizer)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> "co organizer"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> (speaker)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> "speaker"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001014> (spokesperson)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001014> "spokesperson"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001014> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> (co spokesperson)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> "co spokesperson"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> (manufacturer)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> "manufacturer"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001017> (service provider)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001017> "service provider"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001017> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001018> (publisher)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001018> "publisher"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001018> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> (owner)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> "owner"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> (collaboration partner)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> "collaboration partner"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> (nfdi consortium)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> "nfdi consortium"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000006>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> (nfdi matwerk consortium)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "nfdi matwerk consortium"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> (consurtium partner)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> "consurtium partner"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> (research group)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "research group"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> (task area committee)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> "task area committee"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> (infrastructure use case)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> "infrastructure use case"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> (large scale facility)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> "large scale facility"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> (high performance computing facility)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> "high performance computing facility"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> (larg scale testing facility)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> "larg scale testing facility"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> (scientific research facility)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> "scientific research facility"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> (laboratory)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> "laboratory"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000005>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> (Specimen)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> "Specimen"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> (frequency)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "frequency"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> (sustainability)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "sustainability"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> (data storage capacity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "data storage capacity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> (artificial intelligence)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> "artificial intelligence"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> (data science)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> "data science"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> (cybersecurity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> "cybersecurity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> (software engineering)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> "software engineering"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> (theoretical computer science)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> "theoretical computer science"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> (computational materials science)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> "computational materials science"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> (materials mechanical behavior)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> "materials mechanical behavior"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> (materials deformation processes)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> "materials deformation processes"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> (materials characterization)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> "materials characterization"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> (materials thermodynamics)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> "materials thermodynamics"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> (materials design)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "materials design"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> (materials surface science)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> "materials surface science"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> (materials microstructural)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> "materials microstructural"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> (data driven material science)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> "data driven material science"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> (materials processing)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> "materials processing"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> (metadata item)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "metadata item"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> (metadata schema)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> "metadata schema"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> (metadata standard)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "metadata standard"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> (metadata specification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> "metadata specification"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> (metadata format)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> "metadata format"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> (reference dataset)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> "reference dataset"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> (simulation dataset)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> "simulation dataset"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001058> (experimental dataset)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001058> "experimental dataset"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001058> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> (docker image)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> "docker image"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> <http://purl.obolibrary.org/obo/IAO_0000098>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> (sparql endpoint)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "sparql endpoint"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000222>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> (electronic lab notebook)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> "electronic lab notebook"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> (simulation software)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> "simulation software"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> (data analysis software)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> "data analysis software"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> (image processing software)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> "image processing software"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> (workflow management software)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> "workflow management software"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> (operating system)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "operating system"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> <http://purl.obolibrary.org/obo/IAO_0000104>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> (material specification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> "material specification"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> (information access specification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> "information access specification"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> (open access)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> "open access"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> (internal acceess)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> "internal acceess"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> (paywall access)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> "paywall access"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> (restricted access)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> "restricted access"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> (event implementation specification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> "event implementation specification"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> (online implementation)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> "online implementation"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> (on site implementation)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> "on site implementation"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> (hybrid implementation)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> "hybrid implementation"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> (status specification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> "status specification"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> (planning status)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> "planning status"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> (test phase status)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> "test phase status"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> (active status)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> "active status"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> (paused status)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> "paused status"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> (cancelled status)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> "cancelled status"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> (finished status)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> "finished status"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> (funding specification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> "funding specification"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> (organizational funding)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> "organizational funding"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> (project funding)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> "project funding"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> (self funding)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> "self funding"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> (conference paper)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> "conference paper"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001089> (conference poster)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001089> "conference poster"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001089> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001090> (conference abstract)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001090> "conference abstract"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001090> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001091> (journal article)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001091> "journal article"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001091> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001092> (interim report)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001092> "interim report"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001092> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000029>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> (presentation document)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> "presentation document"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001094> (Document part)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001094> "Document part"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001094> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> (Creator list)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> "Creator list"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001094>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001096> (contributor list)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001096> "contributor list"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001096> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001094>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> (digital object identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> "digital object identifier"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> <http://purl.obolibrary.org/obo/IAO_0000578>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> (academic title)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> "academic title"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> (material designation)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "material designation"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001100> (goal textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001100> "goal textual entity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001100> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> (measure textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> "measure textual entity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001102> (work package textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001102> "work package textual entity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001102> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001103> (requirement textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001103> "requirement textual entity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001103> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> (added value textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> "added value textual entity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001105> (affiliation)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001105> "affiliation"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001105> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001106> (comment textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001106> "comment textual entity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001106> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001107> (repository hosting data portal)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001107> "repository hosting data portal"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001107> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001108> (research data repository)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001108> "research data repository"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001108> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> (material science database)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> "material science database"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> (material science knowledge base)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> "material science knowledge base"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001111> (data analysis portal)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001111> "data analysis portal"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001111> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001112> (linked data portal)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001112> "linked data portal"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001112> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> (software repository)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "software repository"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
 
 
 )
-
