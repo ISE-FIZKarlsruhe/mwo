@@ -8,6 +8,8 @@
   
   <uri name="http://purls.helmholtz-metadaten.de/mwo/mwo/imports/nfdicore_import.owl" uri="imports/nfdicore_import.owl"/>
   
+# <uri name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl" uri="imports/nfdicore_import.owl"/>
+
   <uri name="http://purls.helmholtz-metadaten.de/mwo/mwo/imports/pmdco_import.owl" uri="imports/pmdco_import.owl"/>
   
   
