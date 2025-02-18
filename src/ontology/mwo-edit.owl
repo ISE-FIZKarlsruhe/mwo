@@ -130,6 +130,36 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001110>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001111>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001112>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001114>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001115>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001117>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001119>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001120>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001121>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001122>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001123>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001124>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001125>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001126>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001127>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001128>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001129>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001130>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001131>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001132>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001133>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001134>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001135>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001136>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001137>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001138>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001139>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001140>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001141>))
+Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001142>))
+Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001143>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -148,6 +178,177 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 # Annotation Property: dcterms:title (title)
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> (has applicant organization)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> "has applicant organization"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> <http://purl.obolibrary.org/obo/BFO_0000057>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001115>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001115> (applicant organization of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001115> "applicant organization of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001115> <http://purl.obolibrary.org/obo/BFO_0000056>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001115> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001115> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001116> (has measurement datum)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001116> "has measurement datum"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001117>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> (measurement datum of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> "measurement datum of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> <http://purl.obolibrary.org/obo/IAO_0000136>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> (measurement unit label of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> "measurement unit label of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> <http://purl.obolibrary.org/obo/IAO_0000136>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> (has measurement unit label)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> "has measurement unit label"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> (has email address)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> "has email address"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001126>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001121> (has symbol)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001121> "has symbol"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001121> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001121> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001127>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001121> <http://purl.obolibrary.org/obo/IAO_0000028>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001122> (has document)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001122> "has document"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001122> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001122> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001128>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001122> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001123> (has textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001123> "has textual entity"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001123> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001123> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001129>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001124> (has website)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001124> "has website"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001124> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001124> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001130>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001124> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000223>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001125> (has data portal)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001125> "has data portal"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001125> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001125> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001131>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001126> (email address of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001126> "email address of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001126> <http://purl.obolibrary.org/obo/IAO_0000136>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001127> (symbol of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001127> "symbol of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001127> <http://purl.obolibrary.org/obo/IAO_0000136>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001128> (document of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001128> "document of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001128> <http://purl.obolibrary.org/obo/IAO_0000136>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001129> (textual entity of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001129> "textual entity of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001129> <http://purl.obolibrary.org/obo/IAO_0000136>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001130> (website of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001130> "website of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001130> <http://purl.obolibrary.org/obo/IAO_0000136>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001131> (data portal of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001131> "data portal of"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001131> <http://purl.obolibrary.org/obo/IAO_0000136>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> (has resource)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> "has resource"@en)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001133>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001133> (resource of)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001133> "resource of"@en)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> (developed by)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> "developed by"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> owl:topObjectProperty)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001135>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001135> (develops)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001135> "develops"@en)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> (co developed by)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> "co developed by"@en)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001137>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001137> (co develops)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001137> "co develops"@en)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> (adapted by)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> "adapted by"@en)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001139>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001139> (adapts)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001139> "adapts"@en)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> (used in)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> "used in"@en)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001141>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001141> (uses)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001141> "uses"@en)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> (has id)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> "has id"@en)
+
+# Data Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> (has acronym)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> "has acronym"@en)
+SubDataPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> owl:topDataProperty)
 
 
 

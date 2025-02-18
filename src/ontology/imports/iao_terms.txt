@@ -1,3 +1,11 @@
 http://purl.obolibrary.org/obo/IAO_0000429 # email address
 http://purl.obolibrary.org/obo/IAO_0000109 # measurement datum
 http://purl.obolibrary.org/obo/IAO_0000003 # Measurement unit label
+http://purl.obolibrary.org/obo/IAO_0000321 # author list
+http://purl.obolibrary.org/obo/IAO_0000322 # institution list
+http://purl.obolibrary.org/obo/IAO_0000629 # keyword textual entity
+http://purl.obolibrary.org/obo/IAO_0000646 # postal code
+http://purl.obolibrary.org/obo/IAO_0000648 # zone improvement plan code
+http://purl.obolibrary.org/obo/IAO_0000131 # serial number
+http://purl.obolibrary.org/obo/IAO_0000017 # model number
+http://purl.obolibrary.org/obo/IAO_0000302 # author identification
