@@ -12,9 +12,30 @@ Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo.owl>
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/iao_import.owl>)
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/nfdicore_import.owl>)
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/pmdco_import.owl>)
-Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Import(<https://nfdi.fiz-karlsruhe.de/ontology/3.0.0>)
+Annotation(dce:contributor <https://orcid.org/0000-0001-9106-8825>)
+Annotation(dce:contributor <https://orcid.org/0000-0001-9560-4728>)
+Annotation(dce:contributor <https://orcid.org/0000-0002-1008-4530>)
+Annotation(dce:contributor <https://orcid.org/0000-0002-1141-7704>)
+Annotation(dce:contributor <https://orcid.org/0000-0002-2818-5890>)
+Annotation(dce:contributor <https://orcid.org/0000-0003-4926-0068>)
+Annotation(dce:contributor "https://orcid.org/0000-0001-7564-7990")
+Annotation(dce:contributor "https://orcid.org/0000-0002-5149-603X")
+Annotation(dcterms:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)")
+Annotation(dcterms:creator "Hubaiev, Kostiantyn")
+Annotation(dcterms:creator "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)")
+Annotation(dcterms:creator "Sack, Harald (https://orcid.org/0000-0001-7069-9804)")
+Annotation(dcterms:creator "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)")
+Annotation(dcterms:description "The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
+A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
+B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
+C) NFDI MatWerk services, events, educational cources, and international collabrations
+D) MSE related instruments, facilities, materials, processes, and properties.
+Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/mwo")
+Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
 Annotation(dcterms:title "NFDI MatWerk Ontology")
+Annotation(rdfs:label "mwo")
+Annotation(owl:priorVersion "http://purls.helmholtz-metadaten.de/mwo/")
 
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001000>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001>))
@@ -107,10 +128,8 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001087>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001088>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001089>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001090>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001091>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001092>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001093>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001094>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001095>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001096>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001097>))
@@ -538,322 +557,436 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> <http://purl.ob
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> (artificial intelligence)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> "Russell, S., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach. Pearson.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> "Artificial Intelligence (AI) is a sub-discipline of Computer Science that focuses on creating systems capable of performing tasks that require human-like intelligence, such as learning, reasoning, and problem-solving.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> "artificial intelligence"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> "Deep learning for image recognition, reinforcement learning in robotics, and natural language processing fall under Artificial Intelligence.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> (data science)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> "Provost, F., & Fawcett, T. (2013). Data Science for Business. O'Reilly Media.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> "Data Science is a sub-discipline of Computer Science that integrates statistical methods, machine learning, and data processing techniques to extract insights and knowledge from structured and unstructured data.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> "data science"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> "Predictive analytics, big data visualization, and recommendation systems are part of Data Science.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> (cybersecurity)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> "Stallings, W. (2020). Network Security Essentials. Pearson.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> "Cybersecurity is a sub-discipline of Computer Science that focuses on protecting computer systems, networks, and data from cyber threats, vulnerabilities, and unauthorized access.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> "cybersecurity"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> "Encryption techniques, intrusion detection systems, and ethical hacking studies belong to Cybersecurity.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> (software engineering)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> "Software Engineering is a sub-discipline of Computer Science that applies engineering principles to the design, development, testing, and maintenance of software systems.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> "software engineering"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> "Agile software development, DevOps practices, and software architecture design fall under Software Engineering.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> (theoretical computer science)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> "Theoretical Computer Science is a sub-discipline of Computer Science that focuses on mathematical models of computation, computational complexity, and algorithmic problem-solving")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> "theoretical computer science"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> "Studies on Turing machines, complexity classes (P vs NP), and formal languages belong to Theoretical Computer Science.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> (computational materials science)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> "Computational Materials Science is a sub-discipline of Materials Science that applies computational methods and simulations to study and predict material properties and behaviors.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> "computational materials science"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> "Molecular dynamics simulations of metal alloys and first-principles calculations using Density Functional Theory (DFT)")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> (materials mechanical behavior)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> "Meyers, M. A., & Chawla, K. K. (2009). Mechanical Behavior of Materials. Cambridge University Press.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> "Materials Mechanical Behavior is a sub-discipline of Material Science that examines how materials respond to applied forces, including elasticity, plasticity, hardness, toughness, and fracture mechanics.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> "materials mechanical behavior"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> "Investigating stress-strain behavior in metals, polymer viscoelasticity, and ceramic fracture toughness are part of Materials Mechanical Behavior.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> (materials deformation processes)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> "Dieter, G. E. (1986). Mechanical Metallurgy. McGraw-Hill.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> "Materials Deformation Processes is a sub-discipline of Material Science that studies how materials change shape under external forces, including plastic deformation, elastic deformation, and failure mechanisms.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> "materials deformation processes"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> "Research on metal forming, fatigue behavior, creep deformation, and fracture mechanics falls under Materials Deformation Processes.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> (materials characterization)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> "Materials Characterization is a sub-discipline of Material Science that focuses on analyzing and measuring the structure, composition, and properties of materials using experimental techniques and analytical tools.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> "materials characterization"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> "Techniques such as X-ray diffraction (XRD), scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDS), and atomic force microscopy (AFM) are widely used in Materials Characterization.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> (materials thermodynamics)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> "Gaskell, D. R. (2008). Introduction to the Thermodynamics of Materials. CRC Press.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> "Materials Thermodynamics is a sub-discipline of Material Science that examines the energy interactions, phase equilibria, and thermodynamic stability of materials.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> "materials thermodynamics"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> "Studies of phase diagrams, Gibbs free energy, and diffusion kinetics in alloys and ceramics belong to Materials Thermodynamics.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> (materials design)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "Ashby, M. F. (2010). Materials Selection in Mechanical Design. Butterworth-Heinemann.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "The development of lightweight aerospace alloys, biomaterials for medical implants, and high-strength composites are examples of Materials Design.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "Materials Design is a sub-discipline of Material Science that focuses on developing and optimizing materials for specific applications based on composition, structure, and property relationships.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "materials design"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> (materials surface science)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> "Zangwill, A. (1988). Physics at Surfaces. Cambridge University Press.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> "Materials Surface Science is a sub-discipline of Material Science that explores the properties, chemistry, and interactions at material surfaces and interfaces.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> "materials surface science"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> "Studying corrosion mechanisms, thin film deposition, and tribology (friction, wear, and lubrication) falls under Materials Surface Science.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> (materials microstructural)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> "Reed-Hill, R. E. (1992). Physical Metallurgy Principles. PWS Publishing.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> "Materials Microstructural is a sub-discipline of Material Science that studies the internal structure of materials at micro- and nano-scales, including grains, phases, and defects.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> "materials microstructural"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> "Studies using transmission electron microscopy (TEM) to analyze dislocations and grain boundaries fall under Materials Microstructural.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> (data driven material science)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> "Data-Driven Material Science is a sub-discipline of Material Science that utilizes data analytics, machine learning, and artificial intelligence techniques to analyze material properties, optimize material design, and accelerate materials discovery.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> "data driven material science"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> "Using neural networks to predict the mechanical properties of composites, applying high-throughput screening methods for new material synthesis, and employing AI-driven materials informatics platforms are examples of Data-Driven Material Science.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> (materials processing)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> "Kalpakjian, S., & Schmid, S. R. (2016). Manufacturing Engineering and Technology. Pearson.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> "Materials Processing is a sub-discipline of Material Science that investigates techniques for transforming raw materials into functional products through methods such as casting, welding, and additive manufacturing.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> "materials processing"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> "Processes like powder metallurgy, hot rolling, laser sintering, and electrochemical machining are studied under Materials Processing.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> (metadata item)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "A metadata Item is a data item that describes, structures, or provides contextual information about datasets, materials, simulations, or other digital resources to support interoperability, discovery, and reuse.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "metadata item"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "HBN: Concerning the content of ‘Metadata’ datasheet and its related knowledge graph, the ‘Metadata Item’ class and its related subclasses were created to respond to competency questions like: what metadata schemes exist for materials science data, what metadata standards are used for first-principles simulations, which metadata formats are used in materials informatics, etc.")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "Examples include the OPTIMADE metadata format for materials databases, the Crystallographic Information Framework (CIF) for structural data, and the NeXus data format for neutron and x-ray science.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> (metadata schema)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> "A Metadata Schema is a formal structure that defines elements, attributes, and relationships in metadata records to ensure consistency and interoperability.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> "metadata schema"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> (metadata standard)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "A Metadata Standard is an established framework that defines best practices, controlled vocabularies, and reference models for metadata management and interoperability.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "metadata standard"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> (metadata specification)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> "A Metadata Specification is a detailed document that describes metadata structures, guidelines, and usage policies for standardization and adoption.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> "metadata specification"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> (metadata format)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> "A Metadata Format is a structured representation used to encode, exchange, and store metadata in machine-readable or human-readable forms.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> "metadata format"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> (reference dataset)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> "https://doi.org/10.1016/j.actamat.2025.120735")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> "A Reference Dataset is a dataset that serves as a benchmark or standardized collection of data used for validation, comparison, and reproducibility in scientific research and engineering applications.")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> "Reference data of materials
+- are documented according to certain standards as well as
+- are curated (i.e., generated, maintained, preserved, validated) according to certain standards
+- are quantitative data sets (i.e., data + their corresponding metadata)
+- have been measured or simulated to a particularly high standard, and
+- are generated for a material that has either experienced a well-documented process or is reference material
+or its composition and structure has been completely characterized.
+Reference data of materials can also be derived data from reference data.
+These data are distributed with a license (e.g., GPL).
+The here addressed standards for documentation, curation and measurement need to be defined for specific
+materials characteristics (e.g., creep tests) in terms of domain standards. These domain standards are the
+result of a steered community process.
+Standards should integrate as much as possible existing standards (e.g., the individual MatWerk domain
+standards should be as much as possible consistent).")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> "reference dataset"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> "BAM reference data: results of ASTM E139 -11 creep tests on a reference material of Nimonic 75 nickel-base alloy (https://doi.org/10.5281/zenodo.7764161)")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> (simulation dataset)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> "A Simulation Dataset is a dataset that contains data generated from computational models, numerical simulations, or digital twin environments to predict material behaviors, properties, and interactions.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> "simulation dataset"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> "Examples include DFT simulation datasets, molecular dynamics (MD) trajectory files, and phase-field modeling results.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001058> (experimental dataset)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001058> "An Experimental Dataset is a dataset that contains measured or observed data collected from laboratory experiments, physical tests, or scientific investigations.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001058> "experimental dataset"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001058> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> (docker image)
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> (journal article)
 
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> "docker image"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> <http://purl.obolibrary.org/obo/IAO_0000098>)
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> "A Journal Article is a peer-reviewed scholarly publication that presents original research, review studies, or theoretical discussions, typically published in academic journals.")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> "journal article"@en)
+AnnotationAssertion(rdfs:seeAlso <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> "http://purl.obolibrary.org/obo/IAO_0000013")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> (sparql endpoint)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "A SPARQL Endpoint is a web application software that provides a queryable interface for accessing and retrieving structured data from RDF-based knowledge graphs using the SPARQL query language.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "sparql endpoint"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "Wikidata Query Service, DBpedia SPARQL Endpoint, Linked Data Fragments")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000222>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> (electronic lab notebook)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> "An Electronic Lab Notebook (ELN) is a subclass of Software that provides a digital platform for recording, managing, and sharing experimental procedures, observations, and research data in scientific workflows.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> "electronic lab notebook"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> (simulation software)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> "Simulation Software is a subclass of Software that facilitates the modeling and numerical simulation of physical, chemical, or computational systems to study behaviors, interactions, and performance under different conditions")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> "simulation software"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> "Examples include COMSOL Multiphysics, LAMMPS, Quantum ESPRESSO, and ANSYS.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> (data analysis software)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> "Data Analysis Software is a subclass of Software designed to process, visualize, and interpret structured and unstructured data using statistical, machine learning, and computational techniques.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> "data analysis software"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> (image processing software)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> "Image Processing Software is a subclass of Software that enables the manipulation, enhancement, analysis, and visualization of images obtained from experimental, computational, or simulation-based sources.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> "image processing software"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> (workflow management software)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> "Workflow Management Software is a subclass of Software that provides tools for designing, automating, executing, and monitoring scientific or computational workflows in research and engineering domains.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> "workflow management software"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> (operating system)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "An Operating System (OS) is a software system that manages computer hardware and software resources and provides common services for computer programs. It acts as an intermediary between users and the computer hardware, enabling the execution of application programs.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "operating system"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "Concerning the content of ‘Software’ datasheet and its related knowledge graph, the ‘Operating System’ class wase created to respond to competency questions like what operating systems are compatible with a specific software.")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "Windows, Linux, MacOS")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> (material specification)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> "A material specification is a directive information entity that defines the specifications (e.g., composition, label, name) for materials in scientific, engineering, or industrial applications.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> "material specification"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> (information access specification)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> "An information access specification is a directive information entity that defines the policies, conditions, and mechanisms governing the accessibility of digital or physical information resources for users or organizations.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> "information access specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> "HBN: Concerning the content of ‘Publication’ datasheet and its related knowledge graph, the ‘Information Access Specification’ class and its subclasses were created to respond to competency questions like: what access policies apply to a specific publication document, which resources are available under open access, etc.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> (open access)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> "Open Access is an information access specification that defines policies allowing unrestricted public access to information resources, ensuring free availability without subscription or payment barriers.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> "open access"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> (internal acceess)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> "Internal Access is an information access specification that defines policies and mechanisms restricting access to information exclusively within an organization, institution, or research group.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> "internal acceess"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> (paywall access)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> "Paywall Access is an information access specification that defines policies requiring users to purchase, subscribe, or obtain institutional licenses to access digital or physical information resources.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> "paywall access"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> (restricted access)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> "Restricted Access is an information access specification that defines policies limiting access to specific users, organizations, or groups based on predefined criteria such as confidentiality, security, or legal regulations.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> "restricted access"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> (event implementation specification)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> "An event implementation specification is a type of Directive Information Entity that provides formal guidelines, constraints, and details on how an event should be executed. It specifies the mode of implementation, including logistical, technical, and procedural aspects required to carry out an event successfully.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> "event implementation specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> "HBN: Concerning the content of ‘Event’ datasheets and its related knowledge graph, the ‘Event Implementation Specification’ class and its subclasses were created to respond to competency questions like what are the implementation formats of a given event.")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> "Specifications for organizing conferences, training workshops, and academic seminars in different formats such as virtual, in-person, or hybrid settings.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> (online implementation)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> "Online Implementation is an event implementation specification that defines the organization of an event conducted entirely through virtual platforms, enabling remote participation via digital communication technologies.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> "online implementation"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> "virtual academic symposia, online training courses, web-based hackathons")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> (on site implementation)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> "On-Site Implementation is an event implementation specification that defines the organization of an event that occurs exclusively at a physical location with in-person attendance.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> "on site implementation"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> (hybrid implementation)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> "Hybrid Implementation is an event implementation specification that defines the organization of an event that integrates both physical (on-site) and virtual (online) participation modes")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> "hybrid implementation"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> (status specification)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> "A status specification is a directive information entity that defines the current state, progress, or condition of an entity, process, or project based on predefined criteria and operational guidelines.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> "status specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> "HBN: Concerning the content of ‘Service’ and 'International collabrations' datasheets and their related knowledge graphs, the ‘Status Specification’ class and its subclasses were created to respond to competency questions like: what is the current status of a service or collaboration project, which collabrations are in an active state, etc.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> (planning status)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> "Planning Status is a status specification that indicates an entity, process, or project is in a preparatory or strategic development phase before execution.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> "planning status"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> (test phase status)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> "Test Phase Status is a status specification that indicates an entity, process, or project is undergoing testing, evaluation, or validation before finalization.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> "test phase status"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> (active status)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> "Active Status is a status specification that indicates an entity, process, or project is currently operational, ongoing, or in execution.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> "active status"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> (paused status)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> "Paused Status is a status specification that indicates an entity, process, or project is temporarily halted but may resume at a later stage.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> "paused status"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> (cancelled status)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> "Cancelled Status is a status specification that indicates an entity, process, or project has been terminated before reaching completion due to internal or external factors.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> "cancelled status"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> (finished status)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> "Finished Status is a status specification that indicates an entity, process, or project has successfully reached its intended goal and is considered complete.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> "finished status"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> (funding specification)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> "A funding specification is a directive information entity that provides structured guidelines, policies, and requirements for securing, managing, and allocating financial resources for various activities, projects, or organizations.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> "funding specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> "HBN: Concerning the content of ‘Service’ datasheets and its related knowledge graph, the ‘Funding Specification’ class and its subclasses were created to respond to competency questions like what funding models exist for a given service.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> (organizational funding)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> "Organizational Funding is a funding specification that defines the financial structures, budgets, and resource allocation strategies for sustaining the operations of an organization or institution.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> "organizational funding"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> "Examples include university funding models, corporate sponsorship programs, and government budget allocations for public institutions.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> (project funding)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> "Project Funding is a funding specification that defines the financial mechanisms, grants, and investment strategies used to support specific research, development, or innovation projects.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> "project funding"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> "Examples include Horizon Europe grants, National Science Foundation (NSF) project funding, and private-sector R&D investments.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> (self funding)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> "Self-Funding is a funding specification that defines the use of personal, internal, or independently generated financial resources to support activities, projects, or organizations without relying on external funding sources.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> "self funding"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> "Examples include personal investment in startups, reinvestment of business profits, and crowdfunding initiatives.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> (conference paper)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> "A Conference Paper is a scholarly publication that presents research findings at an academic or professional conference, typically published in conference proceedings.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> "conference paper"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001089> (conference poster)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001089> "A Conference Poster is a visual presentation of research findings, displayed at an academic or professional conference to facilitate discussion and knowledge exchange.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001089> "conference poster"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001089> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001090> (conference abstract)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001090> "A Conference Abstract is a brief summary of research findings or scholarly work submitted for presentation at an academic or professional conference, often serving as a precursor to a full paper or presentation.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001090> "conference abstract"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001090> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001091> (journal article)
-
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001091> "journal article"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001091> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190>)
-
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001092> (interim report)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001092> "An Interim Report is a report that provides a temporary or progress-based assessment of an ongoing project, research, or operational activity, documenting current findings, challenges, and future directions before the final report is completed.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001092> "interim report"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001092> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000029>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> (presentation document)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> "A Presentation Document is a document that consists of structured visual and textual content designed for conveying information to an audience, typically used in meetings, conferences, and educational settings.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> "presentation document"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001094> (Document part)
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> (creator list)
 
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001094> "Document part"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001094> <http://purl.obolibrary.org/obo/IAO_0000030>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> (Creator list)
-
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> "Creator list"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001094>)
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> "A part of a document that enumerates the creators of the document")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> "creator list"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001095> <http://purl.obolibrary.org/obo/IAO_0000314>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001096> (contributor list)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001096> "A part of a document that enumerates the contributors of the document")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001096> "contributor list"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001096> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001094>)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001096> <http://purl.obolibrary.org/obo/IAO_0000314>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> (digital object identifier)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> "DOI")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> "A Digital Object Identifier (DOI) is a centrally registered identifier that provides a unique, persistent reference to digital objects such as publications, datasets, and software, ensuring reliable access and citation.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> "digital object identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> "10.1016/j.compind.2023.104016")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001097> <http://purl.obolibrary.org/obo/IAO_0000578>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> (academic title)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> "An academic title is an identifier that denotes an individual’s academic rank, qualification, or honorary designation within educational and research institutions.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> "academic title"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> "Professor, Associate Professor, Dr., PhD, Dr. Ing.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> (material designation)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "Material designation is an identifier assigned to a material to specify its name, Id, classification, composition, or standardized reference in scientific, engineering, or industrial contexts.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "material designation"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "ASTM A36 for structural steel, UNS C11000 for copper, DIN 1.4404 for stainless steel")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001100> (goal textual entity)
@@ -878,7 +1011,9 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001103> <http://purl.ob
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> (added value textual entity)
 
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> "An added value textual entity is a textual entity that describes the achievements, benefits, or additional value generated by a project, service, or initiative, highlighting its impact, improvements, or contributions.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> "added value textual entity"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> "In responce to competency questions like what are the added values of project X1 or service X2.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> <http://purl.obolibrary.org/obo/IAO_0000300>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001105> (affiliation)
@@ -925,6 +1060,14 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001112> <https://nfdi.f
 
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "software repository"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> (materials science)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> "HBN: “Concerning the content of ‘People’, ‘Software’, ‘Datasets’, and ‘Publications’ datasheets as well as their related knowledge graphs, the ‘Material Science’ class and its related subclasses were created to respond to competency questions like: what is the subject area (academic discipline) of people X1, what is the subject area of dataset X2, which subject area represents publication X3, etc.”")
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017> (computer science)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017> "HBN: “Concerning the content of ‘People’, ‘Software’, ‘Datasets’, and ‘Publications’ datasheets as well as their related knowledge graphs, the ‘Computer Science’ class and its related subclasses were created to respond to competency questions like: what is the subject area (academic discipline) of people X1, what is the subject area of dataset X2, which subject area represents publication X3, etc.”")
 
 
 )
