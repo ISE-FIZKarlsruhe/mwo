@@ -75,21 +75,8 @@ Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000055>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000056>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000057>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000176>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000178>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000194>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000195>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000196>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000197>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000219>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000235>))
 Declaration(ObjectProperty(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000152>))
 Declaration(ObjectProperty(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153>))
 Declaration(ObjectProperty(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>))
@@ -163,82 +150,6 @@ AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/title> "title")
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/BFO_0000050> "is part of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000050> "my brain is part of my body (continuant parthood, two material entities)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000050> "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000050> "this day is part of this year (occurrent parthood)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000050> "a core relation that holds between a part and its whole"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000050> "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000050> "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000050> "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
-
-A continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000050> "part_of"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/BFO_0000050> "http://www.obofoundry.org/ro/#OBO_REL:part_of")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/BFO_0000050> "please use BFO2020 property 'is continuant part of' or 'is occurent part of'")
-InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/BFO_0000051> "has part"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000051> "my body has part my brain (continuant parthood, two material entities)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000051> "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000051> "this year has part this day (occurrent parthood)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000051> "a core relation that holds between a whole and its part"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000051> "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000051> "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000051> "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
-
-A continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000051> "has_part"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part"@en)
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/BFO_0000051> "please use the BFO2020 property 'has occurent part' or 'has continuant part'")
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000054> (has realization)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000054> "206-BFO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000054> "has realization"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <http://purl.obolibrary.org/obo/BFO_0000054> "realized in"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000054> "b has realization c =Def c realizes b"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000054> "As for realizes"@en)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/BFO_0000055>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/BFO_0000017>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/BFO_0000015>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000055> (realizes)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000055> "059-BFO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000055> "realizes"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000055> "(Elucidation) realizes is a relation between a process b and realizable entity c such that c inheres in some d & for all t, if b has participant d then c exists & the type instantiated by b is correlated with the type instantiated by c"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000055> "A balding process realizes a disposition to go bald; a studying process realizes a student role; a process of pumping blood realizes the pumping function of a heart"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000055> "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/BFO_0000015>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/BFO_0000017>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000056> (participates in)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000056> "250-BFO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000056> "participates in"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000056> "(Elucidation) participates in holds between some b that is either a specifically dependent continuant or generically dependent continuant or independent continuant that is not a spatial region & some process p such that b participates in p some way"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000056> "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000056> <http://purl.obolibrary.org/obo/BFO_0000057>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000056> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>))))
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000056> <http://purl.obolibrary.org/obo/BFO_0000015>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000057> (has participant)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000057> "248-BFO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000057> "has participant"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000057> "p has participant c =Def c participates in p"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000057> "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000057> <http://purl.obolibrary.org/obo/BFO_0000015>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>))))
-
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000176> (continuant part of)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000176> "221-BFO")
@@ -259,105 +170,16 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000178> <http://purl.obolibrary.org/obo/BFO_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000178> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000194> (specifically depended on by)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000194> "260-BFO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000194> "specifically depended on by"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <http://purl.obolibrary.org/obo/BFO_0000194> "s-depended on by"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000194> "b specifically depended on by c =Def c specifically depends on b"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000194> "Coloured object specifically depended on by colour"@en)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000194> <http://purl.obolibrary.org/obo/BFO_0000195>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000194> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>))))
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000194> <http://purl.obolibrary.org/obo/BFO_0000020>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000195> (specifically depends on)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000195> "012-BFO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000195> "specifically depends on"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <http://purl.obolibrary.org/obo/BFO_0000195> "s-depends on"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000195> "(Elucidation) specifically depends on is a relation between a specifically dependent continuant b and specifically dependent continuant or independent continuant that is not a spatial region c such that b and c share no parts in common & b is of a nature such that at all times t it cannot exist unless c exists & b is not a boundary of c"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000195> "A shape specifically depends on the shaped object; hue, saturation and brightness of a colour sample specifically depends on each other"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000195> "The analogue of specifically depends on for occurrents is has participant."@en)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000195> <http://purl.obolibrary.org/obo/BFO_0000020>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000195> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>))))
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000196> (bearer of)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000196> "053-BFO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000196> "bearer of"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000196> "b bearer of c =Def c inheres in b"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000196> "A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000196> <http://purl.obolibrary.org/obo/BFO_0000194>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000196> <http://purl.obolibrary.org/obo/BFO_0000197>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000196> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>)))
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000196> <http://purl.obolibrary.org/obo/BFO_0000020>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000197> (inheres in)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000197> "051-BFO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000197> "inheres in"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000197> "b inheres in c =Def b is a specifically dependent continuant & c is an independent continuant that is not a spatial region & b specifically depends on c"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000197> "A shape inheres in a shaped object; a mass inheres in a material entity"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000197> <http://purl.obolibrary.org/obo/BFO_0000195>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000197> <http://purl.obolibrary.org/obo/BFO_0000020>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000197> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>)))
-
-# Object Property: <http://purl.obolibrary.org/obo/IAO_0000136> (is about)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000136> "This document is about information artifacts and their representations"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000136> "A (currently) primitive relation that relates an information artifact to an entity."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000136> "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. 
-
-We will try to build it back up by elaborating the various subproperties that are more precisely defined.
-
-Some currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000136> "person:Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000136> "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000136> "is about"@en)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000136> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000030>)
-
-# Object Property: <http://purl.obolibrary.org/obo/IAO_0000219> (denotes)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000219> "A person's name denotes the person. A variable name in a computer program denotes some piece of memory. Lexically equivalent strings can denote different things, for instance \"Alan\" can denote different people. In each case of use, there is a case of the denotation relation obtaining, between \"Alan\" and the person that is being named."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000219> "A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000219> "2009-11-10 Alan Ruttenberg. Old definition said the following to emphasize the generic nature of this relation. We no longer have 'specifically denotes', which would have been primitive, so make this relation primitive.
-g denotes r =def 
-r is a portion of reality
-there is some c that is a concretization of g 
-every c that is a concretization of g specifically denotes r"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000219> "person:Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000219> "Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IAO_0000219> ""@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000219> "denotes"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/IAO_0000136>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/IAO_0000235>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/IAO_0000030>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/BFO_0000001>)
-
-# Object Property: <http://purl.obolibrary.org/obo/IAO_0000235> (denoted by)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000235> "inverse of the relation 'denotes'"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000235> "Person: Jie Zheng, Chris Stoeckert, Mike Conlon"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000235> <https://github.com/information-artifact-ontology/IAO/issues/206>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000235> "denoted by"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000235> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000235> <http://purl.obolibrary.org/obo/BFO_0000001>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000235> <http://purl.obolibrary.org/obo/IAO_0000030>)
-
 # Object Property: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000152> (has input)
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000152> "p has input x =Def x is used or consumed in the process of executing p.")
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000152> "has input"@en)
-SubObjectPropertyOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000152> <http://purl.obolibrary.org/obo/BFO_0000057>)
 InverseObjectProperties(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000152> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001024>)
 
 # Object Property: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> (has output)
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> "p has output x =Def x is produced or generated as a result of executing p.")
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> "has output"@en)
-SubObjectPropertyOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> <http://purl.obolibrary.org/obo/BFO_0000057>)
 InverseObjectProperties(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001023>)
 
 # Object Property: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226> (is subject of)
@@ -369,13 +191,11 @@ AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001023> "inverse of the relation 'has output'")
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001023> "is output of"@en)
-SubObjectPropertyOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001023> <http://purl.obolibrary.org/obo/BFO_0000056>)
 
 # Object Property: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001024> (is input of)
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001024> "inverse of the relation 'has input'")
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001024> "is input of"@en)
-SubObjectPropertyOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001024> <http://purl.obolibrary.org/obo/BFO_0000056>)
 
 
 
@@ -675,6 +495,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "JAR: datum     -- well, this will be very tricky to define, but maybe some 
 information-like stuff that might be put into a computer and that is 
 meant, by someone, to denote and/or to be interpreted by some 
@@ -682,7 +503,6 @@ process... I would include lists, tables, sentences... I think I might
 defer to Barry, or to Brian Cantwell Smith
 
 JAR: A data item is an approximately justified approximately true approximate belief"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Alan Ruttenberg"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Chris Stoeckert"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Jonathan Rees"@en)
@@ -709,8 +529,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.
 # Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000030> "Examples of information content entites include journal articles, data, graphical layouts, and graphs."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000030> "Examples of information content entites include journal articles, data, graphical layouts, and graphs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000030> "Examples of information content entites include journal articles, data, graphical layouts, and graphs."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000122>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000030> "A generically dependent continuant that is about some thing."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000030> "An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.")
@@ -719,12 +539,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 
 Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000030> "PERSON: Chris Stoeckert"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000030> "OBI_0000142"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000030> "IAO")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000030> "OBI_0000142"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000001>))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000033> (directive information entity)
 
@@ -738,7 +557,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000033> "PERSON: Bjoern Peters"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000033> "directive information entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000017>))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000078> (curation status specification)
 
@@ -801,8 +619,6 @@ Request that IAO either clarify these or change definitions not to use them"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000104> "plan specification"@en)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IAO_0000104> "https://github.com/information-artifact-ontology/IAO/issues/231#issuecomment-1010455131"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000033>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000005>))
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000225> (obsolescence reason specification)
 
@@ -853,7 +669,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000577> "Original proposal from Bjoern, discussions at IAO calls"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000577> "centrally registered identifier symbol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000028>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000577> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/IAO_0000578>))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000578> (centrally registered identifier)
 
@@ -871,8 +686,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000578> "Original proposal from Bjoern, discussions at IAO calls"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000578> "centrally registered identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000578> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000578> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000577>))
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000578> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/IAO_0000579>)))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000579> (centrally registered identifier registry)
 
@@ -943,7 +756,6 @@ AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_00
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> "organization"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> "An organization of some kind, e.g. research organization or business organization"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> "University Library in Leipzig, Museums of City Cologne")
-EquivalentClasses(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000196> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)))
 SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> <http://purl.obolibrary.org/obo/BFO_0000141>)
 SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
 
@@ -954,7 +766,6 @@ AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000004> "2024-03-24. Sasha Bruns - the class is not mapped to NCBITaxon_9606 (homo sapiens) due to different scope of the ontologies. \"Person\" in nfdicore represents entities with specific roles, responsibilities, and attributes within an organization, and is not limited to its biological characteristics."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000004> "Harald Sack, Tabea Tietz, Sasha Bruns, Etienne Posthumus")
 SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000004> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000196> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)))
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000005> (place)
 
@@ -979,7 +790,6 @@ AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_00
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000007> "consortium member"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000007> "A consortium member refers to an individual organization that has a specific role, responsibilities or contributions within the consortium framework."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000007> "Museums of City Cologne is a member of NFDI4Culture consortium."@en)
-EquivalentClasses(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000007> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000196> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000110>)))
 SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000007> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000008> (creative work)
@@ -1011,13 +821,11 @@ SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> <http://purl.ob
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018> "An event that focuses on scholarly activities and the exchange of knowledge, typically involving presentations, discussions, or collaborations among researchers, academics, and students, often in the context of conferences, workshops, seminars, symposia, or colloquia, to advance a specific field of study or interdisciplinary research."@en)
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018> "academic event"@en)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000196> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000019>)))))
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000019> (academic organization role)
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000019> "A role inherent in an organization that is realized when coordinating, managing, or supporting academic activities, programs, or research to promote education and knowledge advancement."@en)
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000019> "academic organization role"@en)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000019> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000197> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)))
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022> (document)
 
@@ -1058,17 +866,13 @@ AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_00
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102> "agent"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102> "A class that represents entities that are capable of autonomous actions, decision-making, or interaction within a given environment, e.g. persons or organizations."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102> "Torsten Schrade, Linnaea Söhn, Academy of Sciences and Literature Mainz"@en)
-EquivalentClasses(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000196> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)))
 SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102> <http://purl.obolibrary.org/obo/BFO_0000004>)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000196> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>))
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000110> (consortium member role)
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000110> "A role inherent in an organization that is realized when the organization is a member of a consortium."@en)
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000110> "consortium member role"@en)
-EquivalentClasses(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000110> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>)))
 SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000110> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000110> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>))
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123> (data portal)
 
@@ -1129,13 +933,11 @@ SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000223> ObjectIntersect
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000224> "A process that involves generating, developing, and refining original ideas or concepts through exploration, experimentation, and problem-solving, aiming to produce innovative or expressive outcomes in artistic, scientific, or other creative fields."@en)
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000224> "creative process"@en)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000224> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000004>)))
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229> (agent role)
 
 AnnotationAssertion(rdfs:comment <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229> "Role of an independent continuant that is realized through an agent's actions, enabling the agent to perform specific functions or achieve particular outcomes within a system or context."@en)
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229> "agent role"@en)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000197> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102>)))
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232> (service product)
 
