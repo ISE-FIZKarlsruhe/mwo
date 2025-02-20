@@ -23,6 +23,9 @@ import_group:
     - id: pmdco
       mirror_from: https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.ttl
 #      module_type: custom
+#    - id: foaf
+#      mirror_from: http://xmlns.com/foaf/spec/index.rdf
+#      module_type: custom
 
 documentation:
   documentation_system: mkdocs

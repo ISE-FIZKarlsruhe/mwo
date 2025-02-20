@@ -9,3 +9,4 @@ http://purl.obolibrary.org/obo/IAO_0000648 # zone improvement plan code
 http://purl.obolibrary.org/obo/IAO_0000131 # serial number
 http://purl.obolibrary.org/obo/IAO_0000017 # model number
 http://purl.obolibrary.org/obo/IAO_0000302 # author identification
+http://purl.obolibrary.org/obo/IAO_0000642 # requirement textural entity
