@@ -22,10 +22,10 @@ Annotation(dce:contributor <https://orcid.org/0000-0003-4926-0068>)
 Annotation(dce:contributor "https://orcid.org/0000-0001-7564-7990")
 Annotation(dce:contributor "https://orcid.org/0000-0002-5149-603X")
 Annotation(dcterms:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)")
-Annotation(dcterms:creator "Hubaiev, Kostiantyn")
 Annotation(dcterms:creator "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)")
 Annotation(dcterms:creator "Sack, Harald (https://orcid.org/0000-0001-7069-9804)")
 Annotation(dcterms:creator "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)")
+Annotation(dcterms:creator "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)")
 Annotation(dcterms:description "The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
