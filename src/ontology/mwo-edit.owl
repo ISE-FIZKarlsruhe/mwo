@@ -22,10 +22,10 @@ Annotation(dce:contributor <https://orcid.org/0000-0003-4926-0068>)
 Annotation(dce:contributor "https://orcid.org/0000-0001-7564-7990")
 Annotation(dce:contributor "https://orcid.org/0000-0002-5149-603X")
 Annotation(dcterms:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)")
+Annotation(dcterms:creator "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)")
 Annotation(dcterms:creator "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)")
 Annotation(dcterms:creator "Sack, Harald (https://orcid.org/0000-0001-7069-9804)")
 Annotation(dcterms:creator "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)")
-Annotation(dcterms:creator "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)")
 Annotation(dcterms:description "The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
@@ -88,9 +88,7 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001047>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001048>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001049>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001050>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001052>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001054>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001056>))
@@ -739,9 +737,9 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> <https://nfdi.f
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> (materials design)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "Ashby, M. F. (2010). Materials Selection in Mechanical Design. Butterworth-Heinemann.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "The development of lightweight aerospace alloys, biomaterials for medical implants, and high-strength composites are examples of Materials Design.")
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "Materials Design is a sub-discipline of Material Science that focuses on developing and optimizing materials for specific applications based on composition, structure, and property relationships.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "materials design"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "The development of lightweight aerospace alloys, biomaterials for medical implants, and high-strength composites are examples of Materials Design.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> (materials surface science)
@@ -775,37 +773,22 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> "Processes like powder metallurgy, hot rolling, laser sintering, and electrochemical machining are studied under Materials Processing.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> (metadata item)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "A metadata Item is a data item that describes, structures, or provides contextual information about datasets, materials, simulations, or other digital resources to support interoperability, discovery, and reuse.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "metadata item"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "HBN: Concerning the content of ‘Metadata’ datasheet and its related knowledge graph, the ‘Metadata Item’ class and its related subclasses were created to respond to competency questions like: what metadata schemes exist for materials science data, what metadata standards are used for first-principles simulations, which metadata formats are used in materials informatics, etc.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "Examples include the OPTIMADE metadata format for materials databases, the Crystallographic Information Framework (CIF) for structural data, and the NeXus data format for neutron and x-ray science.")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> <http://purl.obolibrary.org/obo/IAO_0000027>)
-
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> (metadata schema)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> "A Metadata Schema is a formal structure that defines elements, attributes, and relationships in metadata records to ensure consistency and interoperability.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> "metadata schema"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> (metadata standard)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "A Metadata Standard is an established framework that defines best practices, controlled vocabularies, and reference models for metadata management and interoperability.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "metadata standard"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> (metadata specification)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> "A Metadata Specification is a detailed document that describes metadata structures, guidelines, and usage policies for standardization and adoption.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> "metadata specification"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> "metadata schema and standards")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> (metadata format)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> "A Metadata Format is a structured representation used to encode, exchange, and store metadata in machine-readable or human-readable forms.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> "metadata format"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> (reference dataset)
 
@@ -854,6 +837,7 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> <https://nfdi.f
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "A SPARQL Endpoint is a web application software that provides a queryable interface for accessing and retrieving structured data from RDF-based knowledge graphs using the SPARQL query language.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "sparql endpoint"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "Wikidata Query Service, DBpedia SPARQL Endpoint, Linked Data Fragments")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> ObjectSomeValuesFrom(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000202> <http://purl.obolibrary.org/obo/BFO_0000001>))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000222>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> (electronic lab notebook)
@@ -893,7 +877,7 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "operating system"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "Concerning the content of ‘Software’ datasheet and its related knowledge graph, the ‘Operating System’ class wase created to respond to competency questions like what operating systems are compatible with a specific software.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "Windows, Linux, MacOS")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> <http://purl.obolibrary.org/obo/IAO_0000104>)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000198>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> (material specification)
 
