@@ -8,8 +8,7 @@ NFDI-MatWerk aims to establish a digital infrastructure for Materials Science an
 
 The ontology’s latest version is always accessible at: [mwo.owl](https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/mwo.owl).
 
-
-# Ontology metadata
+## Ontology metadata
 - Title: NFDI MatWerk Ontology. 
 - Abbreviation: mwo. 
 - Namespace: [http://purls.helmholtz-metadaten.de/mwo](http://purls.helmholtz-metadaten.de/mwo).  
@@ -28,12 +27,12 @@ The ontology’s latest version is always accessible at: [mwo.owl](https://githu
 
 
 **Here you will find information about:**
-- [Introduction, scopes, features, and application of the ontology](intro.md). 
-- [Ontology structure, reused upper-level ontologies, and ontology key concepts](ontology.md). 
-- [Ontology patterns and use-cases](patterns.md). 
-- [Different versions of the ontology](versions.md). 
-- [how to contribute](contributing.md). 
-- [Acknowledgements](acknowledgements.md). 
-- [References and related publications](refs.md). 
+- [Introduction, scopes, features, and application of the ontology](intro.md).  
+- [Ontology structure, reused upper-level ontologies, and ontology key concepts](ontology.md).  
+- [Ontology patterns and use-cases](patterns.md).  
+- [Different versions of the ontology](versions.md).  
+- [how to contribute](contributing.md).  
+- [Acknowledgements](acknowledgements.md).  
+- [References and related publications](refs.md).  
 
 
