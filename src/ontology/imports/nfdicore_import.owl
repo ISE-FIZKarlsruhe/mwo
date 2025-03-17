@@ -7,11 +7,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/nfdicore_import.owl>
-<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-02-20/imports/nfdicore_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-02-14/imports/nfdicore_import.owl>)
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-02-18/imports/nfdicore_import.owl>)
+<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-17/imports/nfdicore_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-17/imports/nfdicore_import.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/source> <https://nfdi.fiz-karlsruhe.de/ontology/3.0.0>)
-Annotation(owl:versionInfo "2025-02-20")
+Annotation(owl:versionInfo "2025-03-17")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))

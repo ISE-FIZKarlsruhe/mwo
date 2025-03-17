@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/pmdco_import.owl>
-<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-02-20/imports/pmdco_import.owl>
+<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-17/imports/pmdco_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <https://w3id.org/pmd/co/3.0.0-dev>)
-Annotation(owl:versionInfo "2025-02-20")
+Annotation(owl:versionInfo "2025-03-17")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))

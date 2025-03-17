@@ -23,7 +23,7 @@
 @base <http://purls.helmholtz-metadaten.de/mwo/mwo.ttl> .
 
 <http://purls.helmholtz-metadaten.de/mwo/mwo.ttl> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-02-20/mwo.ttl> ;
+                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-17/mwo.ttl> ;
                                                    dce:contributor <https://orcid.org/0000-0001-9106-8825> ,
                                                                    <https://orcid.org/0000-0001-9560-4728> ,
                                                                    <https://orcid.org/0000-0002-1008-4530> ,
@@ -33,7 +33,7 @@
                                                                    "https://orcid.org/0000-0001-7564-7990" ,
                                                                    "https://orcid.org/0000-0002-5149-603X" ;
                                                    dcterms:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)" ,
-                                                                   "Hubaiev, Kostiantyn" ,
+                                                                   "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)" ,
                                                                    "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)" ,
                                                                    "Sack, Harald (https://orcid.org/0000-0001-7069-9804)" ,
                                                                    "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)" ;
@@ -47,7 +47,7 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
                                                    dcterms:title "NFDI MatWerk Ontology" ;
                                                    rdfs:label "mwo" ;
                                                    owl:priorVersion "http://purls.helmholtz-metadaten.de/mwo/" ;
-                                                   owl:versionInfo "2025-02-20" .
+                                                   owl:versionInfo "2025-03-17" .
 
 #################################################################
 #    Annotation properties
@@ -2202,6 +2202,14 @@ ontology:NFDI_0001028 rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001053
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf owl:topDataProperty ;
+                                                      rdfs:comment "The family name of some person." ;
+                                                      rdfs:isDefinedBy "http://xmlns.com/foaf/0.1/" ;
+                                                      rdfs:label "family name"@en .
+
+
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001142
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> rdf:type owl:DatatypeProperty ;
                                                       rdfs:comment "A relation between an information content entity and its specific ID." ;
@@ -2213,6 +2221,29 @@ ontology:NFDI_0001028 rdf:type owl:ObjectProperty ;
                                                       rdfs:subPropertyOf owl:topDataProperty ;
                                                       rdfs:comment "A relation between an information content entity and its specific acronym." ;
                                                       rdfs:label "has acronym"@en .
+
+
+###  http://xmlns.com/foaf/0.1/givenname
+foaf:givenname rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:comment "The given name of some person." ;
+               rdfs:isDefinedBy "http://xmlns.com/foaf/0.1/" ;
+               rdfs:label <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#givenname> .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:comment "A name for some thing." ;
+          rdfs:isDefinedBy "http://xmlns.com/foaf/0.1/" ;
+          rdfs:label <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#name> .
+
+
+###  http://xmlns.com/foaf/0.1/title
+foaf:title rdf:type owl:DatatypeProperty ;
+           rdfs:comment "Title (Mr, Mrs, Ms, Dr. etc)" ;
+           rdfs:isDefinedBy foaf: ;
+           rdfs:label "title" .
 
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000105
@@ -4807,10 +4838,10 @@ obo:OBI_0000011 rdf:type owl:Class ;
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001046
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> rdf:type owl:Class ;
                                                       rdfs:subClassOf ontology:NFDI_0010016 ;
-                                                      obo:IAO_0000119 "Ashby, M. F. (2010). Materials Selection in Mechanical Design. Butterworth-Heinemann." ,
-                                                                      "The development of lightweight aerospace alloys, biomaterials for medical implants, and high-strength composites are examples of Materials Design." ;
+                                                      obo:IAO_0000119 "Ashby, M. F. (2010). Materials Selection in Mechanical Design. Butterworth-Heinemann." ;
                                                       rdfs:comment "Materials Design is a sub-discipline of Material Science that focuses on developing and optimizing materials for specific applications based on composition, structure, and property relationships." ;
-                                                      rdfs:label "materials design"@en .
+                                                      rdfs:label "materials design"@en ;
+                                                      skos:example "The development of lightweight aerospace alloys, biomaterials for medical implants, and high-strength composites are examples of Materials Design." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001047
@@ -4848,39 +4879,22 @@ obo:OBI_0000011 rdf:type owl:Class ;
                                                       skos:example "Processes like powder metallurgy, hot rolling, laser sintering, and electrochemical machining are studied under Materials Processing." .
 
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001051
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> rdf:type owl:Class ;
-                                                      rdfs:subClassOf obo:IAO_0000027 ;
-                                                      rdfs:comment "A metadata Item is a data item that describes, structures, or provides contextual information about datasets, materials, simulations, or other digital resources to support interoperability, discovery, and reuse." ;
-                                                      rdfs:label "metadata item"@en ;
-                                                      skos:editorialNote "HBN: Concerning the content of ‘Metadata’ datasheet and its related knowledge graph, the ‘Metadata Item’ class and its related subclasses were created to respond to competency questions like: what metadata schemes exist for materials science data, what metadata standards are used for first-principles simulations, which metadata formats are used in materials informatics, etc." ;
-                                                      skos:example "Examples include the OPTIMADE metadata format for materials databases, the Crystallographic Information Framework (CIF) for structural data, and the NeXus data format for neutron and x-ray science." .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001052
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ;
                                                       rdfs:comment "A Metadata Schema is a formal structure that defines elements, attributes, and relationships in metadata records to ensure consistency and interoperability." ;
                                                       rdfs:label "metadata schema"@en .
 
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001053
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ;
-                                                      rdfs:comment "A Metadata Standard is an established framework that defines best practices, controlled vocabularies, and reference models for metadata management and interoperability." ;
-                                                      rdfs:label "metadata standard"@en .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001054
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ;
+                                                      rdfs:subClassOf ontology:NFDI_0000203 ;
                                                       rdfs:comment "A Metadata Specification is a detailed document that describes metadata structures, guidelines, and usage policies for standardization and adoption." ;
-                                                      rdfs:label "metadata specification"@en .
+                                                      rdfs:label "metadata specification"@en ;
+                                                      skos:example "metadata schema and standards" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001055
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ;
                                                       rdfs:comment "A Metadata Format is a structured representation used to encode, exchange, and store metadata in machine-readable or human-readable forms." ;
                                                       rdfs:label "metadata format"@en .
 
@@ -4933,7 +4947,16 @@ standards should be as much as possible consistent).""" ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001060
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000222 ;
+                                                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty ontology:NFDI_0000202 ;
+                                                                            owl:someValuesFrom obo:BFO_0000001
+                                                                          ] ;
+                                                      rdfs:subClassOf obo:IAO_0000030 ,
+                                                                      ontology:NFDI_0000222 ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty ontology:NFDI_0000202 ;
+                                                                        owl:someValuesFrom obo:BFO_0000001
+                                                                      ] ;
                                                       rdfs:comment "A SPARQL Endpoint is a web application software that provides a queryable interface for accessing and retrieving structured data from RDF-based knowledge graphs using the SPARQL query language." ;
                                                       rdfs:label "sparql endpoint"@en ;
                                                       skos:example "Wikidata Query Service, DBpedia SPARQL Endpoint, Linked Data Fragments" .
@@ -4977,7 +5000,7 @@ standards should be as much as possible consistent).""" ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001066
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> rdf:type owl:Class ;
-                                                      rdfs:subClassOf obo:IAO_0000104 ;
+                                                      rdfs:subClassOf ontology:NFDI_0000198 ;
                                                       rdfs:comment "An Operating System (OS) is a software system that manages computer hardware and software resources and provides common services for computer programs. It acts as an intermediary between users and the computer hardware, enabling the execution of application programs." ;
                                                       rdfs:label "operating system"@en ;
                                                       skos:editorialNote "Concerning the content of ‘Software’ datasheet and its related knowledge graph, the ‘Operating System’ class wase created to respond to competency questions like what operating systems are compatible with a specific software." ;

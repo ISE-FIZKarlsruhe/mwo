@@ -1,0 +1,5 @@
+
+#http://xmlns.com/foaf/0.1/title #title
+#http://xmlns.com/foaf/0.1/name #name
+#http://xmlns.com/foaf/0.1/givenname #given name
+#http://xmlns.com/foaf/0.1/familyName # family name

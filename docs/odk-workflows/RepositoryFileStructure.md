@@ -17,7 +17,6 @@ These are the current imports in MWO
 | Import | URL | Type |
 | ------ | --- | ---- |
 | iao | http://purl.obolibrary.org/obo/iao.owl | None |
-| nfdicore | https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl | None |
 | pmdco | https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.ttl | None |
 
 ## Components

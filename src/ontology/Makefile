@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                b3402f4f3e0f13c0ae4a47519168a462953b7130dfc033a9ee8a6661faf3e19a
+CONFIG_HASH=                0b038a35c9e4c64e2d5607dde264dc5b5ed98563d79462432f7aa87970ff4b95
 
 
 # ----------------------------------------
@@ -160,7 +160,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  iao nfdicore pmdco
+IMPORTS =  iao pmdco
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -414,13 +414,6 @@ ifeq ($(strip $(MIR)),true)
 mirror-iao: | $(TMPDIR)
 	curl -L $(OBOBASE)/iao.owl --create-dirs -o $(TMPDIR)/iao-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/iao-download.owl -o $(TMPDIR)/$@.owl
-
-
-## ONTOLOGY: nfdicore
-.PHONY: mirror-nfdicore
-.PRECIOUS: $(MIRRORDIR)/nfdicore.owl
-mirror-nfdicore: | $(TMPDIR)
-	$(ROBOT) convert -I https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: pmdco

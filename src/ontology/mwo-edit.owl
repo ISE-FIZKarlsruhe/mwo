@@ -174,8 +174,12 @@ Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001138>
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001139>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001140>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001141>))
+Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053>))
 Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001142>))
 Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001143>))
+Declaration(DataProperty(<http://xmlns.com/foaf/0.1/givenname>))
+Declaration(DataProperty(<http://xmlns.com/foaf/0.1/name>))
+Declaration(DataProperty(<http://xmlns.com/foaf/0.1/title>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -390,6 +394,13 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 #   Data Properties
 ############################
 
+# Data Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> (family name)
+
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "The family name of some person.")
+AnnotationAssertion(rdfs:isDefinedBy <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "http://xmlns.com/foaf/0.1/")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "family name"@en)
+SubDataPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> owl:topDataProperty)
+
 # Data Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> (has id)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> "A relation between an information content entity and its specific ID.")
@@ -400,6 +411,26 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> "A relation between an information content entity and its specific acronym.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> "has acronym"@en)
 SubDataPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> owl:topDataProperty)
+
+# Data Property: <http://xmlns.com/foaf/0.1/givenname> (Given name)
+
+AnnotationAssertion(rdfs:comment <http://xmlns.com/foaf/0.1/givenname> "The given name of some person.")
+AnnotationAssertion(rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/givenname> "http://xmlns.com/foaf/0.1/")
+AnnotationAssertion(rdfs:label <http://xmlns.com/foaf/0.1/givenname> :givenname)
+SubDataPropertyOf(<http://xmlns.com/foaf/0.1/givenname> owl:topDataProperty)
+
+# Data Property: <http://xmlns.com/foaf/0.1/name> (name)
+
+AnnotationAssertion(rdfs:comment <http://xmlns.com/foaf/0.1/name> "A name for some thing.")
+AnnotationAssertion(rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/name> "http://xmlns.com/foaf/0.1/")
+AnnotationAssertion(rdfs:label <http://xmlns.com/foaf/0.1/name> :name)
+SubDataPropertyOf(<http://xmlns.com/foaf/0.1/name> owl:topDataProperty)
+
+# Data Property: <http://xmlns.com/foaf/0.1/title> (title)
+
+AnnotationAssertion(rdfs:comment <http://xmlns.com/foaf/0.1/title> "Title (Mr, Mrs, Ms, Dr. etc)")
+AnnotationAssertion(rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/title> <http://xmlns.com/foaf/0.1/>)
+AnnotationAssertion(rdfs:label <http://xmlns.com/foaf/0.1/title> "title")
 
 
 
