@@ -26,7 +26,7 @@ The ontology’s latest version is always accessible at: [mwo.owl](https://githu
 - Citation: Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0. Retrieved from: [https://github.com/ISE-FIZKarlsruhe/mwo](https://github.com/ISE-FIZKarlsruhe/mwo).  
 
 
-**Here you will find information about:**
+**Here you will find information about**:   
 - [Introduction, scopes, features, and application of the ontology](intro.md).  
 - [Ontology structure, reused upper-level ontologies, and ontology key concepts](ontology.md).  
 - [Ontology patterns and use-cases](patterns.md).  

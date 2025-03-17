@@ -1,12 +1,10 @@
-<h3># Versions<h3>
+# Versions
 
-
-<h3>## Stable release versions<h3>
+## Stable release versions. 
 The latest version of the ontology can always be found at:
 [mwo.owl](https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/mwo.owl) and [mwo.ttl](https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.ttl)
 
-
-<h3>## Variants<h3>
+## Variants. 
 The ontology is shipped in three varaints, each as OWL (*.owl) and Turtle serializations (*.ttl):  
 - * **full:** [mwo-full.ttl](https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/mwo-full.ttl), [mwo.ttl](https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.ttl) (default). 
 - * **base:** [mwo-base.ttl](https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/mwo-base.ttl)
@@ -16,8 +14,7 @@ The **"base file"** is a specific release flavour. It reflects the intention of 
 The **"simple"** artefact only contains a simple existential graph of the terms defined in the ontology. This corresponds to the state before logical definitions and imports. For example, the only logical axioms are of the form CL1 subClassOf CL2 or CL1 subClassOf R some CL3 where R is any objectProperty and CLn is a class. The simple variant only contains the essential classes and no imports.  
 The ontology **"main"** file [mwo.ttl](https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.ttl) contains the full version.
 
-
-<h3>## Editors' version<h3>
+## Editors' version  
 Editors of this ontology should use the edit version. From this version all release variants are derived by the build workflows.  
 Editors version: [src/ontology/mwo-edit.owl](https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/src/ontology/mwo-edit.owl)
 

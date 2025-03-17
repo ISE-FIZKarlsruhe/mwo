@@ -1,10 +1,9 @@
-<h3># Introduction<h3>
+# Introduction
 
 <h3>## NFDI MatWerk ontology (mwo)<h3>
 The **National Research Data Infrastructure (NFDI)** is a German initiative established in 2020 to systematically manage scientific and research data. It aims to provide long-term data storage, backup, and accessibility while enabling the networking of research data both nationally and internationally. By developing a sustainable and standardized research data infrastructure across various disciplines, NFDI enhances data management practices and ensures the long-term availability of valuable research outputs [1, 2]. As a specialized consortium within the NFDI framework, **NFDI-MatWerk** (National Research Data Infrastructure for Materials Science and Engineering) aims to develop a digital infrastructure for Materials Science and Engineering (MSE). Funded by the German Research Foundation (DFG), it focuses on the integration and standardization of decentralized data, metadata, workflows, and ontologies to enhance interoperability and reproducibility in MSE research. By incorporating both experimental and simulation data, along with their associated metadata, NFDI-MatWerk provides essential tools and frameworks for efficient data management, long-term accessibility, and improved collaboration within the field [3]. The **NFDI-MatWerk Ontology (MWO)** is a domain-level ontology that designed to standardize terminology, enhance data integration, and improve collaboration in MSE. One of the key objectives mwo is to develop a knowledge graph that integrates FAIR digital objects, enabling the structured representation of materials and processing parameters. By ensuring the seamless integration of decentralized data and workflows, MWO plays a crucial role in enhancing interoperability and reproducibility across MSE research. The NFDI MatWerk Ontology (MWO) is a unified framework developed by the Task Area Ontologies for Materials Science (TA-OMS) within the NFDI-MatWerk initiative [4].
 
-
-<h3>## Goals<h3>
+## Goals
 The ontology development task area within NFDI-MatWerk aims to establish a structured and standardized approach to managing MSE data. By creating a comprehensive and interoperable ontology, this effort seeks to enhance data integration, discovery, and reuse while ensuring alignment with community standards and evolving research needs. The key goals of this initiative include [4]:  
 - Develop Unified Materials Ontology: Create a comprehensive ontology that standardizes the representation of materials data, including individualized ontologies for specific tools and workflows developed within the community.  
 - Ensure Interoperability: Facilitate the integration and interoperability of materials data by providing a common framework for data descriptions and metadata alignment.  
@@ -15,23 +14,20 @@ The ontology development task area within NFDI-MatWerk aims to establish a struc
 - Adapt to Emerging Needs and Technologies: Continuously update and refine the ontology to address emerging research needs and incorporate new technologies and methodologies in materials science.  
 - Enhance Metadata Quality: Improve the quality of metadata by providing guidelines and tools for creating detailed and accurate data descriptions.  
 
-
-<h3>## Ontology scope<h3>
+## Ontology scope  
 As a domain ontology, mwo serves as a foundational framework for the MSE community, structuring research data and enhancing accessibility and interoperability. The key aspects of this ontology’s scope include:  
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations, 
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies,  
 C) NFDI MatWerk services, events, educational coerces, and international collaborations,  
 D) MSE related instruments, facilities, materials, processes, and properties.  
 
-
-<h3>## mwo v3.0.0 key features<h3>
+## mwo v3.0.0 key features.  
 - Alignment with standards: Conforming ISO/IEC 21838-2:2021 standard [5], mwo v3 builds upon the Basic Formal Ontology (BFO) top level ontology. 
 - Reusability and extensibility: mwo 3.0 builds upon the NFDIcore v3 mid-level ontology and integrates with Platform MaterialDigital ontology (PMDco v3). Furthermore, mwo v3 incorporates entities from various other ontologies like IAO, QUDT, SWO, DCAT, FOAF, and Schema, ensuring broad applicability and cross-domain connectivity. 
 - Adaptive and community-driven development: The ontology is continuously extended and maintained through community-driven development, ensuring it adapts to the evolving needs of MSE research data. 
 - Standardized Ontology Development and Maintenance:  the mwo v3 is released and documented using the OBO-based Ontology Development Kit (ODK) [6], which ensures a standardized development workflow aligned with OBO Foundry best practices. ODK provides automated quality control, enhancing ontology consistency and reducing errors. It enables seamless integration with other OBO ontologies, supports FAIR principles, and streamlines versioning and release management. Additionally, it facilitates collaborative development through GitHub-based workflows, ensuring continuous improvement and broad adoption within the MSE research community. 
 
-
-<h3>## Applications<h3>
+## Applications  
 At the moment, mwo is being used as a basis for developing several application ontologies for the MSE research data management. These ontologies will be listed here as soon as their release. 
 Furthermore, mwo is the basis for the MSE knowledge graph (MSE-KG) [7]. It is a structured digital resource designed to integrate and provide unified access to distributed and heterogeneous research data within the NFDI-MatWerk consortium and the broader MSE community. Serving as the backend data resource for the NFDI-MatWerk portal, it enables researchers to explore community structures, infrastructure, and scientific data through a standardized and continuously updated platform. Built on W3C technologies and deployed using Wikibase, the MSE-KG facilitates semantic data integration, enhances discoverability, and supports ontology-based knowledge representation in materials science and engineering.
 
