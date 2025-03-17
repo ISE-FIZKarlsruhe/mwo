@@ -57,6 +57,14 @@
               </ul>
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Versions</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#stable-release-versions">Stable release versions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#variants">Variants</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#editors-version">Editors' version</a>
+    </li>
+    </ul>
                 </li>
               </ul>
               <ul>
@@ -94,7 +102,22 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                
+                <h1 id="versions">Versions</h1>
+<h2 id="stable-release-versions">Stable release versions</h2>
+<p>The latest version of the ontology can always be found at:
+<a href="https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/mwo.owl">mwo.owl</a> and <a href="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.ttl">mwo.ttl</a></p>
+<h2 id="variants">Variants</h2>
+<p>The ontology is shipped in three varaints, each as OWL (<em>.owl) and Turtle serializations (</em>.ttl):
+* <strong>full:</strong> <a href="https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/mwo-full.ttl">mwo-full.ttl</a>, <a href="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.ttl">mwo.ttl</a> (default)
+* <strong>base:</strong> <a href="https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/mwo-base.ttl">mwo-base.ttl</a>
+* <strong>simple:</strong> [mwo-simple.ttl] (https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/mwo-simple.ttl)
+The <strong>"full release"</strong> artefact contains all logical axioms, including inferred subsumptions. All imports and components are merged into the full release artefact to ensure easy version management. The full release represents most closely the actual ontology as it was intended at the time of release, including all its logical implications.
+The <strong>"base file"</strong> is a specific release flavour. It reflects the intention of the ontology author for the official (publicly released) representation of the ontologies "base entities". "Base entities" are entities that are defined ("owned") by the ontology. The representation includes the intended public metadata (annotations), and classification (subClassOf hierarchy), including any statements where a base entity is the subject.
+The <strong>"simple"</strong> artefact only contains a simple existential graph of the terms defined in the ontology. This corresponds to the state before logical definitions and imports. For example, the only logical axioms are of the form CL1 subClassOf CL2 or CL1 subClassOf R some CL3 where R is any objectProperty and CLn is a class. The simple variant only contains the essential classes and no imports.
+The ontology <strong>"main"</strong> file <a href="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.ttl">mwo.ttl</a> contains the full version.</p>
+<h2 id="editors-version">Editors' version</h2>
+<p>Editors of this ontology should use the edit version. From this version all release variants are derived by the build workflows.
+Editors version: <a href="https://github.com/ISE-FIZKarlsruhe/mwo/blob/main/src/ontology/mwo-edit.owl">src/ontology/mwo-edit.owl</a></p>
               
             </div>
           </div><footer>
