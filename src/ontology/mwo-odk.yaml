@@ -21,7 +21,7 @@ import_group:
       mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl
       module_type: mirror
     - id: pmdco
-      mirror_from: https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.ttl
+      mirror_from: https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.owl
 #      module_type: custom
 #    - id: foaf
 #      mirror_from: http://xmlns.com/foaf/spec/index.rdf

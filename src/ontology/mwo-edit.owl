@@ -55,7 +55,6 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001012>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001019>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022>))
@@ -63,7 +62,6 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001026>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001031>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001033>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>))
@@ -122,19 +120,19 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001112>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0060000>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0060001>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025>))
+Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001114>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001115>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001117>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001119>))
-Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001120>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001121>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001122>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001123>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001124>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001125>))
-Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001126>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001127>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001128>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001129>))
@@ -156,7 +154,10 @@ Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001143>))
 Declaration(DataProperty(<http://xmlns.com/foaf/0.1/givenname>))
 Declaration(DataProperty(<http://xmlns.com/foaf/0.1/name>))
 Declaration(DataProperty(<http://xmlns.com/foaf/0.1/title>))
-Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>))
+Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001014>))
+Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001017>))
+Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001018>))
+Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024>))
 Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001052>))
 Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055>))
 Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067>))
@@ -205,6 +206,22 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Object Properties
 ############################
 
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> (implements)
+
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> "inverse of property \"implemented by\"")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> "implements"@en)
+InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> <http://purl.obolibrary.org/obo/BFO_0000004>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>)
+
+# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> (implemented by)
+
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> "The property relates an entity to an agent that has adapted or developed the entity for a specific purpose and actively uses it within a particular context.")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> "implemented by"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> "The property was created on request of NFDI MatWerk community to support respond to competency questions like which tools are 'developed', 'co develoed', 'adopted' or 'used in' NFDI MatWerk consortium.")
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> (has applicant organization)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> "The property relates a project to the organization that applied for that")
@@ -228,12 +245,14 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001116> "has measurement datum"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001117>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> (measurement datum of)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> "inverse of  property \"has measurement datum\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> "measurement datum of"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> <http://purl.obolibrary.org/obo/IAO_0000136>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> (measurement unit label of)
 
@@ -241,19 +260,14 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> "measurement unit label of"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> <http://purl.obolibrary.org/obo/IAO_0000136>)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> <http://purl.obolibrary.org/obo/IAO_0000009>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> (has measurement unit label)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> "The property is a relation between an entity and a measurement unit label.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> "has measurement unit label"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
-
-# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> (has email address)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> "The property is a relation between an agent and an email address.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> "has email address"@en)
-SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
-InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001120> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001126>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> <http://purl.obolibrary.org/obo/IAO_0000009>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001121> (has symbol)
 
@@ -277,6 +291,7 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001123> "has textual entity"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001123> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001123> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001129>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001123> <http://purl.obolibrary.org/obo/IAO_0000300>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001124> (has website)
 
@@ -292,42 +307,42 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001125> "has data portal"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001125> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001125> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001131>)
-
-# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001126> (email address of)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001126> "inverse of  property \"has email address\"")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001126> "email address of"@en)
-SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001126> <http://purl.obolibrary.org/obo/IAO_0000136>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001125> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001127> (symbol of)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001127> "inverse of  property \"has symbol\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001127> "symbol of"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001127> <http://purl.obolibrary.org/obo/IAO_0000136>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001127> <http://purl.obolibrary.org/obo/IAO_0000028>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001128> (document of)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001128> "inverse of  property \"has document\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001128> "document of"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001128> <http://purl.obolibrary.org/obo/IAO_0000136>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001128> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001129> (textual entity of)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001129> "inverse of  property \"has textual entity\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001129> "textual entity of"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001129> <http://purl.obolibrary.org/obo/IAO_0000136>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001129> <http://purl.obolibrary.org/obo/IAO_0000300>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001130> (website of)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001130> "inverse of  property \"has website\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001130> "website of"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001130> <http://purl.obolibrary.org/obo/IAO_0000136>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001130> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000223>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001131> (data portal of)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001131> "inverse of  property \"has data portal\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001131> "data portal of"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001131> <http://purl.obolibrary.org/obo/IAO_0000136>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001131> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> (has resource)
 
@@ -335,60 +350,73 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> "has resource"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> owl:topObjectProperty)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001133>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> <http://purl.obolibrary.org/obo/BFO_0000015>)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001132> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001133> (resource of)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001133> "inverse of property \"has resource\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001133> "resource of"@en)
+ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001133> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001133> <http://purl.obolibrary.org/obo/BFO_0000015>)
+ObjectPropertyRange(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001133> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> (developed by)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> "The property relates an entity to an agent that has modified, customized, or extended it for a specific use case or research purpose.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> "developed by"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> "The property was created on request of NFDI MatWerk community to support respond to competency questions like which tools are 'developed', 'co develoed', 'adopted' or 'used in' NFDI MatWerk consortium.")
-SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> owl:topObjectProperty)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001135>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001135> (develops)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001135> "inverse of property \"developed by\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001135> "develops"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001135> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> (co developed by)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> "The property relates an entity to agents that collaboratively contributed to its development.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> "co developed by"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> "The property was created on request of NFDI MatWerk community to support respond to competency questions like which tools are 'developed', 'co develoed', 'adopted' or 'used in' NFDI MatWerk consortium.")
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001136> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001137>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001137> (co develops)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001137> "inverse of property \"co developed by\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001137> "co develops"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001137> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> (adapted by)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> "The property relates an entity to an agent responsible for its creation or primary development.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> "adapted by"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> "The property was created on request of NFDI MatWerk community to support respond to competency questions like which tools are 'developed', 'co develoed', 'adopted' or 'used in' NFDI MatWerk consortium.")
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001138> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001139>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001139> (adapts)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001139> "inverse of property \"adapted by\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001139> "adapts"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001139> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> (used in)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> "The  property relates an entity to an agent which use the entity.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> "used in"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> "The property was created on request of NFDI MatWerk community to support respond to competency questions like which tools are 'developed', 'co develoed', 'adopted' or 'used in' NFDI MatWerk consortium.")
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>)
 InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001140> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001141>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001141> (uses)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001141> "inverse of property \"used in\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001141> "uses"@en)
+SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001141> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025>)
 
 
 ############################
@@ -539,13 +567,6 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> "Siemens as a manufacturer of industrial automation equipment or Intel as a manufacturer of semiconductor chips")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> (owner)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> "A role inherent in an agent that is realized when holding legal, financial, or intellectual property rights over an entity, asset, or initiative.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> "owner"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> "university owning a research dataset, a company owning proprietary software, or an individual holding a patent")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
-
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> (collaboration partner)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> "A role inherent in an agent that is realized when engageing in cooperative work with another individual or organization toward a shared goal, such as research, development, or business initiatives.")
@@ -571,7 +592,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.h
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "NFDI-MatWerk will focus on the research areas of materials science and materials engineering. The key challenges in these fields are the digital mapping of materials and their process and loading parameters. This process touches core aspects of scientific ways of working starting with scientific exchange, data handling and the resulting technological possibilities. The digital transformation of materials science and materials engineering is an opportunity to promote, structure and optimize this exchange - provided that transparent communication standards are created. This fundamental change is therefore being tackled in a joint effort by the consortium and the specialist community.")
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "The National Research Data Infrastructure for Materials Science & Engineering (NFDI-MatWerk) is a consortium in Germany dedicated to developing a national infrastructure for managing research data in the field of materials science and engineering. Established in 2021, NFDI-MatWerk focuses on integrating and standardizing data from various sources, including experimental and simulation data, along with their associated metadata. This comprehensive approach supports the entire data lifecycle—from planning and collection to analysis, preservation, sharing, and reuse—aiming to enhance data accessibility, interoperability, and reusability within the scientific community. By providing tools and frameworks for efficient data management, NFDI-MatWerk facilitates innovative research and fosters collaboration among scientists. The consortium also emphasizes the development of standardized metadata and terminologies to ensure seamless data integration and sharing across different platforms and stakeholders. Through these efforts, NFDI-MatWerk aims to advance materials science and engineering by promoting effective data management practices and long-term accessibility of high-quality research data.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "nfdi matwerk consortium"@en)
-EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> ObjectHasValue(<http://purl.obolibrary.org/obo/BFO_0000056> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)))
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000056> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> (consortium partner)
@@ -604,31 +625,20 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> "materials characterization laboratories, chemical analysis labs, high-energy physics laboratories")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000005>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> (frequency)
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> (sustainability datum)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "or bfo:processProfile, as it describes the rate or periodicity of a process?")
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "Frequency describes how often a process occurs within a given time interval")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "frequency"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘frequency’ class was created to respond to competency questions like what is the event frequency.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "annual, weekly, twice per year, 72 beats per minute, every four years")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> <http://purl.obolibrary.org/obo/BFO_0000019>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> (sustainability)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "or bfo:processProfile?")
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "Sustainability inheres in a system, entity, or process and represents its potential to maintain its essential functions, structure, and performance over time under varying conditions.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "sustainability"@en)
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "Sustainability datum represents the duration or persistence of a process, system, or resource over time. It defines how long an entity is expected to remain viable or functional.")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "sustainability datum"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the ‘Sustainability’ class was created to respond to competency questions like: what is the sustainability of a service.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "Continusly, 10 years, 2-4 years, until 2030")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> <http://purl.obolibrary.org/obo/BFO_0000019>)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> <https://w3id.org/pmd/co/PMD_0060000>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> (data storage capacity)
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> (data storage capacity datum)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "or bfo:disposition?")
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "Data storage capacity inheres in a data storage medium or system and represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB).")
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "Data storage capacity datum represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB).")
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the this class was created to respond to competency questions like how much is the storage capacity of a service.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "data storage capacity"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> <http://purl.obolibrary.org/obo/BFO_0000019>)
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "data storage capacity datum"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> <https://w3id.org/pmd/co/PMD_0060000>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> (artificial intelligence)
 
@@ -1025,12 +1035,17 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> <https://nfdi.f
 
 # Class: <https://w3id.org/pmd/co/PMD_0060000> (Specification datum)
 
+AnnotationAssertion(rdfs:comment <https://w3id.org/pmd/co/PMD_0060000> "A specification datum is an Information Content Entity which represents a prescribed value, condition, or requirement that a system, material, or process should meet.")
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060000> "Specification datum"@en)
 SubClassOf(<https://w3id.org/pmd/co/PMD_0060000> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0060001> (event frequency)
+# Class: <https://w3id.org/pmd/co/PMD_0060001> (event frequency datum)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060001> "event frequency"@en)
+AnnotationAssertion(rdfs:comment <https://w3id.org/pmd/co/PMD_0060001> "Event frequency datum describes how often an events occurs within a given time interval")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060001> "event frequency datum"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <https://w3id.org/pmd/co/PMD_0060001> "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/pmd/co/PMD_0060001> "annual, weekly, twice per year, 72 beats per minute, every four years")
+EquivalentClasses(<https://w3id.org/pmd/co/PMD_0060001> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0060000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131>)))
 SubClassOf(<https://w3id.org/pmd/co/PMD_0060001> <https://w3id.org/pmd/co/PMD_0060000>)
 
 
@@ -1038,11 +1053,33 @@ SubClassOf(<https://w3id.org/pmd/co/PMD_0060001> <https://w3id.org/pmd/co/PMD_00
 #   Named Individuals
 ############################
 
-# Individual: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> (matwerk project_1)
+# Individual: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001014> (matwerk task area organization)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "A MatWerk project is a project within the NFDI MatWerk consortium that involves coordinated research, development, or infrastructure activities aimed at advancing materials science and engineering through data-driven methodologies and digitalization.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "matwerk project_1"@en)
-ClassAssertion(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>)
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001014> "A NFDI MatWerk organization that focuses on specific aspects of research data infrastructure, such as data management, interoperability, and workflow development, to support materials science and engineering.")
+AnnotationAssertion(rdfs:isDefinedBy <http://purls.helmholtz-metadaten.de/mwo/MWO_0001014> "https://nfdi-matwerk.de/project/structure")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001014> "matwerk task area organization"@en)
+ClassAssertion(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001014>)
+
+# Individual: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001017> (matwerk participant project organization)
+
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001017> "A NFDI MatWerk organization that contributes domain-specific research and expertise, integrating real-world scientific challenges to validate and enhance the infrastructure.")
+AnnotationAssertion(rdfs:isDefinedBy <http://purls.helmholtz-metadaten.de/mwo/MWO_0001017> "https://nfdi-matwerk.de/project/structure")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001017> "matwerk participant project organization"@en)
+ClassAssertion(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001017>)
+
+# Individual: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001018> (matwerk infrastructure use case onganization)
+
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001018> "A NFDI MatWerk organization that demonstrates how the developed infrastructure can be applied to solve practical research problems, ensuring usability and impact.")
+AnnotationAssertion(rdfs:isDefinedBy <http://purls.helmholtz-metadaten.de/mwo/MWO_0001018> "https://nfdi-matwerk.de/project/structure")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001018> "matwerk infrastructure use case onganization"@en)
+ClassAssertion(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001018>)
+
+# Individual: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> (matwerk participant project_)
+
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "Participant Projects (PPs) are pre-existing research initiatives by NFDI-MatWerk partners that address specific scientific and technological challenges, providing practical examples and feedback for the development and validation of the infrastructure.")
+AnnotationAssertion(rdfs:isDefinedBy <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "https://nfdi-matwerk.de/project/structure")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "matwerk participant project_"@en)
+ClassAssertion(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024>)
 
 # Individual: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> (hybrid implementation)
 

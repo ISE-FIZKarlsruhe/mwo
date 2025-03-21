@@ -23,20 +23,20 @@
 @base <http://purls.helmholtz-metadaten.de/mwo/mwo.ttl> .
 
 <http://purls.helmholtz-metadaten.de/mwo/mwo.ttl> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-17/mwo.ttl> ;
-                                                   dce:contributor <https://orcid.org/0000-0001-9106-8825> ,
-                                                                   <https://orcid.org/0000-0001-9560-4728> ,
-                                                                   <https://orcid.org/0000-0002-1008-4530> ,
-                                                                   <https://orcid.org/0000-0002-1141-7704> ,
-                                                                   <https://orcid.org/0000-0002-2818-5890> ,
-                                                                   <https://orcid.org/0000-0003-4926-0068> ,
-                                                                   "https://orcid.org/0000-0001-7564-7990" ,
-                                                                   "https://orcid.org/0000-0002-5149-603X" ;
-                                                   dcterms:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)" ,
-                                                                   "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)" ,
-                                                                   "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)" ,
-                                                                   "Sack, Harald (https://orcid.org/0000-0001-7069-9804)" ,
-                                                                   "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)" ;
+                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-21/mwo.ttl> ;
+                                                   dce:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)" ,
+                                                               "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)" ,
+                                                               "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)" ,
+                                                               "Sack, Harald (https://orcid.org/0000-0001-7069-9804)" ,
+                                                               "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)" ;
+                                                   dcterms:contributor <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#Fathalla,%20Said%20(https://orcid.org/0000-0002-2818-5890)> ,
+                                                                       <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#Fritzen,%20Felix%20(https://orcid.org/0000-0003-4926-0068)> ,
+                                                                       <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#Gedsun,%20Angelika%20(https://orcid.org/0000-0002-1141-7704)> ,
+                                                                       <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#LAADHAR,%20Amir%20(https://orcid.org/0000-0001-9106-8825)> ,
+                                                                       <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#Sandfeld,%20Stefan%20(https://orcid.org/0000-0001-9560-4728)> ,
+                                                                       <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#Zainul%20Ihsan,%20Ahmad%20(https://orcid.org/0000-0002-1008-4530)> ,
+                                                                       "Azócar Guzmán, Abril (https://orcid.org/0000-0001-7564-7990)" ,
+                                                                       "Hofmann, Volker (https://orcid.org/0000-0002-5149-603X)" ;
                                                    dcterms:description """The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
@@ -45,9 +45,10 @@ D) MSE related instruments, facilities, materials, processes, and properties.
 Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/mwo""" ;
                                                    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
                                                    dcterms:title "NFDI MatWerk Ontology" ;
+                                                   doap:Version "3.0.0" ;
                                                    rdfs:label "mwo" ;
                                                    owl:priorVersion "http://purls.helmholtz-metadaten.de/mwo/" ;
-                                                   owl:versionInfo "2025-03-17" .
+                                                   owl:versionInfo "2025-03-21" .
 
 #################################################################
 #    Annotation properties
@@ -375,12 +376,12 @@ edam:formats rdf:type owl:AnnotationProperty ;
 
 
 ###  http://purl.org/dc/elements/1.1/contributor
-dce:contributor rdf:type owl:AnnotationProperty ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> .
+dce:contributor rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/elements/1.1/creator
-dce:creator rdf:type owl:AnnotationProperty .
+dce:creator rdf:type owl:AnnotationProperty ;
+            rdfs:isDefinedBy <https://w3id.org/pmd/co/> .
 
 
 ###  http://purl.org/dc/elements/1.1/description
@@ -420,8 +421,7 @@ dcterms:created rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/creator
-dcterms:creator rdf:type owl:AnnotationProperty ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> .
+dcterms:creator rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description
@@ -713,7 +713,6 @@ obo:BFO_0000058 rdf:type owl:ObjectProperty ;
                                          )
                            ] ;
                 dce:identifier "258-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "is concretized by"@en ;
                 skos:definition "c is concretized by b =Def b concretizes c"@en ;
                 skos:scopeNote "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en .
@@ -728,7 +727,6 @@ obo:BFO_0000059 rdf:type owl:ObjectProperty ;
                             ] ;
                 rdfs:range obo:BFO_0000031 ;
                 dce:identifier "256-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "concretizes"@en ;
                 skos:definition "b concretizes c =Def b is a process or a specifically dependent continuant & c is a generically dependent continuant & there is some time t such that c is the pattern or content which b shares at t with actual or potential copies"@en ;
                 skos:scopeNote "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en .
@@ -1040,7 +1038,6 @@ obo:BFO_0000194 rdf:type owl:ObjectProperty ;
                             ] ;
                 rdfs:range obo:BFO_0000020 ;
                 dce:identifier "260-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "specifically depended on by"@en ;
                 skos:altLabel "s-depended on by"@en ;
                 skos:definition "b specifically depended on by c =Def c specifically depends on b"@en ;
@@ -1062,7 +1059,6 @@ obo:BFO_0000195 rdf:type owl:ObjectProperty ;
                                          )
                            ] ;
                 dce:identifier "012-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "specifically depends on"@en ;
                 skos:altLabel "s-depends on"@en ;
                 skos:definition "(Elucidation) specifically depends on is a relation between a specifically dependent continuant b and specifically dependent continuant or independent continuant that is not a spatial region c such that b and c share no parts in common & b is of a nature such that at all times t it cannot exist unless c exists & b is not a boundary of c"@en ;
@@ -1083,7 +1079,6 @@ obo:BFO_0000196 rdf:type owl:ObjectProperty ;
                             ] ;
                 rdfs:range obo:BFO_0000020 ;
                 dce:identifier "053-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "bearer of"@en ;
                 skos:definition "b bearer of c =Def c inheres in b"@en ;
                 skos:example "A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality"@en .
@@ -1101,7 +1096,6 @@ obo:BFO_0000197 rdf:type owl:ObjectProperty ;
                              rdf:type owl:Class
                            ] ;
                 dce:identifier "051-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "inheres in"@en ;
                 skos:definition "b inheres in c =Def b is a specifically dependent continuant & c is an independent continuant that is not a spatial region & b specifically depends on c"@en ;
                 skos:example "A shape inheres in a shaped object; a mass inheres in a material entity"@en .
@@ -1117,7 +1111,6 @@ obo:BFO_0000199 rdf:type owl:ObjectProperty ,
                             ] ;
                 rdfs:range obo:BFO_0000008 ;
                 dce:identifier "132-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "occupies temporal region"@en ;
                 skos:definition "p occupies temporal region t =Def p is a process or process boundary & the spatiotemporal region occupied by p temporally projects onto t"@en ;
                 skos:example "The Second World War occupies the temporal region September 1, 1939 - September 2, 1945"@en .
@@ -2171,33 +2164,6 @@ ontology:NFDI_0001028 rdf:type owl:ObjectProperty ;
                                       rdfs:label "has output"@de .
 
 
-###  https://w3id.org/pmd/co/PMD_0001028
-<https://w3id.org/pmd/co/PMD_0001028> rdf:type owl:ObjectProperty ;
-                                      owl:inverseOf <https://w3id.org/pmd/co/PMD_0001029> ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "in response to"@en ;
-                                      skos:definition "inverse of responds with"@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0001029
-<https://w3id.org/pmd/co/PMD_0001029> rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf owl:topObjectProperty ;
-                                      rdfs:domain obo:BFO_0000017 ;
-                                      rdfs:range <https://w3id.org/pmd/co/PMD_0000915> ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "responds with"@en ;
-                                      skos:definition "The realizable entity must be \"stimulated\" by some Stimulus in order to respond with the Response. The bearer of the realizable entity must participate in Stimulation as well as in Response." .
-
-
-###  https://w3id.org/pmd/co/PMD_0001030
-<https://w3id.org/pmd/co/PMD_0001030> rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf obo:BFO_0000054 ;
-                                      rdfs:range <https://w3id.org/pmd/co/PMD_0000950> ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "stimulated by"@en ;
-                                      skos:definition "inverse of stimulates"@en .
-
-
 #################################################################
 #    Data properties
 #################################################################
@@ -2755,7 +2721,6 @@ obo:BFO_0000008 rdf:type owl:Class ;
                                   owl:allValuesFrom obo:BFO_0000008
                                 ] ;
                 dce:identifier "100-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "temporal region"@en ;
                 skos:definition "(Elucidation) A temporal region is an occurrent over which processes can unfold"@en ;
                 skos:example "As for zero-dimensional temporal region and one-dimensional temporal region"@en .
@@ -2791,7 +2756,6 @@ obo:BFO_0000011 rdf:type owl:Class ;
                                   owl:allValuesFrom obo:BFO_0000011
                                 ] ;
                 dce:identifier "095-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "spatiotemporal region"@en ;
                 skos:definition "(Elucidation) A spatiotemporal region is an occurrent that is an occurrent part of spacetime"@en ;
                 skos:example "The spatiotemporal region occupied by the development of a cancer tumour; the spatiotemporal region occupied by an orbiting satellite"@en ;
@@ -3204,39 +3168,11 @@ obo:BFO_0000029 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000030
 obo:BFO_0000030 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000040 ;
-                obo:BFO_0000179 "object" ;
-                obo:BFO_0000180 "Object" ;
-                obo:IAO_0000112 "atom"@en ,
-                                "cell"@en ,
-                                "cells and organisms"@en ,
-                                "engineered artifacts"@en ,
-                                "grain of sand"@en ,
-                                "molecule"@en ,
-                                "organelle"@en ,
-                                "organism"@en ,
-                                "planet"@en ,
-                                "solid portions of matter"@en ,
-                                "star"@en ;
-                obo:IAO_0000116 "BFO 2 Reference: BFO rests on the presupposition that at multiple micro-, meso- and macroscopic scales reality exhibits certain stable, spatially separated or separable material units, combined or combinable into aggregates of various sorts (for example organisms into what are called ‘populations’). Such units play a central role in almost all domains of natural science from particle physics to cosmology. Many scientific laws govern the units in question, employing general terms (such as ‘molecule’ or ‘planet’) referring to the types and subtypes of units, and also to the types and subtypes of the processes through which such units develop and interact. The division of reality into such natural units is at the heart of biological science, as also is the fact that these units may form higher-level units (as cells form multicellular organisms) and that they may also form aggregates of units, for example as cells form portions of tissue and organs form families, herds, breeds, species, and so on. At the same time, the division of certain portions of reality into engineered units (manufactured artifacts) is the basis of modern industrial technology, which rests on the distributed mass production of engineered parts through division of labor and on their assembly into larger, compound units such as cars and laptops. The division of portions of reality into units is one starting point for the phenomenon of counting."@en ,
-                                "BFO 2 Reference: Each object is such that there are entities of which we can assert unproblematically that they lie in its interior, and other entities of which we can assert unproblematically that they lie in its exterior. This may not be so for entities lying at or near the boundary between the interior and exterior. This means that two objects – for example the two cells depicted in Figure 3 – may be such that there are material entities crossing their boundaries which belong determinately to neither cell. Something similar obtains in certain cases of conjoined twins (see below)."@en ,
-                                "BFO 2 Reference: To say that b is causally unified means: b is a material entity which is such that its material parts are tied together in such a way that, in environments typical for entities of the type in question,if c, a continuant part of b that is in the interior of b at t, is larger than a certain threshold size (which will be determined differently from case to case, depending on factors such as porosity of external cover) and is moved in space to be at t at a location on the exterior of the spatial region that had been occupied by b at t, then either b’s other parts will be moved in coordinated fashion or b will be damaged (be affected, for example, by breakage or tearing) in the interval between t and t.causal changes in one part of b can have consequences for other parts of b without the mediation of any entity that lies on the exterior of b. Material entities with no proper material parts would satisfy these conditions trivially. Candidate examples of types of causal unity for material entities of more complex sorts are as follows (this is not intended to be an exhaustive list):CU1: Causal unity via physical coveringHere the parts in the interior of the unified entity are combined together causally through a common membrane or other physical covering\\. The latter points outwards toward and may serve a protective function in relation to what lies on the exterior of the entity [13, 47"@en ,
-                                "BFO 2 Reference: an object is a maximal causally unified material entity"@en ,
-                                "BFO 2 Reference: ‘objects’ are sometimes referred to as ‘grains’ [74"@en ;
-                obo:IAO_0000600 "b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above & is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])"@en ;
                 dce:identifier "024-BFO" ;
-                rdfs:isDefinedBy obo:bfo.owl ,
-                                 <https://w3id.org/pmd/co/> ;
                 rdfs:label "object"@en ;
                 skos:definition "(Elucidation) An object is a material entity which manifests causal unity & is of a type instances of which are maximal relative to the sort of causal unity manifested"@en ;
                 skos:example "An organism; a fish tank; a planet; a laptop; a valve; a block of marble; an ice cube"@en ;
                 skos:scopeNote "A description of three primary sorts of causal unity is provided in Basic Formal Ontology 2.0. Specification and User Guide"@en .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:BFO_0000030 ;
-   owl:annotatedProperty obo:IAO_0000600 ;
-   owl:annotatedTarget "b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above & is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])"@en ;
-   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/024-001>
- ] .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000031
@@ -3332,7 +3268,6 @@ obo:BFO_0000035 rdf:type owl:Class ;
                                                     ]
                                 ] ;
                 dce:identifier "084-BFO" ;
-                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "process boundary"@en ;
                 skos:definition "p is a process boundary =Def p is a temporal part of a process & p has no proper temporal parts"@en ;
                 skos:example "The boundary between the 2nd and 3rd year of your life"@en .
@@ -3377,78 +3312,11 @@ obo:BFO_0000040 rdf:type owl:Class ;
                                                     ]
                                 ] ;
                 owl:disjointWith obo:BFO_0000141 ;
-                obo:BFO_0000179 "material" ;
-                obo:BFO_0000180 "MaterialEntity" ;
-                obo:IAO_0000112 "a flame"@en ,
-                                "a forest fire"@en ,
-                                "a human being"@en ,
-                                "a hurricane"@en ,
-                                "a photon"@en ,
-                                "a puff of smoke"@en ,
-                                "a sea wave"@en ,
-                                "a tornado"@en ,
-                                "an aggregate of human beings."@en ,
-                                "an energy wave"@en ,
-                                "an epidemic"@en ,
-                                "the undetached arm of a human being"@en ;
-                obo:IAO_0000115 "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en ;
-                obo:IAO_0000116 "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"@en ,
-                                "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en ,
-                                "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."@en ;
-                obo:IAO_0000600 "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en ;
-                obo:IAO_0000601 "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"@en ,
-                                "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"@en ;
-                obo:IAO_0000602 "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] " ,
-                                "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] " ,
-                                "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] " ;
                 dce:identifier "019-BFO" ;
-                rdfs:isDefinedBy obo:bfo.owl ,
-                                 <https://w3id.org/pmd/co/> ;
+                rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "material entity"@en ;
                 skos:definition "(Elucidation) A material entity is an independent continuant has some portion of matter as continuant part"@en ;
                 skos:example "A human being; the undetached arm of a human being; an aggregate of human beings"@en .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:BFO_0000040 ;
-   owl:annotatedProperty obo:IAO_0000600 ;
-   owl:annotatedTarget "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en ;
-   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/019-002>
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:BFO_0000040 ;
-   owl:annotatedProperty obo:IAO_0000601 ;
-   owl:annotatedTarget "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"@en ;
-   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/020-002>
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:BFO_0000040 ;
-   owl:annotatedProperty obo:IAO_0000601 ;
-   owl:annotatedTarget "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"@en ;
-   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/021-002>
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:BFO_0000040 ;
-   owl:annotatedProperty obo:IAO_0000602 ;
-   owl:annotatedTarget "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] " ;
-   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/019-002>
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:BFO_0000040 ;
-   owl:annotatedProperty obo:IAO_0000602 ;
-   owl:annotatedTarget "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] " ;
-   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/021-002>
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:BFO_0000040 ;
-   owl:annotatedProperty obo:IAO_0000602 ;
-   owl:annotatedTarget "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] " ;
-   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/020-002>
- ] .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000140
@@ -4542,7 +4410,7 @@ obo:OBI_0000011 rdf:type owl:Class ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001011
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001011> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
+                                                      rdfs:subClassOf ontology:NFDI_0000229 ;
                                                       rdfs:comment "An Organizer is an agent that is responsible for planning, managing, and executing an event, project, or structured activity." ;
                                                       rdfs:label "organizer"@en ;
                                                       skos:example "event management firms organizing scientific symposiums or non-profit organizations coordinating community outreach programs" .
@@ -4550,69 +4418,46 @@ obo:OBI_0000011 rdf:type owl:Class ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001012
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "A Co-Organizer is an agent that collaborates in planning, managing, and executing an event, project, or initiative alongside one or more primary organizers." ;
+                                                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                                                      rdfs:comment "A role inherent in an agent that is realized when collaborating in planning, managing, and executing an event, project, or initiative alongside one or more primary organizers." ;
                                                       rdfs:label "co organizer"@en .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001013
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "A Speaker is an agent that delivers presentations, lectures, or speeches at events, conferences, or public gatherings." ;
+                                                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                                                      rdfs:comment "A role inherent in an agent that is realized when delivers presentations, lectures, or speeches at events, conferences, or public gatherings." ;
                                                       rdfs:label "speaker"@en ;
                                                       skos:example "invited speakers at scientific symposiums, keynote presenters at technology expos, and guest lecturers at universities" .
 
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001014
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001014> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "A Spokesperson is an agent designated to officially represent and communicate on behalf of an organization, institution, or initiative." ;
-                                                      rdfs:label "spokesperson"@en .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001015
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "A Co-Spokesperson is an agent that shares the role of representing an organization, group, or initiative, typically communicating its views, policies, or findings to the public." ;
+                                                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                                                      rdfs:comment "A role inherent in an agent that is realized when shareing the role of representing an organization, group, or initiative, typically communicating its views, policies, or findings to the public." ;
                                                       rdfs:label "co spokesperson"@en .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001016
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "A Manufacturer is an agent that is responsible for producing goods, components, or materials through industrial or commercial processes." ;
+                                                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                                                      rdfs:comment "A role inherent in an agent that is realized when being responsible for producing goods, components, or materials through industrial or commercial processes." ;
                                                       rdfs:label "manufacturer"@en ;
                                                       skos:example "Siemens as a manufacturer of industrial automation equipment or Intel as a manufacturer of semiconductor chips" .
 
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001017
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001017> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "A Service Provider is an agent that offers specific services, such as data hosting, cloud computing, research consultancy, or professional training, to individuals or organizations." ;
-                                                      rdfs:label "service provider"@en ;
-                                                      skos:example "AWS as a cloud service provider, ORCID as an identity management provider, and CrossRef as a DOI registration service" .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001018
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001018> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "A Publisher is an agent responsible for producing, distributing, and maintaining access to publications, including books, journals, and digital content." ;
-                                                      rdfs:label "publisher"@en ;
-                                                      skos:example "Springer Nature for academic books, Elsevier for scientific journals, and GitHub for open-source software documentation" .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001019
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001019> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "An Owner is an agent that holds legal, financial, or intellectual property rights over an entity, asset, or initiative." ;
+                                                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                                                      rdfs:comment "A role inherent in an agent that is realized when holding legal, financial, or intellectual property rights over an entity, asset, or initiative." ;
                                                       rdfs:label "owner"@en ;
                                                       skos:example "university owning a research dataset, a company owning proprietary software, or an individual holding a patent" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001020
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000102 ;
-                                                      rdfs:comment "A Collaboration Partner is an agent that engages in cooperative work with another individual or organization toward a shared goal, such as research, development, or business initiatives." ;
+                                                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                                                      rdfs:comment "A role inherent in an agent that is realized when engageing in cooperative work with another individual or organization toward a shared goal, such as research, development, or business initiatives." ;
                                                       rdfs:label "collaboration partner"@en .
 
 
@@ -4630,6 +4475,14 @@ obo:OBI_0000011 rdf:type owl:Class ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001022
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> rdf:type owl:Class ;
+                                                      owl:equivalentClass [ owl:intersectionOf ( <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021>
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty obo:BFO_0000056 ;
+                                                                                                   owl:hasValue <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>
+                                                                                                 ]
+                                                                                               ) ;
+                                                                            rdf:type owl:Class
+                                                                          ] ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> ;
                                                       obo:IAO_0000118 "National Research Data Infrastructure for Materials Science & Engineering"@en ,
                                                                       "Nationale Forschungsdateninfrastruktur für Materialwissenschaft & Werkstofftechnik"@de ;
@@ -4643,23 +4496,8 @@ obo:OBI_0000011 rdf:type owl:Class ;
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> rdf:type owl:Class ;
                                                       rdfs:subClassOf ontology:NFDI_0000003 ;
                                                       rdfs:comment "A Consortium Partner is an organization that actively collaborates within a consortium, contributing expertise, resources, or infrastructure to support shared research, development, or innovation goals." ;
-                                                      rdfs:label "consurtium partner"@en ;
+                                                      rdfs:label "consortium partner"@en ;
                                                       skos:example "universities, research institutions, industry partners, and funding agencies collaborating in NFDI MatWerk, Horizon Europe projects, and other large-scale research initiatives" .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001024
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000003 ;
-                                                      rdfs:comment "A Research Group is an organization that consists of scientists, engineers, or scholars working together on a common research agenda, typically within academic, industrial, or governmental settings." ;
-                                                      rdfs:label "research group"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001025
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000003 ;
-                                                      rdfs:comment "A Task Area Committee is an organization within a larger research initiative that is responsible for coordinating specific tasks, work packages, or thematic areas, ensuring structured progress and collaboration." ;
-                                                      rdfs:label "task area committee"@en ;
-                                                      skos:example "NFDI MatWerk task areas (TAs) are specialized units focused on different aspects of the NFDI-MatWerk infrastructure, such as community engagement, data management, workflow development, and ontology creation, supporting the overall infrastructure goals." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001026
@@ -4680,44 +4518,12 @@ obo:OBI_0000011 rdf:type owl:Class ;
                                                       skos:example "European Synchrotron Radiation Facility (ESRF), the Leibniz Supercomputing Centre (LRZ), CERN's Large Hadron Collider (LHC)" .
 
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001028
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> ;
-                                                      rdfs:comment "A High-Performance Computing (HPC) Facility is a large-scale facility that provides advanced computational resources, enabling large-scale simulations, data processing, and modeling for scientific and engineering applications." ;
-                                                      rdfs:label "high performance computing facility"@en ;
-                                                      skos:example "JUWELS at Forschungszentrum Jülich, SuperMUC at LRZ, Oak Ridge Leadership Computing Facility (OLCF)" .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001029
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> ;
-                                                      rdfs:comment "A Large-Scale Testing Facility is a facility that provides controlled environments and instrumentation for conducting large-scale physical, mechanical, or materials testing under various conditions." ;
-                                                      rdfs:label "larg scale testing facility"@en ;
-                                                      skos:example "wind tunnels for aerospace testing, seismic testing laboratories for civil engineering, high-energy beam facilities for radiation exposure studies" .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001030
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> ;
-                                                      rdfs:comment "A Scientific Research Facility is a large-scale facility that provides specialized equipment, laboratories, and experimental environments for conducting fundamental and applied research across multiple disciplines." ;
-                                                      rdfs:label "scientific research facility"@en ;
-                                                      skos:example "Max Planck Institute research facilities, the Helmholtz Research Centers, the SLAC National Accelerator Laboratory" .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001031
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> rdf:type owl:Class ;
                                                       rdfs:subClassOf ontology:NFDI_0000005 ;
                                                       rdfs:comment "A place that provides a controlled environment equipped with specialized instruments and facilities for conducting scientific research, experiments, measurements, and testing across various disciplines." ;
                                                       rdfs:label "laboratory"@en ;
                                                       skos:example "materials characterization laboratories, chemical analysis labs, high-energy physics laboratories" .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001032
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> rdf:type owl:Class ;
-                                                      rdfs:subClassOf obo:BFO_0000030 ;
-                                                      rdfs:label "Specimen"@en ;
-                                                      skos:example "An object that represents a sample of a substance, material, or biological entity, collected, prepared, or processed for research, testing, or analysis purposes." ,
-                                                                   "metallurgical specimens for microstructural analysis, biological tissue samples for medical research, geological specimens for mineralogical studies" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001033
@@ -4879,24 +4685,12 @@ obo:OBI_0000011 rdf:type owl:Class ;
                                                       skos:example "Processes like powder metallurgy, hot rolling, laser sintering, and electrochemical machining are studied under Materials Processing." .
 
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001052
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> rdf:type owl:Class ;
-                                                      rdfs:comment "A Metadata Schema is a formal structure that defines elements, attributes, and relationships in metadata records to ensure consistency and interoperability." ;
-                                                      rdfs:label "metadata schema"@en .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001054
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001054> rdf:type owl:Class ;
                                                       rdfs:subClassOf ontology:NFDI_0000203 ;
                                                       rdfs:comment "A Metadata Specification is a detailed document that describes metadata structures, guidelines, and usage policies for standardization and adoption." ;
                                                       rdfs:label "metadata specification"@en ;
                                                       skos:example "metadata schema and standards" .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001055
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> rdf:type owl:Class ;
-                                                      rdfs:comment "A Metadata Format is a structured representation used to encode, exchange, and store metadata in machine-readable or human-readable forms." ;
-                                                      rdfs:label "metadata format"@en .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001056
@@ -5007,78 +4801,34 @@ standards should be as much as possible consistent).""" ;
                                                       skos:example "Windows, Linux, MacOS" .
 
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001067
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000203 ;
-                                                      rdfs:comment "A material specification is a directive information entity that defines the specifications (e.g., composition, label, name) for materials in scientific, engineering, or industrial applications." ;
-                                                      rdfs:label "material specification"@en .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001068
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> rdf:type owl:Class ;
                                                       rdfs:subClassOf ontology:NFDI_0000203 ;
                                                       rdfs:comment "An information access specification is a directive information entity that defines the policies, conditions, and mechanisms governing the accessibility of digital or physical information resources for users or organizations." ;
                                                       rdfs:label "information access specification"@en ;
-                                                      skos:editorialNote "HBN: Concerning the content of ‘Publication’ datasheet and its related knowledge graph, the ‘Information Access Specification’ class and its subclasses were created to respond to competency questions like: what access policies apply to a specific publication document, which resources are available under open access, etc." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001069
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ;
-                                                      rdfs:comment "Open Access is an information access specification that defines policies allowing unrestricted public access to information resources, ensuring free availability without subscription or payment barriers." ;
-                                                      rdfs:label "open access"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001070
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ;
-                                                      rdfs:comment "Internal Access is an information access specification that defines policies and mechanisms restricting access to information exclusively within an organization, institution, or research group." ;
-                                                      rdfs:label "internal acceess"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001071
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ;
-                                                      rdfs:comment "Paywall Access is an information access specification that defines policies requiring users to purchase, subscribe, or obtain institutional licenses to access digital or physical information resources." ;
-                                                      rdfs:label "paywall access"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001072
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ;
-                                                      rdfs:comment "Restricted Access is an information access specification that defines policies limiting access to specific users, organizations, or groups based on predefined criteria such as confidentiality, security, or legal regulations." ;
-                                                      rdfs:label "restricted access"@en .
+                                                      skos:editorialNote "HBN: Concerning the content of ‘Publication’ datasheet and its related knowledge graph, the ‘Information Access Specification’ class and its instances were created to respond to competency questions like: what access policies apply to a specific publication document, which resources are available under open access, etc." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001073
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000203 ;
+                                                      owl:equivalentClass [ owl:intersectionOf ( ontology:NFDI_0000203
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty obo:IAO_0000219 ;
+                                                                                                   owl:someValuesFrom ontology:NFDI_0000131
+                                                                                                 ]
+                                                                                               ) ;
+                                                                            rdf:type owl:Class
+                                                                          ] ;
+                                                      rdfs:subClassOf obo:IAO_0000030 ,
+                                                                      ontology:NFDI_0000203 ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty obo:IAO_0000219 ;
+                                                                        owl:someValuesFrom ontology:NFDI_0000131
+                                                                      ] ;
                                                       rdfs:comment "An event implementation specification is a type of Directive Information Entity that provides formal guidelines, constraints, and details on how an event should be executed. It specifies the mode of implementation, including logistical, technical, and procedural aspects required to carry out an event successfully." ;
                                                       rdfs:label "event implementation specification"@en ;
-                                                      skos:editorialNote "HBN: Concerning the content of ‘Event’ datasheets and its related knowledge graph, the ‘Event Implementation Specification’ class and its subclasses were created to respond to competency questions like what are the implementation formats of a given event." ;
+                                                      skos:editorialNote "HBN: Concerning the content of ‘Event’ datasheets and its related knowledge graph, the ‘Event Implementation Specification’ class and its instances were created to respond to competency questions like what are the implementation formats of a given event." ;
                                                       skos:example "Specifications for organizing conferences, training workshops, and academic seminars in different formats such as virtual, in-person, or hybrid settings." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001074
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> ;
-                                                      rdfs:comment "Online Implementation is an event implementation specification that defines the organization of an event conducted entirely through virtual platforms, enabling remote participation via digital communication technologies." ;
-                                                      rdfs:label "online implementation"@en ;
-                                                      skos:example "virtual academic symposia, online training courses, web-based hackathons" .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001075
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> ;
-                                                      rdfs:comment "On-Site Implementation is an event implementation specification that defines the organization of an event that occurs exclusively at a physical location with in-person attendance." ;
-                                                      rdfs:label "on site implementation"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001076
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> ;
-                                                      rdfs:comment "Hybrid Implementation is an event implementation specification that defines the organization of an event that integrates both physical (on-site) and virtual (online) participation modes" ;
-                                                      rdfs:label "hybrid implementation"@en .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001077
@@ -5086,49 +4836,7 @@ standards should be as much as possible consistent).""" ;
                                                       rdfs:subClassOf ontology:NFDI_0000203 ;
                                                       rdfs:comment "A status specification is a directive information entity that defines the current state, progress, or condition of an entity, process, or project based on predefined criteria and operational guidelines." ;
                                                       rdfs:label "status specification"@en ;
-                                                      skos:editorialNote "HBN: Concerning the content of ‘Service’ and 'International collabrations' datasheets and their related knowledge graphs, the ‘Status Specification’ class and its subclasses were created to respond to competency questions like: what is the current status of a service or collaboration project, which collabrations are in an active state, etc." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001078
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
-                                                      rdfs:comment "Planning Status is a status specification that indicates an entity, process, or project is in a preparatory or strategic development phase before execution." ;
-                                                      rdfs:label "planning status"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001079
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
-                                                      rdfs:comment "Test Phase Status is a status specification that indicates an entity, process, or project is undergoing testing, evaluation, or validation before finalization." ;
-                                                      rdfs:label "test phase status"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001080
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
-                                                      rdfs:comment "Active Status is a status specification that indicates an entity, process, or project is currently operational, ongoing, or in execution." ;
-                                                      rdfs:label "active status"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001081
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
-                                                      rdfs:comment "Paused Status is a status specification that indicates an entity, process, or project is temporarily halted but may resume at a later stage." ;
-                                                      rdfs:label "paused status"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001082
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
-                                                      rdfs:comment "Cancelled Status is a status specification that indicates an entity, process, or project has been terminated before reaching completion due to internal or external factors." ;
-                                                      rdfs:label "cancelled status"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001083
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
-                                                      rdfs:comment "Finished Status is a status specification that indicates an entity, process, or project has successfully reached its intended goal and is considered complete." ;
-                                                      rdfs:label "finished status"@en .
+                                                      skos:editorialNote "HBN: Concerning the content of ‘Service’ and 'International collabrations' datasheets and their related knowledge graphs, the ‘Status Specification’ class and its instances were created to respond to competency questions like: what is the current status of a service or collaboration project, which collabrations are in an active state, etc." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001084
@@ -5136,31 +4844,7 @@ standards should be as much as possible consistent).""" ;
                                                       rdfs:subClassOf ontology:NFDI_0000203 ;
                                                       rdfs:comment "A funding specification is a directive information entity that provides structured guidelines, policies, and requirements for securing, managing, and allocating financial resources for various activities, projects, or organizations." ;
                                                       rdfs:label "funding specification"@en ;
-                                                      skos:editorialNote "HBN: Concerning the content of ‘Service’ datasheets and its related knowledge graph, the ‘Funding Specification’ class and its subclasses were created to respond to competency questions like what funding models exist for a given service." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001085
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001085> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> ;
-                                                      rdfs:comment "Organizational Funding is a funding specification that defines the financial structures, budgets, and resource allocation strategies for sustaining the operations of an organization or institution." ;
-                                                      rdfs:label "organizational funding"@en ;
-                                                      skos:example "Examples include university funding models, corporate sponsorship programs, and government budget allocations for public institutions." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001086
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001086> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> ;
-                                                      rdfs:comment "Project Funding is a funding specification that defines the financial mechanisms, grants, and investment strategies used to support specific research, development, or innovation projects." ;
-                                                      rdfs:label "project funding"@en ;
-                                                      skos:example "Examples include Horizon Europe grants, National Science Foundation (NSF) project funding, and private-sector R&D investments." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001087
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001087> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> ;
-                                                      rdfs:comment "Self-Funding is a funding specification that defines the use of personal, internal, or independently generated financial resources to support activities, projects, or organizations without relying on external funding sources." ;
-                                                      rdfs:label "self funding"@en ;
-                                                      skos:example "Examples include personal investment in startups, reinvestment of business profits, and crowdfunding initiatives." .
+                                                      skos:editorialNote "HBN: Concerning the content of ‘Service’ datasheets and its related knowledge graph, the ‘Funding Specification’ class and its instances were created to respond to competency questions like what funding models exist for a given service." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001088
@@ -6481,14 +6165,12 @@ ontology:NFDI_0010016 rdf:type owl:Class ;
                       rdfs:subClassOf ontology:NFDI_0000100 ;
                       rdfs:comment "An academic discipline that explores the properties, performance, and applications of materials, focusing on the relationship between a material's structure and its characteristics. Materials science and engineering involves the design, development, and testing of materials for use in a wide range of industries, including aerospace, electronics, and manufacturing."@en ;
                       rdfs:label "materials science"@en ;
-                      rdfs:seeAlso "https://www.dfg.de/en/research-funding/proposal-funding-process/interdisciplinarity/subject-area-structure" ;
-                      skos:editorialNote "HBN: “Concerning the content of ‘People’, ‘Software’, ‘Datasets’, and ‘Publications’ datasheets as well as their related knowledge graphs, the ‘Material Science’ class and its related subclasses were created to respond to competency questions like: what is the subject area (academic discipline) of people X1, what is the subject area of dataset X2, which subject area represents publication X3, etc.”" .
+                      rdfs:seeAlso "https://www.dfg.de/en/research-funding/proposal-funding-process/interdisciplinarity/subject-area-structure" .
 
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010017
 ontology:NFDI_0010017 rdf:type owl:Class ;
                       rdfs:subClassOf ontology:NFDI_0000100 ;
-                      obo:IAO_0000116 "HBN: “Concerning the content of ‘People’, ‘Software’, ‘Datasets’, and ‘Publications’ datasheets as well as their related knowledge graphs, the ‘Computer Science’ class and its related subclasses were created to respond to competency questions like: what is the subject area (academic discipline) of people X1, what is the subject area of dataset X2, which subject area represents publication X3, etc.”" ;
                       rdfs:comment "An academic discipline that focuses on the study of algorithms, data structures, programming, and computational systems. Computer science explores how to design, develop, and analyze software and hardware solutions to solve complex problems and advance technology."@en ;
                       rdfs:label "computer science"@en ;
                       rdfs:seeAlso "https://www.dfg.de/en/research-funding/proposal-funding-process/interdisciplinarity/subject-area-structure" .
@@ -6669,126 +6351,11 @@ ontology:NFDI_0010041 rdf:type owl:Class ;
 TODO: Possibly instatiate some relevant classifcation systems."""@en .
 
 
-###  https://w3id.org/pmd/co/PMD_0000004
-<https://w3id.org/pmd/co/PMD_0000004> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:BFO_0000040 ;
-                                      rdfs:comment "This class is the \"entry point\" for the multi-scale perspective on material entities by recursively consisting of Material Entity Aggregates. In particular, this class is not “disjoint” with object."@en ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Material Entity Aggregate"@en ;
-                                      skos:definition "A material entity that is a mereological sum of separate material entities and possesses nonconnected boundaries."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0000005
-<https://w3id.org/pmd/co/PMD_0000005> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:BFO_0000017 ,
-                                                      [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty obo:BFO_0000197 ;
-                                                                               owl:someValuesFrom [ owl:intersectionOf ( obo:BFO_0000040
-                                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                                           owl:onProperty obo:BFO_0000056 ;
-                                                                                                                           owl:someValuesFrom [ owl:intersectionOf ( <https://w3id.org/pmd/co/PMD_0000915>
-                                                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                                                       owl:onProperty obo:BFO_0000199 ;
-                                                                                                                                                                       owl:someValuesFrom obo:BFO_0000008
-                                                                                                                                                                     ]
-                                                                                                                                                                   ) ;
-                                                                                                                                                rdf:type owl:Class
-                                                                                                                                              ]
-                                                                                                                         ]
-                                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                                           owl:onProperty obo:BFO_0000056 ;
-                                                                                                                           owl:someValuesFrom [ owl:intersectionOf ( <https://w3id.org/pmd/co/PMD_0000950>
-                                                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                                                       owl:onProperty obo:BFO_0000199 ;
-                                                                                                                                                                       owl:someValuesFrom obo:BFO_0000008
-                                                                                                                                                                     ]
-                                                                                                                                                                   ) ;
-                                                                                                                                                rdf:type owl:Class
-                                                                                                                                              ]
-                                                                                                                         ]
-                                                                                                                       ) ;
-                                                                                                    rdf:type owl:Class
-                                                                                                  ]
-                                                                             ]
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <https://w3id.org/pmd/co/PMD_0001029> ;
-                                                                               owl:someValuesFrom <https://w3id.org/pmd/co/PMD_0000915>
-                                                                             ]
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <https://w3id.org/pmd/co/PMD_0001030> ;
-                                                                               owl:someValuesFrom <https://w3id.org/pmd/co/PMD_0000950>
-                                                                             ]
-                                                                           ) ;
-                                                        rdf:type owl:Class
-                                                      ] ,
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty obo:BFO_0000059 ;
-                                                        owl:someValuesFrom <https://w3id.org/pmd/co/PMD_0000842>
-                                                      ] ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Material Property"@en ;
-                                      skos:definition """A property is a material trait in terms of the kind and magnitude of response to a specific imposed stimulus. Generally, definitions of properties are made independent of material shape and size.
-
-(Callister, W.D., Rethwisch, D.G., Materials Science and Engineering, Wiley, 2014)
-
-We only deal with intensive (system-size independent) materrial properties. Extensive properties that depend on the testpiece/specimen/probe size should be found in the respective testing method modules."""@en .
-
-
 ###  https://w3id.org/pmd/co/PMD_0000014
 <https://w3id.org/pmd/co/PMD_0000014> rdf:type owl:Class ;
                                       rdfs:subClassOf obo:BFO_0000017 ;
                                       rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                                       rdfs:label "plan"@de .
-
-
-###  https://w3id.org/pmd/co/PMD_0000583
-<https://w3id.org/pmd/co/PMD_0000583> rdf:type owl:Class ;
-                                      rdfs:subClassOf [ owl:intersectionOf ( obo:BFO_0000015
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty obo:BFO_0000055 ;
-                                                                               owl:someValuesFrom <https://w3id.org/pmd/co/PMD_0000014>
-                                                                             ]
-                                                                           ) ;
-                                                        rdf:type owl:Class
-                                                      ] ;
-                                      obo:IAO_0000114 obo:IAO_0000428 ;
-                                      obo:IAO_0000116 "The subclass trees of \"Computing Process\" are currently still proposals and serve as a working basis for the discussion round with the simulation/workflow domain experts."@en ;
-                                      obo:IAO_0000117 "PMDco Team" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Computing Process"@en ,
-                                                 "Datenverarbeitung"@de ,
-                                                 "Rechenprozess"@de ;
-                                      skos:definition "A planned process that involves the systematic use of computational methods and tools to perform simulations, analyses, or data transformations to achieve specific scientific or engineering goals."@en ,
-                                                      "Ein geplanter Prozess, der die systematische Verwendung von rechnerischen Methoden und Werkzeugen umfasst, um Simulationen, Analysen oder Datenumwandlungen durchzuführen, um spezifische wissenschaftliche oder technische Ziele zu erreichen."@de .
-
-
-###  https://w3id.org/pmd/co/PMD_0000591
-<https://w3id.org/pmd/co/PMD_0000591> rdf:type owl:Class ;
-                                      owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                            owl:onProperty obo:BFO_0000059 ;
-                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                            owl:onClass <https://w3id.org/pmd/co/PMD_0020099>
-                                                          ] ;
-                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000863> ,
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty obo:BFO_0000059 ;
-                                                        owl:someValuesFrom <https://w3id.org/pmd/co/PMD_0020099>
-                                                      ] ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Crystal Structure"@en ;
-                                      skos:definition "The crystal structure is a morphologic quality that describes the periodic geometric arrangement of entities in a crystalline material. The finite set of periodic geometric arrangements is described by the 14 possible Bravais Lattices in three-dimensional space."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0000602
-<https://w3id.org/pmd/co/PMD_0000602> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:BFO_0000030 ;
-                                      obo:IAO_0000117 "PMDco Team" ;
-                                      obo:IAO_0000119 "ChatGPT 4.0"@en ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Device"@en ,
-                                                 "Gerät"@de ;
-                                      skos:definition "A physical or virtual entity used to perform a specific function or task, often involving measurement, manipulation, or analysis of materials."@en ,
-                                                      "Ein physisches oder virtuelles Objekt, das verwendet wird, um eine bestimmte Funktion oder Aufgabe auszuführen, häufig im Zusammenhang mit der Messung, Manipulation oder Analyse von Materialien."@de .
 
 
 ###  https://w3id.org/pmd/co/PMD_0000833
@@ -6829,177 +6396,6 @@ A manufacturing process is always a transformative process."""@en ,
                                                       "Ein geplannter Prozess, der von der primären Absicht angetrieben wird, Objekte zu transformieren. Ein Herstellungsprozess ist immer ein Transformationsprozess."@de .
 
 
-###  https://w3id.org/pmd/co/PMD_0000842
-<https://w3id.org/pmd/co/PMD_0000842> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:IAO_0000030 ;
-                                      obo:IAO_0000119 "ChatGPT 4.o" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Material Property Measure"@en ;
-                                      skos:definition "A material property measure is an information content entity that describes a quantification of a specific physical, mechanical, or chemical property of a material."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0000850
-<https://w3id.org/pmd/co/PMD_0000850> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:BFO_0000019 ;
-                                      obo:IAO_0000119 "ChatGPT 4.o" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Mechanical Quality"@en ;
-                                      skos:definition "A mechanical quality is a quality used as an assessment of a material's mechanical behavior, including toughness, fatigue resistance, and strength."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0000863
-<https://w3id.org/pmd/co/PMD_0000863> rdf:type owl:Class ;
-                                      rdfs:subClassOf [ owl:intersectionOf ( obo:BFO_0000019
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty obo:BFO_0000197 ;
-                                                                               owl:someValuesFrom obo:BFO_0000040
-                                                                             ]
-                                                                           ) ;
-                                                        rdf:type owl:Class
-                                                      ] ;
-                                      obo:IAO_0000119 "ChatGPT 4.o" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Morphologic Quality"@en ;
-                                      skos:altLabel "MaterialStructure" ;
-                                      skos:definition "A morphological quality is a material entity that represents the characteristics related to the shape, size, and structure of a material's features."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0000892
-<https://w3id.org/pmd/co/PMD_0000892> rdf:type owl:Class ;
-                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000004> ;
-                                      rdfs:comment "It is also representing a distinct physical or conceptual part of a material or substance."@en ,
-                                                   """Lome explanation for portion of matter: \"What is a molecule cluster at the cellular level? Contrary to the molecular level, at the cellular level of granularity the boundary of each molecule is outside of the level of granular focus. What forms a discontinuous cluster of countable individual molecules and thus bona fide objects at the molecular level, is a continuous and non-countable molecular substance at coarser levels of
-granularity. At these coarser levels, the individual molecules cannot be differentiated and demarcated anymore and the cluster as a whole possesses only fiat inner boundaries.\""""@en ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Portion Of Matter"@en ;
-                                      skos:definition "A material entity that is not demarcated by any physical discontinuities. At some finer level of granularity it is a material entity aggregate, at some coarser level of granularity it is a fiat object part,but at this level of granularity it is neither."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0000915
-<https://w3id.org/pmd/co/PMD_0000915> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:BFO_0000015 ;
-                                      owl:disjointWith <https://w3id.org/pmd/co/PMD_0000950> ;
-                                      obo:IAO_0000119 "ChatGPT 4.o" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Responding Process"@en ;
-                                      skos:definition "The responding process is a process describing the reaction of a material or system to an applied stimulus."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0000919
-<https://w3id.org/pmd/co/PMD_0000919> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:BFO_0000023 ;
-                                      obo:IAO_0000111 "Sample Role" ;
-                                      obo:IAO_0000114 obo:IAO_0000428 ;
-                                      obo:IAO_0000116 """ANMERKUNG: Ein Sample ist ein Teil (oder das Ganze) eines Probestücks. Das Probestück wird bei der Herstellung eines industriell verwendeten Produktes gezielt für die Überprüfung des Produkteigenschaften bereitgestellt. CAVE: Diese Anmerkung beschreibt das Objekt, welches die Rolle, die durch diese owl:Class definiert wird, realisiert.
-ANMERKUNG: Die exakte Wortwahl der EN 10021 wurde verallgemeinert."""@de ,
-                                                      "In certain cases, the sample can be the specimen or the test piece itself."@en ,
-                                                      "Mitunter kann der Probenabschnitt (Sample) unmittelbar als Prüfling (Specimen) oder Probe dienen."@de ,
-                                                      """NOTE: A Sample is a part (or the whole) of a Sample product. The Sample product is specifically produced portion of an industrially used and traded product for the purpose of determining the properties/quality of the product. CAVE: This note describes the object, that realizes the role defined by this owl:Class.
-NOTE: The wording used in EN 10021 was generalized."""@en ;
-                                      obo:IAO_0000117 "PERSON: Matthias Jung" ;
-                                      obo:IAO_0000119 "EN 10021:2006-12 (European standardization committee: CEN/TC 459/SC 12/WG 4)"@en ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Probe-Rolle"@de ,
-                                                 "Sample Role"@en ;
-                                      skos:definition "Role of an object, which is a quantity of material taken from a (sample) product, that is sufficient for the purpose of obtaining test pieces."@en ,
-                                                      "Rolle eines Objektes, das eine von einem Probestück/Material entnommene Menge ist, welche (vom Umfang her) geeignet ist Proben (Test Pieces) herzustellen."@de .
-
-
-###  https://w3id.org/pmd/co/PMD_0000943
-<https://w3id.org/pmd/co/PMD_0000943> rdf:type owl:Class ;
-                                      rdfs:subClassOf [ owl:intersectionOf ( obo:BFO_0000023
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty obo:BFO_0000196 ;
-                                                                               owl:someValuesFrom [ owl:intersectionOf ( obo:BFO_0000040
-                                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                                           owl:onProperty [ owl:inverseOf <https://w3id.org/pmd/co/PMD_0000016>
-                                                                                                                                          ] ;
-                                                                                                                           owl:someValuesFrom [ owl:intersectionOf ( <https://w3id.org/pmd/co/PMD_0000833>
-                                                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                                                       owl:onProperty <https://w3id.org/pmd/co/PMD_0000015> ;
-                                                                                                                                                                       owl:someValuesFrom [ owl:intersectionOf ( obo:BFO_0000040
-                                                                                                                                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                                                                                                                                   owl:onProperty obo:BFO_0000196 ;
-                                                                                                                                                                                                                   owl:someValuesFrom <https://w3id.org/pmd/co/PMD_0000919>
-                                                                                                                                                                                                                 ]
-                                                                                                                                                                                                               ) ;
-                                                                                                                                                                                            rdf:type owl:Class
-                                                                                                                                                                                          ]
-                                                                                                                                                                     ]
-                                                                                                                                                                   ) ;
-                                                                                                                                                rdf:type owl:Class
-                                                                                                                                              ]
-                                                                                                                         ]
-                                                                                                                       ) ;
-                                                                                                    rdf:type owl:Class
-                                                                                                  ]
-                                                                             ]
-                                                                           ) ;
-                                                        rdf:type owl:Class
-                                                      ] ;
-                                      obo:IAO_0000111 "Specimen Role" ;
-                                      obo:IAO_0000114 obo:IAO_0000428 ;
-                                      obo:IAO_0000116 """ANMERKUNG: Ein Specimen ist ein Teilstück (potenziell alles) eines Samples, welches für die Herstellung von Test Pieces bearbeitet wurde, jedoch nicht zwingend das Test Piece selbst darstellt. CAVE: Diese Anmerkung beschreibt das Objekt, welches die Rolle, die durch diese owl:Class definiert wird, realisiert.
-ANMERKUNG: Die exakte Wortwahl der EN 10021 wurde verallgemeinert."""@de ,
-                                                      "In certain cases, the specimen can be the sample or the test piece itself."@en ,
-                                                      "Mitunter kann der Probenabschnitt (Sample) unmittelbar als Prüfling (Specimen) oder der Prüfling (Specimen) unmittelbar als Probe (Test Piece) dienen."@de ,
-                                                      """NOTE: A Specimen is a part (potentially the whole) taken from a Sample, which was somehow machined/altered for the production of Test Pieces; it does not necessarily represent the Test Piece itself. CAVE: This note describes the object, that realizes the role defined by this owl:Class.
-NOTE: The wording used in EN 10021 was generalized."""@en ;
-                                      obo:IAO_0000117 "PERSON: Matthias Jung" ;
-                                      obo:IAO_0000119 "EN 10021:2006-12 (European standardization committee: CEN/TC 459/SC 12/WG 4)"@en ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Prüfling-Rolle"@de ,
-                                                 "Specimen Role"@en ;
-                                      skos:definition "Role of an object which has been taken from a sample by forming and/or machining and/or heat treatment for the pupose of producing test pieces."@en ,
-                                                      "Rolle eines Objektes, das aus einem Probenabschnitt (Sample) entnommen wurde (durch Umformen und/oder maschinelles Bearbeiten und/oder Wärmebehandlung) mit dem Zweck Proben (Test Pieces) aus diesem Objekt herzustellen."@de .
-
-
-###  https://w3id.org/pmd/co/PMD_0000950
-<https://w3id.org/pmd/co/PMD_0000950> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:BFO_0000015 ;
-                                      obo:IAO_0000119 "ChatGPT 4.o" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Stimulating Process"@en ;
-                                      skos:definition "The stimulating process is a process describing the application of an external influence, such as force, heat, or radiation, to study material response."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0000985
-<https://w3id.org/pmd/co/PMD_0000985> rdf:type owl:Class ;
-                                      rdfs:subClassOf [ owl:intersectionOf ( obo:BFO_0000019
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty obo:BFO_0000197 ;
-                                                                               owl:someValuesFrom obo:BFO_0000040
-                                                                             ]
-                                                                           ) ;
-                                                        rdf:type owl:Class
-                                                      ] ;
-                                      obo:IAO_0000119 "ChatGPT 4.o" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Thermodynamic Quality"@en ;
-                                      skos:definition "A thermodynamic quality is a quality representing a property that describes the thermodynamic state of a material, such as entropy, enthalpy, or free energy."@en .
-
-
-###  https://w3id.org/pmd/co/PMD_0001025
-<https://w3id.org/pmd/co/PMD_0001025> rdf:type owl:Class ;
-                                      rdfs:subClassOf [ owl:intersectionOf ( obo:BFO_0000015
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty obo:BFO_0000055 ;
-                                                                               owl:someValuesFrom <https://w3id.org/pmd/co/PMD_0000014>
-                                                                             ]
-                                                                           ) ;
-                                                        rdf:type owl:Class
-                                                      ] ;
-                                      obo:IAO_0000112 "Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house."@en ;
-                                      obo:IAO_0000118 "measuring"@en ,
-                                                      "scientific observation"@en ;
-                                      obo:IAO_0000412 "http://purl.obolibrary.org/obo/OBI_0000070" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Analyse"@de ,
-                                                 "assay"@en ;
-                                      skos:definition "A planned process that has the objective to produce information about a material entity (the evaluant) by examining it."@en ,
-                                                      "Ein geplanter Prozess, der das Ziel hat, Informationen über eine materielle Einheit (den Bewertungsgegenstand) zu gewinnen, indem er diese untersucht."@de .
-
-
 ###  https://w3id.org/pmd/co/PMD_0020098
 <https://w3id.org/pmd/co/PMD_0020098> rdf:type owl:Class ;
                                       rdfs:subClassOf obo:BFO_0000031 ;
@@ -7036,6 +6432,18 @@ NOTE: The wording used in EN 10021 was generalized."""@en ;
 TODO: possibly extend for 2D (Graphene etc)
 
 More elaborate crystal descriptions may be found in http://emmo.info/domain-crystallography/crystallography or https://purls.helmholtz-metadaten.de/disos/cso"""@en .
+
+
+###  https://w3id.org/pmd/co/PMD_0060000
+<https://w3id.org/pmd/co/PMD_0060000> rdf:type owl:Class ;
+                                      rdfs:subClassOf obo:IAO_0000027 ;
+                                      rdfs:label "Specification datum"@en .
+
+
+###  https://w3id.org/pmd/co/PMD_0060001
+<https://w3id.org/pmd/co/PMD_0060001> rdf:type owl:Class ;
+                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060000> ;
+                                      rdfs:label "event frequency"@en .
 
 
 #################################################################
@@ -7215,6 +6623,181 @@ obo:OMO_0001000 rdf:type owl:NamedIndividual ,
                 obo:IAO_0000234 "https://orcid.org/0000-0001-5208-3432" ;
                 rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
                 rdfs:label "out of scope" .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001051
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> rdf:type owl:NamedIndividual ,
+                                                               ontology:NFDI_0000002 ;
+                                                      rdfs:comment "A MatWerk project is a project within the NFDI MatWerk consortium that involves coordinated research, development, or infrastructure activities aimed at advancing materials science and engineering through data-driven methodologies and digitalization." ;
+                                                      rdfs:label "matwerk project_1"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001052
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001052> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> ;
+                                                      rdfs:comment "Hybrid Implementation is an event implementation specification that defines the organization of an event that integrates both physical (on-site) and virtual (online) participation modes" ;
+                                                      rdfs:label "hybrid implementation"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001055
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> ;
+                                                      rdfs:comment "On-Site Implementation is an event implementation specification that defines the organization of an event that occurs exclusively at a physical location with in-person attendance." ;
+                                                      rdfs:label "on site implementation"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001067
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
+                                                      rdfs:comment "Active Status is a status specification that indicates an entity, process, or project is currently operational, ongoing, or in execution." ;
+                                                      rdfs:label "active status"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001069
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001069> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
+                                                      rdfs:comment "Cancelled Status is a status specification that indicates an entity, process, or project has been terminated before reaching completion due to internal or external factors." ;
+                                                      rdfs:label "cancelled status"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001070
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001070> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
+                                                      rdfs:comment "Finished Status is a status specification that indicates an entity, process, or project has successfully reached its intended goal and is considered complete." ;
+                                                      rdfs:label "finished status"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001071
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001071> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
+                                                      rdfs:comment "Paused Status is a status specification that indicates an entity, process, or project is temporarily halted but may resume at a later stage." ;
+                                                      rdfs:label "paused status"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001072
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001072> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
+                                                      rdfs:comment "Planning Status is a status specification that indicates an entity, process, or project is in a preparatory or strategic development phase before execution." ;
+                                                      rdfs:label "planning status"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001074
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001074> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001077> ;
+                                                      rdfs:comment "Test Phase Status is a status specification that indicates an entity, process, or project is undergoing testing, evaluation, or validation before finalization." ;
+                                                      rdfs:label "test phase status"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001075
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001075> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> ;
+                                                      rdfs:comment "Doctor (PhD or equivalent academic doctorate)" ;
+                                                      rdfs:label "Dr."@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001076
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001076> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> ;
+                                                      rdfs:comment "Doctor of Engineering (German doctorate in engineering)." ;
+                                                      rdfs:label "Dr.-Ing."@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001078
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001078> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> ;
+                                                      rdfs:comment "Professor (academic title for a senior faculty member)." ;
+                                                      rdfs:label "Prof."@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001079
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001079> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> ;
+                                                      rdfs:comment "Professor with a doctorate." ;
+                                                      rdfs:label "Prof. Dr."@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001080
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001080> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> ;
+                                                      rdfs:comment "Professor with a doctorate in engineering." ;
+                                                      rdfs:label "Prof. Dr.-Ing."@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001081
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001081> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> ;
+                                                      rdfs:comment "Master of Science (graduate degree in science/engineering)." ;
+                                                      rdfs:label "M.Sc."@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001082
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001082> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> ;
+                                                      rdfs:comment "Privatdozent (Dr. with habilitation, qualified to teach at a university)" ;
+                                                      rdfs:label "PD. Dr."@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001083
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001083> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001098> ;
+                                                      rdfs:comment "Privatdozent with Habilitation (higher academic qualification in Germany)" ;
+                                                      rdfs:label "PD. Dr. habil."@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001091
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001091> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001073> ;
+                                                      rdfs:comment "Online Implementation is an event implementation specification that defines the organization of an event conducted entirely through virtual platforms, enabling remote participation via digital communication technologies." ;
+                                                      rdfs:label "online implementation"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001094
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001094> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> ;
+                                                      rdfs:comment "Organizational Funding is a funding specification that defines the financial structures, budgets, and resource allocation strategies for sustaining the operations of an organization or institution." ;
+                                                      rdfs:label "organizational funding"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001103
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001103> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> ;
+                                                      rdfs:comment "Project Funding is a funding specification that defines the financial mechanisms, grants, and investment strategies used to support specific research, development, or innovation projects." ;
+                                                      rdfs:label "project funding"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001144
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001144> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001084> ;
+                                                      rdfs:comment "Self-Funding is a funding specification that defines the use of personal, internal, or independently generated financial resources to support activities, projects, or organizations without relying on external funding sources." ;
+                                                      rdfs:label "self funding"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001145
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001145> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ;
+                                                      rdfs:comment "Internal Access is an information access specification that defines policies and mechanisms restricting access to information exclusively within an organization, institution, or research group." ;
+                                                      rdfs:label "internal access"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001146
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001146> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ;
+                                                      rdfs:comment "Open Access is an information access specification that defines policies allowing unrestricted public access to information resources, ensuring free availability without subscription or payment barriers." ;
+                                                      rdfs:label "open access"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001147
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001147> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ;
+                                                      rdfs:comment "Paywall Access is an information access specification that defines policies requiring users to purchase, subscribe, or obtain institutional licenses to access digital or physical information resources." ;
+                                                      rdfs:label "paywall access"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001148
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001148> rdf:type owl:NamedIndividual ,
+                                                               <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ;
+                                                      rdfs:comment "Restricted Access is an information access specification that defines policies limiting access to specific users, organizations, or groups based on predefined criteria such as confidentiality, security, or legal regulations." ;
+                                                      rdfs:label "restricted access"@en .
 
 
 ###  https://w3id.org/pmd/co/PMD_0000912
