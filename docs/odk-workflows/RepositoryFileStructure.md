@@ -17,7 +17,7 @@ These are the current imports in MWO
 | Import | URL | Type |
 | ------ | --- | ---- |
 | iao | http://purl.obolibrary.org/obo/iao.owl | None |
-| pmdco | https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.ttl | None |
+| pmdco | https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.owl | None |
 
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:

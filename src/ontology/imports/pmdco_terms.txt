@@ -1,11 +1,19 @@
-
+https://w3id.org/pmd/co/PMD_0000919 #sample role
+https://w3id.org/pmd/co/PMD_0000943 #specimen role
+https://w3id.org/pmd/co/PMD_0000975 #test piece role
+https://w3id.org/pmd/co/PMD_0000020 #has measurement unit label
+https://w3id.org/pmd/co/PMD_0060000 #has value specification
+https://w3id.org/pmd/co/PMD_0060001 #specifies value of
+https://w3id.org/pmd/co/PMD_0060006 #device specification
+https://w3id.org/pmd/co/PMD_0060007 #material specification
+https://w3id.org/pmd/co/PMD_0000602 #device
+https://w3id.org/pmd/co/PMD_0000857 #microstructure
+https://w3id.org/pmd/co/PMD_0000002 #engineered material
+https://w3id.org/pmd/co/PMD_0000005 #behavioral material property
+https://w3id.org/pmd/co/PMD_0000603 #device role
+https://w3id.org/pmd/co/PMD_0000849 #Mechanical Property Analyzing Process
+https://w3id.org/pmd/co/PMD_0000957 #Structural Property Analyzing Process
+https://w3id.org/pmd/co/PMD_0000583 #computing process
 https://w3id.org/pmd/co/PMD_0000833 #manufacturing process
-#https://w3id.org/pmd/co/PMD_0001025 #assay
-#https://w3id.org/pmd/co/PMD_0000583 #computing process
-#https://w3id.org/pmd/co/PMD_0000892 #portion of matter
-#https://w3id.org/pmd/co/PMD_0000602 #Device
-#https://w3id.org/pmd/co/PMD_0000943 #Specimen role
-#https://w3id.org/pmd/co/PMD_0000850 #mechanical quality
-#https://w3id.org/pmd/co/PMD_0000863 #Morphological quality
-#https://w3id.org/pmd/co/PMD_0000985 #Thermodynamic quality
-#https://w3id.org/pmd/co/PMD_0000005 #Material property
+https://w3id.org/pmd/co/PMD_0000950 #simulating process
+https://w3id.org/pmd/co/PMD_0060009 #specification datum

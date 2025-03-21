@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                0b038a35c9e4c64e2d5607dde264dc5b5ed98563d79462432f7aa87970ff4b95
+CONFIG_HASH=                525c9a3776410a6e1e3e29cfc75ec0a691240d05512c32e45eba260171a1b251
 
 
 # ----------------------------------------
@@ -420,7 +420,7 @@ mirror-iao: | $(TMPDIR)
 .PHONY: mirror-pmdco
 .PRECIOUS: $(MIRRORDIR)/pmdco.owl
 mirror-pmdco: | $(TMPDIR)
-	$(ROBOT) convert -I https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.ttl -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

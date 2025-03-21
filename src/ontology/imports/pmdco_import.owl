@@ -16,77 +16,60 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000140>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000141>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000109>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000409>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0000003>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0000014>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000005>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000006>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000583>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000591>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000602>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000603>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000833>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020098>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020099>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000849>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000857>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000863>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000919>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000943>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000950>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000957>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000975>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0001025>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000055>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000056>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000057>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000058>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000059>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000117>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000132>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000176>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000178>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000196>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000197>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000199>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000079>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000080>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000081>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000085>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000092>))
-Declaration(ObjectProperty(<https://w3id.org/pmd/co/PMD_0000015>))
-Declaration(ObjectProperty(<https://w3id.org/pmd/co/PMD_0000016>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000002>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000103>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000120>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000121>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000122>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000123>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000124>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000125>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000226>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000227>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000228>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000229>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000410>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000420>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000421>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000423>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000428>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/OMO_0001000>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0000912>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020006>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020007>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020008>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020009>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020010>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020011>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020012>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020013>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020014>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020015>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020016>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020017>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020018>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/co/PMD_0020019>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000179>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000180>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000111>))
@@ -122,24 +105,12 @@ Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#scopeNote>))
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000116> (<http://purl.obolibrary.org/obo/IAO_0000116>)
-
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000117> (Begriffseditor)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000428>)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "Begriffseditor"@de)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "Term Editor"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (<http://purl.obolibrary.org/obo/IAO_0000118>)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000118> <https://w3id.org/pmd/co/>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000119> (Definitionsquelle)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000428>)
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "Definition Source"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "Definitionsquelle"@de)
@@ -148,15 +119,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "Def
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/creator> <https://w3id.org/pmd/co/>)
 
-# Annotation Property: <http://purl.org/dc/terms/description> (<http://purl.org/dc/terms/description>)
+# Annotation Property: <http://purl.org/dc/terms/description> (description)
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/terms/description> <https://w3id.org/pmd/co/>)
 
-# Annotation Property: <http://purl.org/dc/terms/license> (<http://purl.org/dc/terms/license>)
+# Annotation Property: <http://purl.org/dc/terms/license> (license)
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/terms/license> <https://w3id.org/pmd/co/>)
 
-# Annotation Property: <http://purl.org/dc/terms/title> (<http://purl.org/dc/terms/title>)
+# Annotation Property: <http://purl.org/dc/terms/title> (title)
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/terms/title> <https://w3id.org/pmd/co/>)
 
@@ -213,10 +184,107 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000057> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>))))
 
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000058> (is concretized by)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000058> "258-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000058> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000058> "is concretized by"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000058> "c is concretized by b =Def b concretizes c"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000058> "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000058> <http://purl.obolibrary.org/obo/BFO_0000059>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000058> <http://purl.obolibrary.org/obo/BFO_0000031>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000058> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000020>))
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000059> (concretizes)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000059> "256-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000059> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000059> "concretizes"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000059> "b concretizes c =Def b is a process or a specifically dependent continuant & c is a generically dependent continuant & there is some time t such that c is the pattern or content which b shares at t with actual or potential copies"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000059> "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000059> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000020>))
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000059> <http://purl.obolibrary.org/obo/BFO_0000031>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000117> (has occurrent part)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000117> "202-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000117> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000117> "has occurrent part"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000117> "b has occurrent part c =Def c occurrent part of b"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000117> "Mary's life has occurrent part Mary's 5th birthday"@en)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000117> <http://purl.obolibrary.org/obo/BFO_0000132>)
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000117>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000117> <http://purl.obolibrary.org/obo/BFO_0000003>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000117> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000132> (occurrent part of)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000132> "003-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000132> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000132> "occurrent part of"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000132> "(Elucidation) occurrent part of is a relation between occurrents b and c when b is part of c"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000132> "Mary's 5th birthday is an occurrent part of Mary's life; the first set of the tennis match is an occurrent part of the tennis match"@en)
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000132>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000132> <http://purl.obolibrary.org/obo/BFO_0000003>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000132> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000176> (continuant part of)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000176> "221-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000176> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000176> "continuant part of"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000176> "b continuant part of c =Def b and c are continuants & there is some time t such that b and c exist at t & b continuant part of c at t"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000176> "Milk teeth continuant part of human; surgically removed tumour continuant part of organism"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000176> "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000176> <http://purl.obolibrary.org/obo/BFO_0000178>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000176> <http://purl.obolibrary.org/obo/BFO_0000002>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000176> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000178> (has continuant part)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000178> "271-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000178> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000178> "has continuant part"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000178> "b has continuant part c =Def c continuant part of b"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000178> "Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: <Link>"@en)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000178> <http://purl.obolibrary.org/obo/BFO_0000002>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000178> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000196> (bearer of)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000196> "053-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000196> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000196> "bearer of"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000196> "b bearer of c =Def c inheres in b"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000196> "A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality"@en)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000196> <http://purl.obolibrary.org/obo/BFO_0000197>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000196> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>)))
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000196> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000197> (inheres in)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000197> "051-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000197> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000197> "inheres in"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000197> "b inheres in c =Def b is a specifically dependent continuant & c is an independent continuant that is not a spatial region & b specifically depends on c"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000197> "A shape inheres in a shaped object; a mass inheres in a material entity"@en)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000197> <http://purl.obolibrary.org/obo/BFO_0000020>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000197> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>)))
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000199> (occupies temporal region)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000199> "132-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000199> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000199> "occupies temporal region"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000199> "p occupies temporal region t =Def p is a process or process boundary & the spatiotemporal region occupied by p temporally projects onto t"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000199> "The Second World War occupies the temporal region September 1, 1939 - September 2, 1945"@en)
+FunctionalObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000199>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000199> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000035>))
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000199> <http://purl.obolibrary.org/obo/BFO_0000008>)
+
 # Object Property: <http://purl.obolibrary.org/obo/IAO_0000136> (is about)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000136> "This document is about information artifacts and their representations"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000125>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000136> "A (currently) primitive relation that relates an information artifact to an entity."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000136> "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. 
 
@@ -228,139 +296,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/co/>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000136> "is about"@en)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000030>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000052> (characteristic of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0000052> "inheres in"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000052> "this fragility is a characteristic of this vase"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000052> "this red color is a characteristic of this apple"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000052> "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000052> "inheres_in"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0001901>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0000052> "Note that this relation was previously called \"inheres in\", but was changed to be called \"characteristic of\" because BFO2 uses \"inheres in\" in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing.")
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000052> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000052> "characteristic of"@en)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0000053>)
-FunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (has characteristic)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0000053> "bearer of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000053> "this apple is bearer of this red color"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000053> "this vase is bearer of this fragility"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000053> "Inverse of characteristic_of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000053> "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000053> "bearer_of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000053> "is bearer of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/RO_0001901>)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000053> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has characteristic"@en)
-InverseFunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000079> (function of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000079> "this catalysis function is a function of this enzyme"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000079> "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000079> "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000079> "function_of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000079> "is function of"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0000079> "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.")
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000079> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000079> "function of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000079> <http://purl.obolibrary.org/obo/RO_0000052>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000079> <http://purl.obolibrary.org/obo/RO_0000085>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000079> <http://purl.obolibrary.org/obo/BFO_0000034>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000080> (quality of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000080> "this red color is a quality of this apple"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000080> "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000080> "A quality inheres in its bearer at all times for which the quality exists."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000080> "is quality of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000080> "quality_of"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0000080> "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.")
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000080> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000080> "quality of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000080> <http://purl.obolibrary.org/obo/RO_0000052>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000080> <http://purl.obolibrary.org/obo/RO_0000086>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000081> (role of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000081> "this investigator role is a role of this person"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000081> "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000081> "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000081> "is role of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000081> "role_of"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0000081> "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.")
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000081> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000081> "role of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/RO_0000052>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/RO_0000087>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000085> (has function)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000085> "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000085> "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000085> "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000085> "has_function"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000085> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000085> "has function"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/RO_0000053>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000004>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000034>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000086> "this apple has quality this red color"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000086> "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000086> "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000086> "has_quality"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000086> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000086> "has quality"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/RO_0000053>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000019>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (has role)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000087> "this person has role this investigator role (more colloquially: this person has this role of investigator)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000087> "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000087> "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000087> "has_role"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000087> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000087> "has role"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/RO_0000053>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/BFO_0000004>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/BFO_0000023>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000091> (has disposition)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000091> "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000091> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000091> "has disposition"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/RO_0000053>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/RO_0000092>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/BFO_0000004>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/BFO_0000016>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000092> (disposition of)
-
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0000092> "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.")
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/RO_0000092> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000092> "disposition of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000092> <http://purl.obolibrary.org/obo/RO_0000052>)
-
-# Object Property: <https://w3id.org/pmd/co/PMD_0000015> (has input)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000015> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000015> "has input"@de)
-SubObjectPropertyOf(<https://w3id.org/pmd/co/PMD_0000015> <http://purl.obolibrary.org/obo/BFO_0000057>)
-
-# Object Property: <https://w3id.org/pmd/co/PMD_0000016> (has output)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000016> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000016> "has output"@de)
-SubObjectPropertyOf(<https://w3id.org/pmd/co/PMD_0000016> <http://purl.obolibrary.org/obo/BFO_0000057>)
 
 
 
@@ -406,6 +341,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "con
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000002> "(Elucidation) A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000002> "A human being; a tennis ball; a cave; a region of space; someone's temperature"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000176> <http://purl.obolibrary.org/obo/BFO_0000002>))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000003>)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)
@@ -444,6 +380,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000004> "ind
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000004> "b is an independent continuant =Def b is a continuant & there is no c such that b specifically depends on c or b generically depends on c"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000004> "An atom; a molecule; an organism; a heart; a chair; the bottom right portion of a human torso; a leg; the interior of your mouth; a spatial region; an orchestra"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000176> <http://purl.obolibrary.org/obo/BFO_0000004>))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020>)
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
@@ -455,6 +392,28 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000006> "spa
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000006> "(Elucidation) A spatial region is a continuant entity that is a continuant part of the spatial projection of a portion of spacetime at a given time"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000006> "As for zero-dimensional spatial region, one-dimensional spatial region, two-dimensional spatial region, three-dimensional spatial region"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000006> <http://purl.obolibrary.org/obo/BFO_0000141>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000006> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000176> <http://purl.obolibrary.org/obo/BFO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000008> (temporal region)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000008> "100-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000008> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000008> "temporal region"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000008> "(Elucidation) A temporal region is an occurrent over which processes can unfold"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000008> "As for zero-dimensional temporal region and one-dimensional temporal region"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000008> <http://purl.obolibrary.org/obo/BFO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000008> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000132> <http://purl.obolibrary.org/obo/BFO_0000008>))
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000011> (spatiotemporal region)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000011> "095-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000011> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000011> "spatiotemporal region"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000011> "(Elucidation) A spatiotemporal region is an occurrent that is an occurrent part of spacetime"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000011> "The spatiotemporal region occupied by the development of a cancer tumour; the spatiotemporal region occupied by an orbiting satellite"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000011> "'Spacetime' here refers to the maximal instance of the universal spatiotemporal region."@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000011> <http://purl.obolibrary.org/obo/BFO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000011> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000132> <http://purl.obolibrary.org/obo/BFO_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000015> (process)
 
@@ -465,6 +424,8 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <http://purl.
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000015> "(Elucidation) p is a process means p is an occurrent that has some temporal proper part and for some time t, p has some material entity as participant"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000015> "An act of selling; the life of an organism; a process of sleeping; a process of cell-division; a beating of the heart; a process of meiosis; the taxiing of an aircraft; the programming of a computer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000117> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000035>)))
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000132> <http://purl.obolibrary.org/obo/BFO_0000015>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000016> (disposition)
 
@@ -584,6 +545,38 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://pur
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000023> "The priest role; the student role; the role of subject in a clinical trial; the role of a stone in marking a property boundary; the role of a boundary to demarcate two neighbouring administrative territories; the role of a building in serving as a military target"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/BFO_0000017>)
 
+# Class: <http://purl.obolibrary.org/obo/BFO_0000027> (object aggregate)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000027> "025-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000027> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000027> "object aggregate"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000027> "(Elucidation) An object aggregate is a material entity consisting exactly of a plurality (≥1) of objects as member parts which together form a unit"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000027> "The aggregate of the musicians in a symphony orchestra and their instruments; the aggregate of bearings in a constant velocity axle joint; the nitrogen atoms in the atmosphere; a collection of cells in a blood biobank"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000027> "'Exactly' means that there are no parts of the object aggregate other than its member parts.")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000027> "The unit can, at certain times, consist of exactly one object, for example, when a wolf litter loses all but one of its pups, but it must at some time have a plurality of member parts.")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000027> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000029> (site)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000029> "034-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000029> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000029> "site"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000029> "(Elucidation) A site is a three-dimensional immaterial entity whose boundaries either (partially or wholly) coincide with the boundaries of one or more material entities or have locations determined in relation to some material entity"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000029> "A hole in a portion of cheese; a rabbit hole; the Grand Canyon; the Piazza San Marco; the kangaroo-joey-containing hole of a kangaroo pouch; your left nostril (a fiat part - the opening - of your left nasal cavity); the lumen of your gut; the hold of a ship; the interior of the trunk of your car; hole in an engineered floor joist"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000029> <http://purl.obolibrary.org/obo/BFO_0000141>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000029> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000176> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000029> <http://purl.obolibrary.org/obo/BFO_0000040>)))
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000029> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000178> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000029> <http://purl.obolibrary.org/obo/BFO_0000140>)))
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000030> (object)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000030> "024-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000030> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000030> "object"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000030> "(Elucidation) An object is a material entity which manifests causal unity & is of a type instances of which are maximal relative to the sort of causal unity manifested"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000030> "An organism; a fish tank; a planet; a laptop; a valve; a block of marble; an ice cube"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#scopeNote> <http://purl.obolibrary.org/obo/BFO_0000030> "A description of three primary sorts of causal unity is provided in Basic Formal Ontology 2.0. Specification and User Guide"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000030> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
 # Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/BFO_0000179> <http://purl.obolibrary.org/obo/BFO_0000031> "gdc")
@@ -619,6 +612,17 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://pur
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000034> "The function of a hammer to drive in nails; the function of a heart pacemaker to regulate the beating of a heart through electricity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000034> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
+# Class: <http://purl.obolibrary.org/obo/BFO_0000035> (process boundary)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000035> "084-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000035> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000035> "process boundary"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000035> "p is a process boundary =Def p is a temporal part of a process & p has no proper temporal parts"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000035> "The boundary between the 2nd and 3rd year of your life"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000035> <http://purl.obolibrary.org/obo/BFO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000035> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000117> <http://purl.obolibrary.org/obo/BFO_0000035>))
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000035> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000132> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000035>)))
+
 # Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000040> "019-BFO")
@@ -627,7 +631,19 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "mat
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000040> "(Elucidation) A material entity is an independent continuant has some portion of matter as continuant part"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000040> "A human being; the undetached arm of a human being; an aggregate of human beings"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000176> <http://purl.obolibrary.org/obo/BFO_0000040>))
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000178> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000029> <http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000140>)))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000141>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000140> (continuant fiat boundary)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://purl.obolibrary.org/obo/BFO_0000140> "029-BFO")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000140> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000140> "continuant fiat boundary"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/BFO_0000140> "(Elucidation) A continuant fiat boundary b is an immaterial entity that is of zero, one or two dimensions & such that there is no time t when b has a spatial region as continuant part & whose location is determined in relation to some material entity"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/BFO_0000140> "As for fiat point, fiat line, fiat surface"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000140> <http://purl.obolibrary.org/obo/BFO_0000141>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000140> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000178> <http://purl.obolibrary.org/obo/BFO_0000140>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)
 
@@ -642,11 +658,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000141> <http://purl.obolibrary.
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000027> "data item"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000027> "Data items include counts of things, analyte concentrations, and statistical summaries."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/IAO_0000125>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000027> "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "JAR: datum     -- well, this will be very tricky to define, but maybe some 
 information-like stuff that might be put into a computer and that is 
 meant, by someone, to denote and/or to be interpreted by some 
@@ -654,7 +670,6 @@ process... I would include lists, tables, sentences... I think I might
 defer to Barry, or to Brian Cantwell Smith
 
 JAR: A data item is an approximately justified approximately true approximate belief"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Alan Ruttenberg"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Chris Stoeckert"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Jonathan Rees"@en)
@@ -669,7 +684,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000030> "Examples of information content entites include journal articles, data, graphical layouts, and graphs."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000122>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000030> "A generically dependent continuant that is about some thing."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000030> "2014-03-10: The use of \"thing\" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000030> "information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).
@@ -687,7 +701,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> ObjectSomeValuesFrom(<ht
 # Class: <http://purl.obolibrary.org/obo/IAO_0000078> (curation status specification)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000078> "curation status specification"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000078> <http://purl.obolibrary.org/obo/IAO_0000125>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000078> "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000078> "Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000078> "PERSON:Bill Bug"@en)
@@ -696,7 +709,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/IAO_0000078> <http://purl.obolibrary.org/obo/iao.owl>)
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000078> <https://w3id.org/pmd/co/>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000078> "curation status specification"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>))
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000078> <http://purl.obolibrary.org/obo/IAO_0000102>)
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000102> (data about an ontology part)
@@ -708,17 +720,28 @@ AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000102
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000102> "data about an ontology part"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000102> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
+# Class: <http://purl.obolibrary.org/obo/IAO_0000109> (measurement datum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000109> "measurement datum"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000109> "Examples of measurement data are the recoding of the weight of a mouse as {40,mass,\"grams\"}, the recording of an observation of the behavior of the mouse {,process,\"agitated\"}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000109> "A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000109> "2/2/2009 is_specified_output of some assay?"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000109> "person:Chris Stoeckert"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000109> "OBI_0000305"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000109> "group:OBI"@en)
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000109> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000109> "measurement datum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000109> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
 # Class: <http://purl.obolibrary.org/obo/IAO_0000225> (obsolescence reason specification)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000225> "obsolescence reason specification"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000225> <http://purl.obolibrary.org/obo/IAO_0000125>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000225> "The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000225> "The creation of this class has been inspired in part by Werner Ceusters' paper, Applying evolutionary terminology auditing to the Gene Ontology."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000225> "PERSON: Alan Ruttenberg"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000225> "PERSON: Melanie Courtot"@en)
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000225> <https://w3id.org/pmd/co/>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000225> "obsolescence reason specification"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000103> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/OMO_0001000>))
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000225> <http://purl.obolibrary.org/obo/IAO_0000102>)
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000409> (denotator type)
@@ -730,23 +753,66 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000409> "Barry Smith, Werner Ceusters"@en)
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000409> <https://w3id.org/pmd/co/>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000409> "denotator type"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000420> <http://purl.obolibrary.org/obo/IAO_0000421>))
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000409> <http://purl.obolibrary.org/obo/IAO_0000102>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0000003> (Material Classification System)
+# Class: <https://w3id.org/pmd/co/PMD_0000005> (Material Property)
 
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000003> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000003> "Material Classification System"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000003> "A formal classification system allowing to identify and name EngineeredMaterials. Examples for metals include the US UNS numbering system (https://en.wikipedia.org/wiki/Unified_numbering_system), the Register of European Steels (https://stahldaten.de/stahldat-sx/stahl-eisen-liste/) and others. 
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000005> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000005> "Material Property"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000005> "A property is a material trait in terms of the kind and magnitude of response to a specific imposed stimulus. Generally, definitions of properties are made independent of material shape and size.
 
-TODO: Possibly instatiate some relevant classifcation systems."@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0000003> <http://purl.obolibrary.org/obo/IAO_0000030>)
+(Callister, W.D., Rethwisch, D.G., Materials Science and Engineering, Wiley, 2014)
 
-# Class: <https://w3id.org/pmd/co/PMD_0000014> (plan)
+We only deal with intensive (system-size independent) materrial properties. Extensive properties that depend on the testpiece/specimen/probe size should be found in the respective testing method modules."@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000005> <http://purl.obolibrary.org/obo/BFO_0000017>)
 
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000014> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000014> "plan"@de)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0000014> <http://purl.obolibrary.org/obo/BFO_0000017>)
+# Class: <https://w3id.org/pmd/co/PMD_0000006> (Material Structure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000006> "ChatGPT 4.o")
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000006> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000006> "Material Structure"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000006> "The material structure is an object aggregate that describes the organization of components within a material, including atomic, molecular, and crystalline arrangements, which dictate its macroscopic properties."@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000006> <http://purl.obolibrary.org/obo/BFO_0000027>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000583> (Datenverarbeitung)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000583> "The subclass trees of \"Computing Process\" are currently still proposals and serve as a working basis for the discussion round with the simulation/workflow domain experts."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000583> "PMDco Team")
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000583> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000583> "Computing Process"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000583> "Datenverarbeitung"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000583> "Rechenprozess"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000583> "A planned process that involves the systematic use of computational methods and tools to perform simulations, analyses, or data transformations to achieve specific scientific or engineering goals."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000583> "Ein geplanter Prozess, der die systematische Verwendung von rechnerischen Methoden und Werkzeugen umfasst, um Simulationen, Analysen oder Datenumwandlungen durchzuführen, um spezifische wissenschaftliche oder technische Ziele zu erreichen."@de)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000583> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000591> (Crystal Structure)
+
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000591> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000591> "Crystal Structure"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000591> "The crystal structure is a morphologic quality that describes the periodic geometric arrangement of entities in a crystalline material. The finite set of periodic geometric arrangements is described by the 14 possible Bravais Lattices in three-dimensional space."@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000591> <https://w3id.org/pmd/co/PMD_0000863>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000602> (Device)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000602> "PMDco Team")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000602> "ChatGPT 4.0"@en)
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000602> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000602> "Device"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000602> "Gerät"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000602> "A physical or virtual entity used to perform a specific function or task, often involving measurement, manipulation, or analysis of materials."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000602> "Ein physisches oder virtuelles Objekt, das verwendet wird, um eine bestimmte Funktion oder Aufgabe auszuführen, häufig im Zusammenhang mit der Messung, Manipulation oder Analyse von Materialien."@de)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000602> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000603> (Device Role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000603> "PERSON:Joerg Waitelonis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000603> "Role inhering in a device."@en)
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000603> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000603> "Device Role"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000603> "Rolle eines Gerätes"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000603> "Rolle, die ein Geräte inne haben kann."@de)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000603> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0000833> (Manufacturing Process)
 
@@ -756,255 +822,125 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000833> "Manufactur
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000833> "A planned process that is driven by the primary intent to transform objects
 A manufacturing process is always a transformative process."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000833> "Ein geplannter Prozess, der von der primären Absicht angetrieben wird, Objekte zu transformieren. Ein Herstellungsprozess ist immer ein Transformationsprozess."@de)
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0000833> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<https://w3id.org/pmd/co/PMD_0000015> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectSomeValuesFrom(<https://w3id.org/pmd/co/PMD_0000016> <http://purl.obolibrary.org/obo/BFO_0000040>)))
-SubClassOf(<https://w3id.org/pmd/co/PMD_0000833> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <https://w3id.org/pmd/co/PMD_0000014>)))
-SubClassOf(<https://w3id.org/pmd/co/PMD_0000833> ObjectSomeValuesFrom(<https://w3id.org/pmd/co/PMD_0000015> <http://purl.obolibrary.org/obo/BFO_0000040>))
-SubClassOf(<https://w3id.org/pmd/co/PMD_0000833> ObjectSomeValuesFrom(<https://w3id.org/pmd/co/PMD_0000016> <http://purl.obolibrary.org/obo/BFO_0000040>))
-
-# Class: <https://w3id.org/pmd/co/PMD_0020098> (Nature constant)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020098> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020098> "Nature constant"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020098> "A nature constant is a generically dependent continuant whose value, magintude or configuration is determined by nature including physics and mathematics."@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/pmd/co/PMD_0020098> "Examples of nature constants are the speed of light, pi, and the 14 Bravais lattices."@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020098> <http://purl.obolibrary.org/obo/BFO_0000031>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020099> (Bravais Lattice (3D))
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020099> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020099> "Bravais Lattice (3D)"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020099> "The Bravais Lattice is a nature constant that describes the possible geometric arrangement of lattice points in a crystal. The present descriptor is limited to the 14 possible three-dimensional arrangements. 
-
-TODO: possibly extend for 2D (Graphene etc)
-
-More elaborate crystal descriptions may be found in http://emmo.info/domain-crystallography/crystallography or https://purls.helmholtz-metadaten.de/disos/cso"@en)
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020099> ObjectOneOf(<https://w3id.org/pmd/co/PMD_0020006> <https://w3id.org/pmd/co/PMD_0020007> <https://w3id.org/pmd/co/PMD_0020008> <https://w3id.org/pmd/co/PMD_0020009> <https://w3id.org/pmd/co/PMD_0020010> <https://w3id.org/pmd/co/PMD_0020011> <https://w3id.org/pmd/co/PMD_0020012> <https://w3id.org/pmd/co/PMD_0020013> <https://w3id.org/pmd/co/PMD_0020014> <https://w3id.org/pmd/co/PMD_0020015> <https://w3id.org/pmd/co/PMD_0020016> <https://w3id.org/pmd/co/PMD_0020017> <https://w3id.org/pmd/co/PMD_0020018> <https://w3id.org/pmd/co/PMD_0020019>))
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020099> <https://w3id.org/pmd/co/PMD_0020098>)
-
-
-############################
-#   Named Individuals
-############################
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000002> (example to be eventually removed)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000002> "example to be eventually removed"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000002> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000002> "example to be eventually removed"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000103> (failed exploratory term)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000103> "failed exploratory term"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000103> "The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000103> "Person:Alan Ruttenberg"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000103> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000103> "failed exploratory term"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000120> (metadata complete)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000120> "metadata complete"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000120> "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete."@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000120> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000120> "metadata complete"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000121> (organizational term)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000121> "organizational term"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000121> "Term created to ease viewing/sort terms for development purpose, and will not be included in a release"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000121> "PERSON:Alan Ruttenberg")
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000121> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000121> "organizational term"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000122> (ready for release)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000122> "ready for release"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000122> "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\""@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000122> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000122> "ready for release"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000123> (metadata incomplete)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000123> "metadata incomplete"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000123> "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors."@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000123> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000123> "metadata incomplete"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000124> (uncurated)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000124> "uncurated"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000124> "Nothing done yet beyond assigning a unique class ID and proposing a preferred term."@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000124> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000124> "uncurated"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000125> (pending final vetting)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000125> "pending final vetting"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000125> "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor."@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000125> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000125> "pending final vetting"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000226> (placeholder removed)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000226> "placeholder removed"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000226> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000226> "placeholder removed"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000227> (terms merged)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000227> "terms merged"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000227> "An editor note should explain what were the merged terms and the reason for the merge."@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000227> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000227> "terms merged"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000228> (term imported)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000228> "term imported"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000228> "This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use."@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000228> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000228> "term imported"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000229> (term split)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000229> "term split"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000229> "This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created."@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000229> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000229> "term split"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000410> (universal)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000410> "universal"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000410> "Hard to give a definition for. Intuitively a \"natural kind\" rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000410> "Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000410> "A Formal Theory of Substances, Qualities, and Universals, http://ontology.buffalo.edu/bfo/SQU.pdf"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000410> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000410> "universal"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000420> (defined class)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000420> "defined class"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000420> "A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000420> "\"definitions\", in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000420> "Alan Ruttenberg"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000420> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000420> "defined class"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000421> (named class expression)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000421> "named class expression"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000421> "A named class expression is a logical expression that is given a name. The name can be used in place of the expression."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000421> "named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000421> "Alan Ruttenberg"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000421> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000421> "named class expression"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000423> (to be replaced with external ontology term)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000423> "to be replaced with external ontology term"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000423> "Terms with this status should eventually replaced with a term from another ontology."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000423> "Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000423> "group:OBI"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000423> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000423> "to be replaced with external ontology term"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/IAO_0000428> (requires discussion)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000428> "requires discussion"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000428> "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000428> "Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000428> "group:OBI"@en)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0000428> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000428> "requires discussion"@en)
-
-# Individual: <http://purl.obolibrary.org/obo/OMO_0001000> (out of scope)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0001000> "The term was added to the ontology on the assumption it was in scope, but it turned out later that it was not."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OMO_0001000> "This obsolesence reason should be used conservatively. Typical valid examples are: un-necessary grouping classes in disease ontologies, a phenotype term added on the assumption it was a disease."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OMO_0001000> <http://orcid.org/0000-0001-5208-3432>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0001000> "https://github.com/information-artifact-ontology/ontology-metadata/issues/77")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OMO_0001000> "https://orcid.org/0000-0001-5208-3432")
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/OMO_0001000> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0001000> "out of scope")
-
-# Individual: <https://w3id.org/pmd/co/PMD_0000912> (<https://w3id.org/pmd/co/PMD_0000912>)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000912> <https://w3id.org/pmd/co/>)
-ClassAssertion(<https://w3id.org/pmd/co/PMD_0000003> <https://w3id.org/pmd/co/PMD_0000912>)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020006> (Bravais Lattice Triclinic Primitve)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020006> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020006> "Bravais Lattice Triclinic Primitve"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020007> (Bravais Lattice Monoclinic Primitive)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020007> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020007> "Bravais Lattice Monoclinic Primitive"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020008> (Bravais Lattice Monoclinic Base-centered)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020008> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020008> "Bravais Lattice Monoclinic Base-centered"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020009> (Bravais Lattice Orthorombic Primitive)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020009> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020009> "Bravais Lattice Orthorombic Primitive"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020010> (Bravais Lattice Orthorhombic Base-centered)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020010> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020010> "Bravais Lattice Orthorhombic Base-centered"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020011> (Bravais Lattice Orthorhombic Body-centered)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020011> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020011> "Bravais Lattice Orthorhombic Body-centered"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020012> (Bravais Lattice Orthorhombic Face-centered)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020012> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020012> "Bravais Lattice Orthorhombic Face-centered"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020013> (Bravais Lattice Tetragonal Primitive)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020013> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020013> "Bravais Lattice Tetragonal Primitive"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020014> (Bravais Lattice Tetragonal Body-centered)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020014> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020014> "Bravais Lattice Tetragonal Body-centered"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020015> (Bravais Lattice Hexagonal Rhombohedral Primitive)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020015> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020015> "Bravais Lattice Hexagonal Rhombohedral Primitive"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020016> (Bravais Lattice Hexagonal Hexagonal Primitive)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020016> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020016> "Bravais Lattice Hexagonal Hexagonal Primitive"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020017> (Bravais Lattice Cubic Primitive)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020017> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020017> "Bravais Lattice Cubic Primitive"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020018> (Bravais Lattice Cubic Body-centered)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020018> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020018> "Bravais Lattice Cubic Body-centered"@en)
-
-# Individual: <https://w3id.org/pmd/co/PMD_0020019> (Bravais Lattice Cubic Face-centered)
-
-AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020019> <https://w3id.org/pmd/co/>)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020019> "Bravais Lattice Cubic Face-centered"@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000833> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000849> (Mechanische Eigenschaften Analyseverfahren)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000849> "PMDco Team")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000849> "chatgpt 4.o"@en)
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000849> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000849> "Mechanical Property Analyzing Process"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000849> "Mechanische Eigenschaften Analyseverfahren"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000849> "An assay that evaluates the mechanical characteristics of materials, such as strength, hardness, elasticity, and tensile properties, often through tests that measure response to forces and loads."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000849> "Eine Analyse, die die mechanischen Eigenschaften von Materialien bewertet, wie z.B. Festigkeit, Härte, Elastizität und Zugfestigkeit, oft durch Tests, die die Reaktion auf Kräfte und Lasten messen."@de)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000849> <https://w3id.org/pmd/co/PMD_0001025>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000857> (Microstructure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000857> "ChatGPT 4.o")
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000857> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000857> "Microstructure"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000857> "The microstructure represents the small-scale structure of a material, including grains, phases, and defects, visible under a microscope."@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000857> <https://w3id.org/pmd/co/PMD_0000006>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000863> (Morphologic Quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000863> "ChatGPT 4.o")
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000863> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000863> "Morphologic Quality"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://w3id.org/pmd/co/PMD_0000863> "MaterialStructure")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000863> "A morphological quality is a material entity that represents the characteristics related to the shape, size, and structure of a material's features."@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000863> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000197> <http://purl.obolibrary.org/obo/BFO_0000040>)))
+
+# Class: <https://w3id.org/pmd/co/PMD_0000919> (Probe-Rolle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <https://w3id.org/pmd/co/PMD_0000919> "Sample Role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000919> "ANMERKUNG: Ein Sample ist ein Teil (oder das Ganze) eines Probestücks. Das Probestück wird bei der Herstellung eines industriell verwendeten Produktes gezielt für die Überprüfung des Produkteigenschaften bereitgestellt. CAVE: Diese Anmerkung beschreibt das Objekt, welches die Rolle, die durch diese owl:Class definiert wird, realisiert.
+ANMERKUNG: Die exakte Wortwahl der EN 10021 wurde verallgemeinert."@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000919> "In certain cases, the sample can be the specimen or the test piece itself."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000919> "Mitunter kann der Probenabschnitt (Sample) unmittelbar als Prüfling (Specimen) oder Probe dienen."@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000919> "NOTE: A Sample is a part (or the whole) of a Sample product. The Sample product is specifically produced portion of an industrially used and traded product for the purpose of determining the properties/quality of the product. CAVE: This note describes the object, that realizes the role defined by this owl:Class.
+NOTE: The wording used in EN 10021 was generalized."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000919> "PERSON: Matthias Jung")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000919> "EN 10021:2006-12 (European standardization committee: CEN/TC 459/SC 12/WG 4)"@en)
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000919> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000919> "Probe-Rolle"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000919> "Sample Role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000919> "Role of an object, which is a quantity of material taken from a (sample) product, that is sufficient for the purpose of obtaining test pieces."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000919> "Rolle eines Objektes, das eine von einem Probestück/Material entnommene Menge ist, welche (vom Umfang her) geeignet ist Proben (Test Pieces) herzustellen."@de)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000919> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000943> (Specimen Role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <https://w3id.org/pmd/co/PMD_0000943> "Specimen Role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000943> "ANMERKUNG: Ein Specimen ist ein Teilstück (potenziell alles) eines Samples, welches für die Herstellung von Test Pieces bearbeitet wurde, jedoch nicht zwingend das Test Piece selbst darstellt. CAVE: Diese Anmerkung beschreibt das Objekt, welches die Rolle, die durch diese owl:Class definiert wird, realisiert.
+ANMERKUNG: Die exakte Wortwahl der EN 10021 wurde verallgemeinert."@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000943> "In certain cases, the specimen can be the sample or the test piece itself."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000943> "Mitunter kann der Probenabschnitt (Sample) unmittelbar als Prüfling (Specimen) oder der Prüfling (Specimen) unmittelbar als Probe (Test Piece) dienen."@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000943> "NOTE: A Specimen is a part (potentially the whole) taken from a Sample, which was somehow machined/altered for the production of Test Pieces; it does not necessarily represent the Test Piece itself. CAVE: This note describes the object, that realizes the role defined by this owl:Class.
+NOTE: The wording used in EN 10021 was generalized."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000943> "PERSON: Matthias Jung")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000943> "EN 10021:2006-12 (European standardization committee: CEN/TC 459/SC 12/WG 4)"@en)
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000943> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000943> "Prüfling-Rolle"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000943> "Specimen Role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000943> "Role of an object which has been taken from a sample by forming and/or machining and/or heat treatment for the pupose of producing test pieces."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000943> "Rolle eines Objektes, das aus einem Probenabschnitt (Sample) entnommen wurde (durch Umformen und/oder maschinelles Bearbeiten und/oder Wärmebehandlung) mit dem Zweck Proben (Test Pieces) aus diesem Objekt herzustellen."@de)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000943> <http://purl.obolibrary.org/obo/BFO_0000023>)
+DisjointClasses(<https://w3id.org/pmd/co/PMD_0000943> <https://w3id.org/pmd/co/PMD_0000975>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000950> (Stimulating Process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000950> "ChatGPT 4.o")
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000950> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000950> "Stimulating Process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000950> "The stimulating process is a process describing the application of an external influence, such as force, heat, or radiation, to study material response."@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000950> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000957> (Struktur Eigenschaften Analyseverfahren)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000957> "PMDco Team")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000957> "chatgpt 4.o"@en)
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000957> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000957> "Structural Property Analyzing Process"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000957> "Struktur Eigenschaften Analyseverfahren"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000957> "An assay that examines the external and internal structure and morphology of materials, including the arrangement of atoms, crystals, grains, and phases, often using techniques like microscopy and diffraction."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000957> "Eine Analyse, die die äußere und innere Struktur und Morphologie von Materialien untersucht, einschließlich der Anordnung von Atomen, Kristallen, Körnern und Phasen, oft unter Verwendung von Techniken wie Mikroskopie und Beugung."@de)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000957> <https://w3id.org/pmd/co/PMD_0001025>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000975> (Test Piece Role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <https://w3id.org/pmd/co/PMD_0000975> "Test Piece Role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000975> "ANMERKUNG: Ein Test Piece ist ein Teilstück (potenziell alles) eines Specimens, welches die Bedingungen erfüllt, die durch ein anzuwendendes Prüfverfahren gestellt werden. Ein Specimen erfüllt diese Anforderungen im Allgemeinen erst nach weiterer Bearbeitung. CAVE: Diese Anmerkung beschreibt das Objekt, welches die Rolle, die durch diese owl:Class definiert wird, realisiert.
+ANMERKUNG: Die exakte Wortwahl der EN 10021 wurde verallgemeinert."@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000975> "In certain cases, the test piece can be the sample or the specimen itself."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000975> "Mitunter kann der Probenabschnitt (Sample) oder der Prüfling (Specimen) unmittelbar als Probe dienen."@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0000975> "NOTE: A Test Piece is a piece that is taken from a specimen (potentially the whole specimen), which fulfills the requirements, that are set by the test procedure in which the test piece is about to be used. A specimen fulfills this requierements generally speaking only after further treatment/processing. CAVE: This note describes the object, that realizes the role defined by this owl:Class.
+NOTE: The wording used in EN 10021 was generalized."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000975> "PERSON: Matthias Jung")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0000975> "EN 10021:2006-12 (European standardization committee: CEN/TC 459/SC 12/WG 4)"@en)
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000975> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000975> "Proben-Rolle"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000975> "Test Piece Role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000975> "Rolle eines Objekts, welches eine Probe ist, die aus einem Prüfling (Specimen) oder Probenabschnitt (Sample) entnommen wurde; die Probe hat festgelegte Dimensionen, kann maschinell bearbeitet sein, wurde in einen für die Verwendung in einem Prüfverfahren notwendigen Zustand gebracht"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000975> "role of object which is a part taken from a specimen or sample; the part has specified dimensions, is machined or un-machined, brought to a required condition for submission to a given test"@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000975> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0001025> (assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <https://w3id.org/pmd/co/PMD_0001025> "Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://w3id.org/pmd/co/PMD_0001025> "measuring"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://w3id.org/pmd/co/PMD_0001025> "scientific observation"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <https://w3id.org/pmd/co/PMD_0001025> "http://purl.obolibrary.org/obo/OBI_0000070")
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0001025> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0001025> "Analyse"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0001025> "assay"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0001025> "A planned process that has the objective to produce information about a material entity (the evaluant) by examining it."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0001025> "Ein geplanter Prozess, der das Ziel hat, Informationen über eine materielle Einheit (den Bewertungsgegenstand) zu gewinnen, indem er diese untersucht."@de)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0001025> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)
-DifferentIndividuals(<https://w3id.org/pmd/co/PMD_0020006> <https://w3id.org/pmd/co/PMD_0020007> <https://w3id.org/pmd/co/PMD_0020008> <https://w3id.org/pmd/co/PMD_0020009> <https://w3id.org/pmd/co/PMD_0020010> <https://w3id.org/pmd/co/PMD_0020011> <https://w3id.org/pmd/co/PMD_0020012> <https://w3id.org/pmd/co/PMD_0020013> <https://w3id.org/pmd/co/PMD_0020014> <https://w3id.org/pmd/co/PMD_0020015> <https://w3id.org/pmd/co/PMD_0020016> <https://w3id.org/pmd/co/PMD_0020017> <https://w3id.org/pmd/co/PMD_0020018> <https://w3id.org/pmd/co/PMD_0020019>)
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000053> Variable(<urn:swrl#e>) Variable(<urn:swrl#d>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000016> Variable(<urn:swrl#d>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000091> Variable(<urn:swrl#e>) Variable(<urn:swrl#d>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000053> Variable(<urn:swrl#e>) Variable(<urn:swrl#d>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000019> Variable(<urn:swrl#d>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000086> Variable(<urn:swrl#e>) Variable(<urn:swrl#d>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000053> Variable(<urn:swrl#e>) Variable(<urn:swrl#d>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000023> Variable(<urn:swrl#d>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000087> Variable(<urn:swrl#e>) Variable(<urn:swrl#d>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000053> Variable(<urn:swrl#e>) Variable(<urn:swrl#d>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000034> Variable(<urn:swrl#d>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000085> Variable(<urn:swrl#e>) Variable(<urn:swrl#d>))))
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000006> <http://purl.obolibrary.org/obo/BFO_0000029> <http://purl.obolibrary.org/obo/BFO_0000140>)
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000008> <http://purl.obolibrary.org/obo/BFO_0000011> <http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000035>)
 )
