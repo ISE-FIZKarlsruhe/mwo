@@ -60,15 +60,9 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001026>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001029>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001030>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001031>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001032>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001033>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035>))
@@ -126,6 +120,8 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001110>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001111>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001112>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0060000>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0060001>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001114>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001115>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116>))
@@ -585,19 +581,6 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> "universities, research institutions, industry partners, and funding agencies collaborating in NFDI MatWerk, Horizon Europe projects, and other large-scale research initiatives")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> (research group)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "A Research Group is an organization that consists of scientists, engineers, or scholars working together on a common research agenda, typically within academic, industrial, or governmental settings.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "research group"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> (task area committee)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> "A Task Area Committee is an organization within a larger research initiative that is responsible for coordinating specific tasks, work packages, or thematic areas, ensuring structured progress and collaboration.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> "task area committee"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> "NFDI MatWerk task areas (TAs) are specialized units focused on different aspects of the NFDI-MatWerk infrastructure, such as community engagement, data management, workflow development, and ontology creation, supporting the overall infrastructure goals.")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003>)
-
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> (infrastructure use case)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> "IUC")
@@ -614,40 +597,12 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> "European Synchrotron Radiation Facility (ESRF), the Leibniz Supercomputing Centre (LRZ), CERN's Large Hadron Collider (LHC)")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> (high performance computing facility)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> "A High-Performance Computing (HPC) Facility is a large-scale facility that provides advanced computational resources, enabling large-scale simulations, data processing, and modeling for scientific and engineering applications.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> "high performance computing facility"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> "JUWELS at Forschungszentrum Jülich, SuperMUC at LRZ, Oak Ridge Leadership Computing Facility (OLCF)")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> (larg scale testing facility)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> "A Large-Scale Testing Facility is a facility that provides controlled environments and instrumentation for conducting large-scale physical, mechanical, or materials testing under various conditions.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> "larg scale testing facility"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> "wind tunnels for aerospace testing, seismic testing laboratories for civil engineering, high-energy beam facilities for radiation exposure studies")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> (scientific research facility)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> "A Scientific Research Facility is a large-scale facility that provides specialized equipment, laboratories, and experimental environments for conducting fundamental and applied research across multiple disciplines.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> "scientific research facility"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> "Max Planck Institute research facilities, the Helmholtz Research Centers, the SLAC National Accelerator Laboratory")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>)
-
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> (laboratory)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> "A place that provides a controlled environment equipped with specialized instruments and facilities for conducting scientific research, experiments, measurements, and testing across various disciplines.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> "laboratory"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> "materials characterization laboratories, chemical analysis labs, high-energy physics laboratories")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000005>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> (Specimen)
-
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> "Specimen"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> "An object that represents a sample of a substance, material, or biological entity, collected, prepared, or processed for research, testing, or analysis purposes.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> "metallurgical specimens for microstructural analysis, biological tissue samples for medical research, geological specimens for mineralogical studies")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> (frequency)
 
@@ -1067,6 +1022,16 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "software repository"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "GitHub, GitLab, Apache Software Foundation repositories")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0060000> (Specification datum)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060000> "Specification datum"@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0060000> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0060001> (event frequency)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060001> "event frequency"@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0060001> <https://w3id.org/pmd/co/PMD_0060000>)
 
 
 ############################
