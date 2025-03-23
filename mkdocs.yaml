@@ -1,7 +1,5 @@
 site_name: NFDI MatWerk Ontology
-#theme: readthedocs
-#theme: mkdocs
-theme: material
+theme: readthedocs
 
 nav:
   - Welcome: index.md
