@@ -47,21 +47,26 @@ The diagram provides a structured representation for Material Entities (such as 
 ### Use cases  
 To illustrate the practical utility of ODPs, we presented several use cases within the MSE domain, such as representing metadata for materials, instruments, large-scale facilities, researchers, organizations, educational events, resources, datasets, data portals, and material research software. Through these cases, we emphasize how ODPs facilitate development by offering standardized templates for tasks such as hierarchy modeling, semantic relationship management, and data source integration, while also supporting ontology-driven solutions that are technically sound and adaptable to changing domain requirements.
 
+### Use case 1- NFDI MatWerk organization
 
 ![2025 03 MWO copy 4](https://github.com/user-attachments/assets/becb1f14-db41-4716-88c1-a239ceeee9d1)
 
+### Use case 2- NFDI MatWerk persons
 
 ![2025 03 MWO copy 11](https://github.com/user-attachments/assets/808f2078-a06c-4381-91a5-1e0d6a2d9cfa)
 
+### Use case 3- NFDI MatWerk task area (TA)
 
 ![2025 03 MWO copy 12](https://github.com/user-attachments/assets/d034bf7c-8070-40a6-82f2-9b63ea334d3a)
 
-
+### Use case 4- Software description
 
 ![2025 03 MWO copy 13](https://github.com/user-attachments/assets/8e44d969-4583-45fe-8b64-d7b4170b29a8)
 
+### Use case 5- Event description
 
 ![2025 03 MWO copy 14](https://github.com/user-attachments/assets/295b675d-9daf-44d0-8aae-ecf03a347b05)
 
+### Use case 5- large scale facility description
 
 ![2025 03 MWO copy 15](https://github.com/user-attachments/assets/dec7cbb2-376e-488a-915e-e743773937ce)
