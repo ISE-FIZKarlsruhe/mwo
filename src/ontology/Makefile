@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                525c9a3776410a6e1e3e29cfc75ec0a691240d05512c32e45eba260171a1b251
+CONFIG_HASH=                163f6e684160982821972826239b6901f630c761a80a473b06c2adf70ea004bf
 
 
 # ----------------------------------------
@@ -160,7 +160,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  iao pmdco
+IMPORTS =  iao nfdicore pmdco
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -376,6 +376,20 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms_combined.txt
 
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
 
+## Module for ontology: iao
+
+$(IMPORTDIR)/iao_import.owl: $(MIRRORDIR)/iao.owl
+	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in mwo.Makefile!" && false
+## Module for ontology: nfdicore
+
+$(IMPORTDIR)/nfdicore_import.owl: $(MIRRORDIR)/nfdicore.owl $(IMPORTDIR)/nfdicore_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+    $(ANNOTATE_CONVERT_FILE); fi
+
+## Module for ontology: pmdco
+
+$(IMPORTDIR)/pmdco_import.owl: $(MIRRORDIR)/pmdco.owl
+	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in mwo.Makefile!" && false
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -416,11 +430,18 @@ mirror-iao: | $(TMPDIR)
 	$(ROBOT) convert -i $(TMPDIR)/iao-download.owl -o $(TMPDIR)/$@.owl
 
 
+## ONTOLOGY: nfdicore
+.PHONY: mirror-nfdicore
+.PRECIOUS: $(MIRRORDIR)/nfdicore.owl
+mirror-nfdicore: | $(TMPDIR)
+	$(ROBOT) convert -I https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl -o $(TMPDIR)/$@.owl
+
+
 ## ONTOLOGY: pmdco
 .PHONY: mirror-pmdco
 .PRECIOUS: $(MIRRORDIR)/pmdco.owl
 mirror-pmdco: | $(TMPDIR)
-	$(ROBOT) convert -I https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.owl -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/main/pmdco.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
