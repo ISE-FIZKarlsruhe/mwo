@@ -20,7 +20,7 @@ jobs:
            ls public
            #echo -e "\n img { max-width:1000px }" >> public/doc/resources/extra.css
            #cat public/doc/resources/extra.css
-           mv public/doc/* public/
+           #mv public/doc/* public/
            cp public/index-en.html public/index.html
            cp -r public 3.0.0
            mv 3.0.0 public/
