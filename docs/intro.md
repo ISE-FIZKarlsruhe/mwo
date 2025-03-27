@@ -19,9 +19,9 @@ B) NFDI resources: software, data portals, metadata schemas, scientific publicat
 C) NFDI MatWerk services, events, educational coerces, and international collaborations,  
 D) MSE related instruments, facilities, materials, processes, and properties.  
 
-## MWO v3.0 key features.  
+## MWO v3.0 key features      
 - **Alignment with standards**: Conforming ISO/IEC 21838-2:2021 standard [5], MWO v3.0 builds upon the Basic Formal Ontology (BFO) top level ontology. 
-- **Reusability and extensibility**: MWO v3.0 builds upon the NFDIcore v3 mid-level ontology and integrates with Platform MaterialDigital ontology (PMDco v3.0). Furthermore, MWO v3.0 incorporates entities from various other ontologies like IAO, SWO, DCAT, and Schema, ensuring broad applicability and cross-domain connectivity.
+- **Reusability and extensibility**: MWO v3.0 builds upon the NFDIcore v3.0 mid-level ontology and integrates with Platform MaterialDigital ontology (PMDco v3.0). Furthermore, MWO v3.0 incorporates entities from various other ontologies like IAO, SWO, DCAT, and Schema, ensuring broad applicability and cross-domain connectivity.
 - **Improved semantic richness**: Enhancing the expressiveness and depth of ontology terminology to better capture the requirements of the community and the materials science and engineering knowledge graph.
 - **Adaptive and community-driven development**: The ontology is continuously extended and maintained through community-driven development, ensuring it adapts to the evolving needs of MSE research data. 
 - **Standardized Ontology Development and Maintenance**:  the MWO v3.0 is released and documented using the OBO-based Ontology Development Kit (ODK) [6], which ensures a standardized development workflow aligned with OBO Foundry best practices. ODK provides automated quality control, enhancing ontology consistency and reducing errors. It enables seamless integration with other OBO ontologies, supports FAIR principles, and streamlines versioning and release management. Additionally, it facilitates collaborative development through GitHub-based workflows, ensuring continuous improvement and broad adoption within the MSE research community. 
