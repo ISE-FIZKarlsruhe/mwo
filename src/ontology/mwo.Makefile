@@ -28,7 +28,7 @@ $(IMPORTDIR)/pmdco_import.owl: $(MIRRORDIR)/pmdco.owl
 # lets add some additional annotations to the release artefacts
 #############################################################################
 
-CITATION="'Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v$(VERSION). Retrieved from: https://nfdi.fiz-karlsruhe.de/mwo/$(VERSION)'"
+CITATION="'Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v$(VERSION). Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/$(VERSION)'"
 
 ALL_ANNOTATIONS=--ontology-iri http://purls.helmholtz-metadaten.de/mwo/mwo.owl -V http://purls.helmholtz-metadaten.de/mwo/mwo.owl/$(VERSION) \
 	--annotation http://purl.org/dc/terms/created "$(TODAY)" \
