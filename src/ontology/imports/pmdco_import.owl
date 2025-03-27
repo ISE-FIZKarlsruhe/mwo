@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/pmdco_import.owl>
-<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-26/imports/pmdco_import.owl>
-Annotation(owl:versionInfo "2025-03-26")
+<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-27/imports/pmdco_import.owl>
+Annotation(owl:versionInfo "2025-03-27")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -54,6 +54,7 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0000950>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000957>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000975>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0001025>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0020004>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020023>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020098>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020099>))
@@ -352,7 +353,7 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3
 SubObjectPropertyOf(<https://w3id.org/pmd/co/PMD_0001030> <http://purl.obolibrary.org/obo/BFO_0000054>)
 ObjectPropertyRange(<https://w3id.org/pmd/co/PMD_0001030> <https://w3id.org/pmd/co/PMD_0000950>)
 
-# Object Property: <https://w3id.org/pmd/co/PMD_0060000> (Specification datum)
+# Object Property: <https://w3id.org/pmd/co/PMD_0060000> (has value specification)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0060000> "http://purl.obolibrary.org/obo/OBI_0001938")
 AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0060000> <https://w3id.org/pmd/co/>)
@@ -360,8 +361,9 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060000> "has value 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0060000> "A relation between an information content entity and a value specification that specifies its value.")
 SubObjectPropertyOf(<https://w3id.org/pmd/co/PMD_0060000> <http://purl.obolibrary.org/obo/BFO_0000178>)
 
-# Object Property: <https://w3id.org/pmd/co/PMD_0060001> (event frequency datum)
+# Object Property: <https://w3id.org/pmd/co/PMD_0060001> (specifies value of)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0060001> "http://purl.obolibrary.org/obo/OBI_0001927")
 AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0060001> <https://w3id.org/pmd/co/>)
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060001> "specifies value of"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0060001> "A relation between a value specification and an entity which the specification is about.")
@@ -666,7 +668,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "JAR: datum     -- well, this will be very tricky to define, but maybe some 
 information-like stuff that might be put into a computer and that is 
 meant, by someone, to denote and/or to be interpreted by some 
@@ -674,6 +675,7 @@ process... I would include lists, tables, sentences... I think I might
 defer to Barry, or to Brian Cantwell Smith
 
 JAR: A data item is an approximately justified approximately true approximate belief"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000027> "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Alan Ruttenberg"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Chris Stoeckert"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Jonathan Rees"@en)
@@ -933,7 +935,7 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000950> "Stimulatin
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000950> "The stimulating process is a process describing the application of an external influence, such as force, heat, or radiation, to study material response."@en)
 SubClassOf(<https://w3id.org/pmd/co/PMD_0000950> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0000957> (Structural Property Analyzing Process)
+# Class: <https://w3id.org/pmd/co/PMD_0000957> (Struktur Eigenschaften Analyseverfahren)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000957> "PMDco Team")
 AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000957> <https://w3id.org/pmd/co/>)
@@ -974,6 +976,14 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0001025> "assay"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0001025> "A planned process that has the objective to produce information about a material entity (the evaluant) by examining it."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0001025> "Ein geplanter Prozess, der das Ziel hat, Informationen über eine materielle Einheit (den Bewertungsgegenstand) zu gewinnen, indem er diese untersucht."@de)
 SubClassOf(<https://w3id.org/pmd/co/PMD_0001025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <https://w3id.org/pmd/co/PMD_0000014>)))
+
+# Class: <https://w3id.org/pmd/co/PMD_0020004> (Chemical Composition Specification)
+
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0020004> <https://w3id.org/pmd/co/>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020004> "Chemical Composition Specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020004> "A 'chemical composition specification' is an information content entity that 'specifies the value of' the chemical components of a material. The chemical components that are quanitfied are the 'portions of atomic species' or 'portions of matter' that the material 'consists of'. A 'chemical composition specification' 'has continuant parts' that quantify the mass proportions or molar proportions that the material 'conists of'."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/pmd/co/PMD_0020004> "A 'portion of steel' has a quality 'chemical composition CC'. The 'chemical composition specification CCS' specifies the value of CC and 'has continuant part' some 'scalar value specifications SVS_Fe and SVS_C'. SVS_Fe 'specifies the value of' the relational property 'mass proportion' that inheres in the 'portion of steel' as well as the 'portion of iron' that the steel 'consists of'. SVS_C 'specifies the value of' the relational property 'mass proportion' that inheres in the 'proportion of steel' as well as the 'portion of carbon' that the steel 'consists of'."@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0020004> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0020023> (Metallic Grain Structures)
 

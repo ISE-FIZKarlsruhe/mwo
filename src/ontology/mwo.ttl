@@ -20,7 +20,7 @@
 @base <http://purls.helmholtz-metadaten.de/mwo/mwo.ttl> .
 
 <http://purls.helmholtz-metadaten.de/mwo/mwo.ttl> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-26/mwo.ttl> ;
+                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-27/mwo.ttl> ;
                                                    dce:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)" ,
                                                                "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)" ,
                                                                "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)" ,
@@ -43,7 +43,7 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
                                                    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
                                                    dcterms:title "NFDI MatWerk Ontology" ;
                                                    rdfs:label "NFDI Matwerk Ontology"@en ;
-                                                   owl:versionInfo "2025-03-26" .
+                                                   owl:versionInfo "2025-03-27" .
 
 #################################################################
 #    Annotation properties
@@ -3582,7 +3582,6 @@ obo:IAO_0000577 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/IAO_0000578
 obo:IAO_0000578 rdf:type owl:Class ;
                 rdfs:subClassOf ontology:NFDI_0000015 ,
-                                <https://w3id.org/pmd/co/PMD_0000017> ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty obo:BFO_0000051 ;
                                   owl:someValuesFrom obo:IAO_0000577
@@ -3735,8 +3734,7 @@ obo:IAO_0000708 rdf:type owl:Class ;
 
 ###  http://purl.obolibrary.org/obo/IAO_0020016
 obo:IAO_0020016 rdf:type owl:Class ;
-                rdfs:subClassOf ontology:NFDI_0000015 ,
-                                <https://w3id.org/pmd/co/PMD_0000017> ;
+                rdfs:subClassOf ontology:NFDI_0000015 ;
                 obo:IAO_0000115 "A personal name that specifies and differentiates between members of a group of individuals, especially in a family, all of whose members usually share the same family name (surname). A given name is purposefully given, usually by a child's parents at or near birth, in contrast to an inherited one such as a family name"@en ;
                 obo:IAO_0000117 "Justin Whorton"@en ,
                                 "Mathias Brochhausen"@en ;
@@ -3748,8 +3746,7 @@ obo:IAO_0020016 rdf:type owl:Class ;
 
 ###  http://purl.obolibrary.org/obo/IAO_0020017
 obo:IAO_0020017 rdf:type owl:Class ;
-                rdfs:subClassOf ontology:NFDI_0000015 ,
-                                <https://w3id.org/pmd/co/PMD_0000017> ;
+                rdfs:subClassOf ontology:NFDI_0000015 ;
                 obo:IAO_0000115 "An identifier that is typically a part of a person's name which has been passed, according to law or custom, from one or both parents to their children."@en ;
                 obo:IAO_0000117 "Justin Whorton"@en ,
                                 "Mathias Brochhausen"@en ;
@@ -4259,8 +4256,7 @@ standards should be as much as possible consistent).""" ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001099
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> rdf:type owl:Class ;
-                                                      rdfs:subClassOf ontology:NFDI_0000015 ,
-                                                                      <https://w3id.org/pmd/co/PMD_0000017> ;
+                                                      rdfs:subClassOf ontology:NFDI_0000015 ;
                                                       rdfs:comment "Material designation is an identifier assigned to a material to specify its name, Id, classification, composition, or standardized reference in scientific, engineering, or industrial contexts." ;
                                                       rdfs:label "material designation"@en ;
                                                       skos:example "ASTM A36 for structural steel, UNS C11000 for copper, DIN 1.4404 for stainless steel" .
@@ -4517,7 +4513,6 @@ ontology:NFDI_0000014 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015
 ontology:NFDI_0000015 rdf:type owl:Class ;
-                      owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000017> ;
                       rdfs:subClassOf obo:IAO_0000030 ;
                       obo:IAO_0000119 "http://purl.obolibrary.org/obo/IAO_0020000" ;
                       rdfs:comment "An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity." ;
@@ -5488,8 +5483,7 @@ ontology:NFDI_0001039 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001040
 ontology:NFDI_0001040 rdf:type owl:Class ;
-                      rdfs:subClassOf ontology:NFDI_0000015 ,
-                                      <https://w3id.org/pmd/co/PMD_0000017> ;
+                      rdfs:subClassOf ontology:NFDI_0000015 ;
                       rdfs:comment "An academic title is an identifier that denotes an individual’s academic rank, qualification, or honorary designation within educational and research institutions." ;
                       rdfs:label "academic title"@en ;
                       skos:example "Professor, Associate Professor, Dr., PhD, Dr. Ing." .
@@ -5497,8 +5491,7 @@ ontology:NFDI_0001040 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001041
 ontology:NFDI_0001041 rdf:type owl:Class ;
-                      rdfs:subClassOf ontology:NFDI_0000015 ,
-                                      <https://w3id.org/pmd/co/PMD_0000017> ;
+                      rdfs:subClassOf ontology:NFDI_0000015 ;
                       rdfs:comment "An identifier that denotes some postal delivery route, some aggregate of postal delivery routes or a geographical region and was created for the purpose of sorting and delivering mail." ;
                       rdfs:isDefinedBy "http://purl.obolibrary.org/obo/IAO_0000646" ;
                       rdfs:label "postal code"@en .
@@ -6076,11 +6069,6 @@ We only deal with intensive (system-size independent) materrial properties. Exte
                                       skos:definition "A plan is a realizable entity that is the inheres in a bearer who is committed to realizing it as a planned process." .
 
 
-###  https://w3id.org/pmd/co/PMD_0000017
-<https://w3id.org/pmd/co/PMD_0000017> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:IAO_0000030 .
-
-
 ###  https://w3id.org/pmd/co/PMD_0000583
 <https://w3id.org/pmd/co/PMD_0000583> rdf:type owl:Class ;
                                       rdfs:subClassOf [ owl:intersectionOf ( obo:BFO_0000015
@@ -6287,6 +6275,15 @@ NOTE: The wording used in EN 10021 was generalized."""@en ;
                                                  "assay"@en ;
                                       skos:definition "A planned process that has the objective to produce information about a material entity (the evaluant) by examining it."@en ,
                                                       "Ein geplanter Prozess, der das Ziel hat, Informationen über eine materielle Einheit (den Bewertungsgegenstand) zu gewinnen, indem er diese untersucht."@de .
+
+
+###  https://w3id.org/pmd/co/PMD_0020004
+<https://w3id.org/pmd/co/PMD_0020004> rdf:type owl:Class ;
+                                      rdfs:subClassOf obo:IAO_0000030 ;
+                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
+                                      rdfs:label "Chemical Composition Specification"@en ;
+                                      skos:definition "A 'chemical composition specification' is an information content entity that 'specifies the value of' the chemical components of a material. The chemical components that are quanitfied are the 'portions of atomic species' or 'portions of matter' that the material 'consists of'. A 'chemical composition specification' 'has continuant parts' that quantify the mass proportions or molar proportions that the material 'conists of'."@en ;
+                                      skos:example "A 'portion of steel' has a quality 'chemical composition CC'. The 'chemical composition specification CCS' specifies the value of CC and 'has continuant part' some 'scalar value specifications SVS_Fe and SVS_C'. SVS_Fe 'specifies the value of' the relational property 'mass proportion' that inheres in the 'portion of steel' as well as the 'portion of iron' that the steel 'consists of'. SVS_C 'specifies the value of' the relational property 'mass proportion' that inheres in the 'proportion of steel' as well as the 'portion of carbon' that the steel 'consists of'."@en .
 
 
 ###  https://w3id.org/pmd/co/PMD_0020023

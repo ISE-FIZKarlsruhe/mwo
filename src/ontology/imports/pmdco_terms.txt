@@ -17,3 +17,4 @@ https://w3id.org/pmd/co/PMD_0000583 #computing process
 https://w3id.org/pmd/co/PMD_0000833 #manufacturing process
 https://w3id.org/pmd/co/PMD_0000950 #simulating process
 https://w3id.org/pmd/co/PMD_0060009 #specification datum
+https://w3id.org/pmd/co/PMD_0020004 #chemical composition datum
