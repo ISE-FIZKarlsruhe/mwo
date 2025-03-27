@@ -1,7 +1,7 @@
 # Patterns and use cases
 This section showcases example ontology design patterns (ODPs) developed using MWO and their application in representing practical MSE-based use cases, highlighting their capacity to enable scalable, reusable, and semantically robust knowledge frameworks. 
 
-## Ontology design patterns: 
+## Ontology design patterns    
 ODPs are reusable and modular components that encapsulate best practices for solving common challenges in ontology development. Furthermore, ODPs may be used to create SHACL shapes to include constraints in a knowledge representation. By following usage patterns, ontology users and developers can ensure uniformity, clarity, and reusability in their models. The example structural, content-based, and presentation ODPs were designed to define foundational arrangements of entities, address domain-specific knowledge, and optimize user interaction with ontologies. 
 
 #### Pattern 1: Process- Agent- Role
@@ -44,7 +44,7 @@ The diagram provides a structured representation for Material Entities (such as 
 
 ![2025 03 MWO copy 10](https://github.com/user-attachments/assets/2d2fbdf9-2429-4688-9a54-b953ab36e07d)
 
-### Use cases  
+## Use cases  
 To illustrate the practical utility of ODPs, we presented several use cases within the MSE domain, such as representing metadata for materials, instruments, large-scale facilities, researchers, organizations, educational events, resources, datasets, data portals, and material research software. Through these cases, we emphasize how ODPs facilitate development by offering standardized templates for tasks such as hierarchy modeling, semantic relationship management, and data source integration, while also supporting ontology-driven solutions that are technically sound and adaptable to changing domain requirements.
 
 ### Use case 1- NFDI MatWerk organization
@@ -67,6 +67,6 @@ To illustrate the practical utility of ODPs, we presented several use cases with
 
 ![2025 03 MWO copy 14](https://github.com/user-attachments/assets/295b675d-9daf-44d0-8aae-ecf03a347b05)
 
-### Use case 5- large scale facility description
+### Use case 6- Large scale facility description
 
 ![2025 03 MWO copy 15](https://github.com/user-attachments/assets/dec7cbb2-376e-488a-915e-e743773937ce)
