@@ -28,7 +28,7 @@ Editors of this ontology should use the edit version, [src/ontology/mwo-edit.owl
 
 ## Documentation
 
-* Read the docs [documentation](https://ise-fizkarlsruhe.github.io/mwo/)
+* Read the docs [documentation](https://ise-fizkarlsruhe.github.io/mwo/docs)
 * Widoco generated [list of resources](https://ise-fizkarlsruhe.github.io/mwo/)
 
 
