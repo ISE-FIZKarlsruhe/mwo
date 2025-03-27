@@ -19,7 +19,7 @@ $(IMPORTDIR)/iao_import.owl: $(MIRRORDIR)/iao.owl
 #################################################################
 $(IMPORTDIR)/pmdco_import.owl: $(MIRRORDIR)/pmdco.owl 
 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-		extract -T $(IMPORTDIR)/pmdco_terms.txt --copy-ontology-annotations false --force true --individuals exclude --method STAR \
+		extract -T $(IMPORTDIR)/pmdco_terms.txt --copy-ontology-annotations false --force true --individuals exclude --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
 		$(ANNOTATE_CONVERT_FILE); fi
 
