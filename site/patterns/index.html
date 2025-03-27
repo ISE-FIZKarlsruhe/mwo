@@ -54,7 +54,7 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Patterns and use cases</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#ontology-design-patterns">Ontology design patterns:</a>
+    <li class="toctree-l2"><a class="reference internal" href="#ontology-design-patterns">Ontology design patterns</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#pattern-1-process-agent-role">Pattern 1: Process- Agent- Role</a>
     </li>
@@ -72,8 +72,10 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#pattern-8-material-entity-description">Pattern 8: Material entity description</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#use-cases">Use cases</a>
+        </ul>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#use-cases">Use cases</a>
+        <ul>
     <li class="toctree-l3"><a class="reference internal" href="#use-case-1-nfdi-matwerk-organization">Use case 1- NFDI MatWerk organization</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#use-case-2-nfdi-matwerk-persons">Use case 2- NFDI MatWerk persons</a>
@@ -84,7 +86,7 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#use-case-5-event-description">Use case 5- Event description</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#use-case-5-large-scale-facility-description">Use case 5- large scale facility description</a>
+    <li class="toctree-l3"><a class="reference internal" href="#use-case-6-large-scale-facility-description">Use case 6- Large scale facility description</a>
     </li>
         </ul>
     </li>
@@ -132,7 +134,7 @@
               
                 <h1 id="patterns-and-use-cases">Patterns and use cases</h1>
 <p>This section showcases example ontology design patterns (ODPs) developed using MWO and their application in representing practical MSE-based use cases, highlighting their capacity to enable scalable, reusable, and semantically robust knowledge frameworks. </p>
-<h2 id="ontology-design-patterns">Ontology design patterns:</h2>
+<h2 id="ontology-design-patterns">Ontology design patterns</h2>
 <p>ODPs are reusable and modular components that encapsulate best practices for solving common challenges in ontology development. Furthermore, ODPs may be used to create SHACL shapes to include constraints in a knowledge representation. By following usage patterns, ontology users and developers can ensure uniformity, clarity, and reusability in their models. The example structural, content-based, and presentation ODPs were designed to define foundational arrangements of entities, address domain-specific knowledge, and optimize user interaction with ontologies. </p>
 <h4 id="pattern-1-process-agent-role">Pattern 1: Process- Agent- Role</h4>
 <p>The diagram illustrates the relationships between Occurrent, Independent Continuant, and Specifically Dependent Continuant in the context of BFO and MWO ontologies. Within NFDIcore, a process often serves to establish connections between agents and information content entities, defining the roles of agents with respect to the involved information content entities. Likewise, in NFDIcore, the concept of Agents extends to both organizations and persons, serving as independent continuants within the BFO ontology. Agents are essential for management of research data resources, and include entities such as research institutions, consortia, universities, companies, and individual researchers or data scientists. While bfo:Process represents an Occurrent (i.e., an event or process), nfdicore:Agent represents an Independent Continuant, which can act as a participant in a process, and bfo:Role represents a Specifically Dependent Continuant, which depends on an independent continuant. The object properties of has_participant, realizes, and bearer_of are all from BFO. This pattern shows how roles are assigned to agents participating in processes, maintaining alignment with BFO principles while extending them for MWO-specific applications.</p>
@@ -158,7 +160,7 @@
 <h4 id="pattern-8-material-entity-description">Pattern 8: Material entity description</h4>
 <p>The diagram provides a structured representation for Material Entities (such as devices or materials) descriptions. A Material Entity is connected to its relating processes or projects via bfo:participates_in or nfdicore:isOutputOf, indicating its involvement or production within a project. The realized aspects of a Material Entity, such as its role, disposition, and function, are represented through bfo:bearer_of and bfo:material_basis_of objerct properties. Additionally, agents (organizations, persons, service providers, or contact points) linked to the material entity are included via nfdicore:hasAgent. The location of the material entity is captured using nfdicore:Place, while its structural composition is detailed with obo:has_continuant_part or obo:has_member_part. Furthermore, various ICEs are used to describe the material entity’s metadata, including identifiers, specifications, and other descriptive attributes, with nfdicore:hasSpecification linking the entity to its specifications. </p>
 <p><img alt="2025 03 MWO copy 10" src="https://github.com/user-attachments/assets/2d2fbdf9-2429-4688-9a54-b953ab36e07d" /></p>
-<h3 id="use-cases">Use cases</h3>
+<h2 id="use-cases">Use cases</h2>
 <p>To illustrate the practical utility of ODPs, we presented several use cases within the MSE domain, such as representing metadata for materials, instruments, large-scale facilities, researchers, organizations, educational events, resources, datasets, data portals, and material research software. Through these cases, we emphasize how ODPs facilitate development by offering standardized templates for tasks such as hierarchy modeling, semantic relationship management, and data source integration, while also supporting ontology-driven solutions that are technically sound and adaptable to changing domain requirements.</p>
 <h3 id="use-case-1-nfdi-matwerk-organization">Use case 1- NFDI MatWerk organization</h3>
 <p><img alt="2025 03 MWO copy 4" src="https://github.com/user-attachments/assets/becb1f14-db41-4716-88c1-a239ceeee9d1" /></p>
@@ -170,7 +172,7 @@
 <p><img alt="2025 03 MWO copy 13" src="https://github.com/user-attachments/assets/8e44d969-4583-45fe-8b64-d7b4170b29a8" /></p>
 <h3 id="use-case-5-event-description">Use case 5- Event description</h3>
 <p><img alt="2025 03 MWO copy 14" src="https://github.com/user-attachments/assets/295b675d-9daf-44d0-8aae-ecf03a347b05" /></p>
-<h3 id="use-case-5-large-scale-facility-description">Use case 5- large scale facility description</h3>
+<h3 id="use-case-6-large-scale-facility-description">Use case 6- Large scale facility description</h3>
 <p><img alt="2025 03 MWO copy 15" src="https://github.com/user-attachments/assets/dec7cbb2-376e-488a-915e-e743773937ce" /></p>
               
             </div>
