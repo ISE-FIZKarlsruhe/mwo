@@ -1,28 +1,45 @@
-# Basic ODK workflow
-name: Docs
+name: HTML
 
-# Controls when the action will run. 
 on:
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
   push:
     branches:
-      - main
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    - main
 jobs:
-  build:
-    name: Deploy docs
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v3
+    - uses: actions/checkout@v3
+      with:
+        ref: main
+        path: main
+    - name: Build HTML for main
+      run: |
+           wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.25-jar-with-dependencies_JDK-11.jar
+           mkdir public
+           java -jar widoco.jar -ontFile main/mwo.ttl -outFolder public -uniteSections -includeAnnotationProperties -lang en-de  -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
+           ls public
+           #echo -e "\n img { max-width:1000px }" >> public/doc/resources/extra.css
+           #cat public/doc/resources/extra.css
+           mv public/doc/* public/
+           cp public/index-en.html public/index.html
+           cp -r public 3.0.0
+           mv 3.0.0 public/
 
-      - name: Deploy docs
-        #uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        uses: mhausenblas/mkdocs-deploy-gh-pages
-        # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG_FILE: mkdocs.yaml
 
+           pip install mkdocs
+           cd main
+           mkdocs build -f mkdocs.yaml
+
+           cd ..
+           mkdir public/docs
+           cp -r main/site/* public/docs/
+
+ 
+    - name: Deploy to GitHub Pages
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v3
+      with:
+        target_branch: documentation
+        build_dir: public/
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
