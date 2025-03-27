@@ -1,6 +1,6 @@
 
 
-VERSION=3.0.0
+VERSION=3.0.0-alpha1
 PRIOR_VERSION=2.0.0
 ONTBASE=http://purls.helmholtz-metadaten.de/mwo/ 
 ANNOTATE_ONTOLOGY_VERSION="annotate -V $ONTBASE/$VERSION/\$@ --annotation owl:versionInfo $VERSION"
