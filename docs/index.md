@@ -10,10 +10,10 @@ The ontology’s latest version is always accessible at: [mwo.owl](https://githu
 
 ## Ontology metadata
 - Title: NFDI MatWerk Ontology. 
-- Abbreviation: mwo. 
+- Abbreviation: mwo
 - Namespace: [http://purls.helmholtz-metadaten.de/mwo](http://purls.helmholtz-metadaten.de/mwo).  
-- Prefix: mwo. 
-- Language: OWL. 
+- Prefix: mwo 
+- Language: OWL
 - Repository: [https://github.com/ISE-FIZKarlsruhe/mwo](https://github.com/ISE-FIZKarlsruhe/mwo)   
 - Current version (mwo v3): [http://purls.helmholtz-metadaten.de/mwo/3.0.0](http://purls.helmholtz-metadaten.de/mwo/). 
 - Previous version (mwo v2, 2024.03.11): [http://purls.helmholtz-metadaten.de/mwo/2.0.0](http://purls.helmholtz-metadaten.de/mwo/). 
