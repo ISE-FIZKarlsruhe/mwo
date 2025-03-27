@@ -1,7 +1,6 @@
 
-![build status](https://github.com/ISE-FIZKarlsruhe/nfdicore/actions/workflows/qc.yml/badge.svg)
-![build docs](https://github.com/ISE-FIZKarlsruhe/nfdicore/actions/workflows/update-docs.yml/badge.svg)
-![verification](https://github.com/ISE-FIZKarlsruhe/nfdicore/actions/workflows/verification.yml/badge.svg)
+![build status](https://github.com/ISE-FIZKarlsruhe/mwo/actions/workflows/qc.yml/badge.svg)
+![build docs](https://github.com/ISE-FIZKarlsruhe/mwo/actions/workflows/docs.yml/badge.svg)
 
 # NFDI Matwerk Ontology (MWO)
 
