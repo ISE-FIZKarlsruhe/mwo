@@ -342,6 +342,7 @@ InverseObjectProperties(<https://w3id.org/pmd/co/PMD_0001028> <https://w3id.org/
 AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0001029> <https://w3id.org/pmd/co/>)
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0001029> "responds with"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0001029> "The realizable entity must be \"stimulated\" by some Stimulus in order to respond with the Response. The bearer of the realizable entity must participate in Stimulation as well as in Response.")
+SubObjectPropertyOf(<https://w3id.org/pmd/co/PMD_0001029> owl:topObjectProperty)
 ObjectPropertyDomain(<https://w3id.org/pmd/co/PMD_0001029> <http://purl.obolibrary.org/obo/BFO_0000017>)
 ObjectPropertyRange(<https://w3id.org/pmd/co/PMD_0001029> <https://w3id.org/pmd/co/PMD_0000915>)
 

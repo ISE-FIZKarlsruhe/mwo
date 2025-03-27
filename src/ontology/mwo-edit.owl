@@ -9,23 +9,22 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo.owl>
-<http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0>
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/iao_import.owl>)
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/nfdicore_import.owl>)
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/pmdco_import.owl>)
-Annotation(dce:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)")
-Annotation(dce:creator "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)")
-Annotation(dce:creator "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)")
-Annotation(dce:creator "Sack, Harald (https://orcid.org/0000-0001-7069-9804)")
-Annotation(dce:creator "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)")
-Annotation(dcterms:contributor "Azócar Guzmán, Abril (https://orcid.org/0000-0001-7564-7990)")
-Annotation(dcterms:contributor "Fathalla, Said (https://orcid.org/0000-0002-2818-5890)")
-Annotation(dcterms:contributor "Fritzen, Felix (https://orcid.org/0000-0003-4926-0068)")
-Annotation(dcterms:contributor "Gedsun, Angelika (https://orcid.org/0000-0002-1141-7704)")
-Annotation(dcterms:contributor "Hofmann, Volker (https://orcid.org/0000-0002-5149-603X)")
-Annotation(dcterms:contributor "Laadhar, Amir (https://orcid.org/0000-0001-9106-8825)")
-Annotation(dcterms:contributor "Sandfeld, Stefan (https://orcid.org/0000-0001-9560-4728)")
-Annotation(dcterms:contributor "Zainul Ihsan, Ahmad (https://orcid.org/0000-0002-1008-4530)")
+Annotation(dcterms:contributor <https://orcid.org/0000-0001-7564-7990>)
+Annotation(dcterms:contributor <https://orcid.org/0000-0001-9106-8825>)
+Annotation(dcterms:contributor <https://orcid.org/0000-0001-9560-4728>)
+Annotation(dcterms:contributor <https://orcid.org/0000-0002-1008-4530>)
+Annotation(dcterms:contributor <https://orcid.org/0000-0002-1141-7704>)
+Annotation(dcterms:contributor <https://orcid.org/0000-0002-2818-5890>)
+Annotation(dcterms:contributor <https://orcid.org/0000-0002-5149-603X>)
+Annotation(dcterms:contributor <https://orcid.org/0000-0003-4926-0068>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-7069-9804>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-7192-7143>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-2691-6995>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-3092-0532>)
+Annotation(dcterms:creator <https://orcid.org/0000-0003-2612-8515>)
 Annotation(dcterms:description "The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
@@ -37,6 +36,7 @@ Annotation(dcterms:title "NFDI MatWerk Ontology")
 Annotation(rdfs:label "NFDI Matwerk Ontology"@en)
 
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001000>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001002>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001004>))
@@ -95,8 +95,6 @@ Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001050>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001051>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001052>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001056>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0060000>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0060001>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001025>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001028>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001114>))
@@ -111,7 +109,6 @@ Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001136>
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001137>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001138>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001139>))
-Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053>))
 Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001142>))
 Declaration(DataProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001143>))
 Declaration(NamedIndividual(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001014>))
@@ -249,13 +246,6 @@ SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001139> <http:
 #   Data Properties
 ############################
 
-# Data Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> (family name)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "The family name of some person.")
-AnnotationAssertion(rdfs:isDefinedBy <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "http://xmlns.com/foaf/0.1/")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> "family name"@en)
-SubDataPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> owl:topDataProperty)
-
 # Data Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> (has id)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> "A relation between an information content entity and its specific ID.")
@@ -278,6 +268,15 @@ SubDataPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> owl:topD
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> "An event that involves a focused exchange of knowledge, opinions, and insights among specialists in a particular field to address complex topics, evaluate research findings, or explore emerging trends.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> "expert discussion"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> (event frequency datum)
+
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "Event frequency datum describes how often an events occurs within a given time interval")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "event frequency datum"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "annual, weekly, twice per year, 72 beats per minute, every four years")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0060009> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> <https://w3id.org/pmd/co/PMD_0060009>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> (matwerk project)
 
@@ -400,14 +399,14 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "sustainability datum"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the ‘Sustainability’ class was created to respond to competency questions like: what is the sustainability of a service.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "Continusly, 10 years, 2-4 years, until 2030")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> <https://w3id.org/pmd/co/PMD_0060000>)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> <https://w3id.org/pmd/co/PMD_0060009>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> (data storage capacity datum)
 
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "Data storage capacity datum represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB).")
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the this class was created to respond to competency questions like how much is the storage capacity of a service.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "data storage capacity datum"@en)
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> <https://w3id.org/pmd/co/PMD_0060000>)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> <https://w3id.org/pmd/co/PMD_0060009>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> (computational materials science)
 
@@ -654,21 +653,6 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "GitHub, GitLab, Apache Software Foundation repositories")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0060000> (Specification datum)
-
-AnnotationAssertion(rdfs:comment <https://w3id.org/pmd/co/PMD_0060000> "A specification datum is an Information Content Entity which represents a prescribed value, condition, or requirement that a system, material, or process should meet.")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060000> "Specification datum"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0060000> <http://purl.obolibrary.org/obo/IAO_0000027>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0060001> (event frequency datum)
-
-AnnotationAssertion(rdfs:comment <https://w3id.org/pmd/co/PMD_0060001> "Event frequency datum describes how often an events occurs within a given time interval")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0060001> "event frequency datum"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <https://w3id.org/pmd/co/PMD_0060001> "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/pmd/co/PMD_0060001> "annual, weekly, twice per year, 72 beats per minute, every four years")
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0060001> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0060000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131>)))
-SubClassOf(<https://w3id.org/pmd/co/PMD_0060001> <https://w3id.org/pmd/co/PMD_0060000>)
-
 
 ############################
 #   Named Individuals
@@ -701,4 +685,17 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 ClassAssertion(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001019>)
 
 
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-7069-9804> "Harald Sack")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-7192-7143> "Jörg Waitelonis")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-7564-7990> "Abril Azócar Guzmán")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-9106-8825> "Amir Laadhar")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-9560-4728> "Stefan Sandfeld")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-1008-4530> "Ahmad Zainul Ihsan")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-1141-7704> "Angelika Gedsun")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-2691-6995> "Ebrahim Norouzi")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-2818-5890> "Said Fathalla")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-3092-0532> "Hossein Beygi Nasrabadi")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-5149-603X> "Volker Hofmann")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0003-2612-8515> "Kostiantyn Hubaiev")
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0003-4926-0068> "Felix Fritzen")
 )
