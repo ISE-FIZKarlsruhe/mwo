@@ -35,7 +35,7 @@ Editors of this ontology should use the edit version, [src/ontology/mwo-edit.owl
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/ISE-FIZKarlsruhe/MatWerk_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/ISE-FIZKarlsruhe/mwo/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 
 
