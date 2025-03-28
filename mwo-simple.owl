@@ -12,8 +12,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purls.helmholtz-metadaten.de/mwo/mwo.owl">
-        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1"/>
-        <terms:bibliographicCitation>Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0-alpha1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1</terms:bibliographicCitation>
+        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0"/>
+        <terms:bibliographicCitation>Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0</terms:bibliographicCitation>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-7564-7990"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9106-8825"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
@@ -38,7 +38,7 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
         <terms:title>NFDI MatWerk Ontology</terms:title>
         <rdfs:label xml:lang="en">NFDI Matwerk Ontology</rdfs:label>
         <owl:priorVersion rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/2.0.0"/>
-        <owl:versionInfo>3.0.0-alpha1</owl:versionInfo>
+        <owl:versionInfo>3.0.0</owl:versionInfo>
     </owl:Ontology>
     
 

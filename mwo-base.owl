@@ -11,9 +11,9 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purls.helmholtz-metadaten.de/mwo/mwo.owl">
-        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1"/>
+        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
-        <dcterms:bibliographicCitation>Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0-alpha1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1</dcterms:bibliographicCitation>
+        <dcterms:bibliographicCitation>Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0</dcterms:bibliographicCitation>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-7564-7990"/>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9106-8825"/>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
@@ -38,7 +38,7 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
         <dcterms:title>NFDI MatWerk Ontology</dcterms:title>
         <rdfs:label xml:lang="en">NFDI Matwerk Ontology</rdfs:label>
         <owl:priorVersion rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/2.0.0"/>
-        <owl:versionInfo>3.0.0-alpha1</owl:versionInfo>
+        <owl:versionInfo>3.0.0</owl:versionInfo>
     </owl:Ontology>
     
 

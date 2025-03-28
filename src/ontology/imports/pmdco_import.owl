@@ -936,7 +936,7 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000950> "Stimulatin
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000950> "The stimulating process is a process describing the application of an external influence, such as force, heat, or radiation, to study material response."@en)
 SubClassOf(<https://w3id.org/pmd/co/PMD_0000950> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0000957> (Struktur Eigenschaften Analyseverfahren)
+# Class: <https://w3id.org/pmd/co/PMD_0000957> (Structural Property Analyzing Process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://w3id.org/pmd/co/PMD_0000957> "PMDco Team")
 AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/pmd/co/PMD_0000957> <https://w3id.org/pmd/co/>)
