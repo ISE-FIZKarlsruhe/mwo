@@ -13,21 +13,21 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purls.helmholtz-metadaten.de/mwo/mwo.owl">
         <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1"/>
-        <dc:creator>Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)</dc:creator>
-        <dc:creator>Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)</dc:creator>
-        <dc:creator>Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)</dc:creator>
-        <dc:creator>Sack, Harald (https://orcid.org/0000-0001-7069-9804)</dc:creator>
-        <dc:creator>Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)</dc:creator>
         <terms:bibliographicCitation>Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0-alpha1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1</terms:bibliographicCitation>
-        <terms:contributor>Azócar Guzmán, Abril (https://orcid.org/0000-0001-7564-7990)</terms:contributor>
-        <terms:contributor>Fathalla, Said (https://orcid.org/0000-0002-2818-5890)</terms:contributor>
-        <terms:contributor>Fritzen, Felix (https://orcid.org/0000-0003-4926-0068)</terms:contributor>
-        <terms:contributor>Gedsun, Angelika (https://orcid.org/0000-0002-1141-7704)</terms:contributor>
-        <terms:contributor>Hofmann, Volker (https://orcid.org/0000-0002-5149-603X)</terms:contributor>
-        <terms:contributor>Laadhar, Amir (https://orcid.org/0000-0001-9106-8825)</terms:contributor>
-        <terms:contributor>Sandfeld, Stefan (https://orcid.org/0000-0001-9560-4728)</terms:contributor>
-        <terms:contributor>Zainul Ihsan, Ahmad (https://orcid.org/0000-0002-1008-4530)</terms:contributor>
-        <terms:created>2025-03-27</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7564-7990"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9106-8825"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1008-4530"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1141-7704"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2818-5890"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5149-603X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4926-0068"/>
+        <terms:created>2025-03-28</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-7069-9804"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-2691-6995"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-3092-0532"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2612-8515"/>
         <terms:description>The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
@@ -121,12 +121,6 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/creator -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/identifier -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
@@ -148,6 +142,12 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     <!-- http://purl.org/dc/terms/created -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
@@ -481,16 +481,6 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001053 -->
-
-    <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001053">
-        <rdfs:comment>The family name of some person.</rdfs:comment>
-        <rdfs:isDefinedBy>http://xmlns.com/foaf/0.1/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">family name</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001142 -->
 
     <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001142">
@@ -525,6 +515,17 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001000">
         <rdfs:comment>An event that involves a focused exchange of knowledge, opinions, and insights among specialists in a particular field to address complex topics, evaluate research findings, or explore emerging trends.</rdfs:comment>
         <rdfs:label xml:lang="en">expert discussion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001001 -->
+
+    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001001">
+        <rdfs:comment>Event frequency datum describes how often an events occurs within a given time interval</rdfs:comment>
+        <rdfs:label xml:lang="en">event frequency datum</rdfs:label>
+        <skos:editorialNote>HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?</skos:editorialNote>
+        <skos:example>annual, weekly, twice per year, 72 beats per minute, every four years</skos:example>
     </owl:Class>
     
 

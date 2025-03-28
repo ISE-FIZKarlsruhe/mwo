@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/iao_import.owl>
-<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-27/imports/iao_import.owl>
-Annotation(owl:versionInfo "2025-03-27")
+<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2025-03-28/imports/iao_import.owl>
+Annotation(owl:versionInfo "2025-03-28")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))

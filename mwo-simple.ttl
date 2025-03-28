@@ -13,21 +13,21 @@
 
 <http://purls.helmholtz-metadaten.de/mwo/mwo.owl> rdf:type owl:Ontology ;
                                                    owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1> ;
-                                                   dc:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)" ,
-                                                              "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)" ,
-                                                              "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)" ,
-                                                              "Sack, Harald (https://orcid.org/0000-0001-7069-9804)" ,
-                                                              "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)" ;
                                                    terms:bibliographicCitation "Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0-alpha1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1" ;
-                                                   terms:contributor "Azócar Guzmán, Abril (https://orcid.org/0000-0001-7564-7990)" ,
-                                                                     "Fathalla, Said (https://orcid.org/0000-0002-2818-5890)" ,
-                                                                     "Fritzen, Felix (https://orcid.org/0000-0003-4926-0068)" ,
-                                                                     "Gedsun, Angelika (https://orcid.org/0000-0002-1141-7704)" ,
-                                                                     "Hofmann, Volker (https://orcid.org/0000-0002-5149-603X)" ,
-                                                                     "Laadhar, Amir (https://orcid.org/0000-0001-9106-8825)" ,
-                                                                     "Sandfeld, Stefan (https://orcid.org/0000-0001-9560-4728)" ,
-                                                                     "Zainul Ihsan, Ahmad (https://orcid.org/0000-0002-1008-4530)" ;
-                                                   terms:created "2025-03-27" ;
+                                                   terms:contributor <https://orcid.org/0000-0001-7564-7990> ,
+                                                                     <https://orcid.org/0000-0001-9106-8825> ,
+                                                                     <https://orcid.org/0000-0001-9560-4728> ,
+                                                                     <https://orcid.org/0000-0002-1008-4530> ,
+                                                                     <https://orcid.org/0000-0002-1141-7704> ,
+                                                                     <https://orcid.org/0000-0002-2818-5890> ,
+                                                                     <https://orcid.org/0000-0002-5149-603X> ,
+                                                                     <https://orcid.org/0000-0003-4926-0068> ;
+                                                   terms:created "2025-03-28" ;
+                                                   terms:creator <https://orcid.org/0000-0001-7069-9804> ,
+                                                                 <https://orcid.org/0000-0001-7192-7143> ,
+                                                                 <https://orcid.org/0000-0002-2691-6995> ,
+                                                                 <https://orcid.org/0000-0002-3092-0532> ,
+                                                                 <https://orcid.org/0000-0003-2612-8515> ;
                                                    terms:description """The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
@@ -93,10 +93,6 @@ obo:IAO_0000119 rdf:type owl:AnnotationProperty ;
                            "definition source" .
 
 
-###  http://purl.org/dc/elements/1.1/creator
-dc:creator rdf:type owl:AnnotationProperty .
-
-
 ###  http://purl.org/dc/elements/1.1/identifier
 dc:identifier rdf:type owl:AnnotationProperty .
 
@@ -111,6 +107,10 @@ terms:contributor rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/dc/terms/created
 terms:created rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+terms:creator rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description
@@ -344,13 +344,6 @@ every c that is a concretization of g specifically denotes r"""@en ;
 #    Data properties
 #################################################################
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001053
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> rdf:type owl:DatatypeProperty ;
-                                                      rdfs:comment "The family name of some person." ;
-                                                      rdfs:isDefinedBy "http://xmlns.com/foaf/0.1/" ;
-                                                      rdfs:label "family name"@en .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001142
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> rdf:type owl:DatatypeProperty ;
                                                       rdfs:comment "A relation between an information content entity and its specific ID." ;
@@ -371,6 +364,14 @@ every c that is a concretization of g specifically denotes r"""@en ;
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> rdf:type owl:Class ;
                                                       rdfs:comment "An event that involves a focused exchange of knowledge, opinions, and insights among specialists in a particular field to address complex topics, evaluate research findings, or explore emerging trends." ;
                                                       rdfs:label "expert discussion"@en .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001001
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> rdf:type owl:Class ;
+                                                      rdfs:comment "Event frequency datum describes how often an events occurs within a given time interval" ;
+                                                      rdfs:label "event frequency datum"@en ;
+                                                      skos:editorialNote "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?" ;
+                                                      skos:example "annual, weekly, twice per year, 72 beats per minute, every four years" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001002

@@ -21,21 +21,21 @@
 
 <http://purls.helmholtz-metadaten.de/mwo/mwo.owl> rdf:type owl:Ontology ;
                                                    owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1> ;
-                                                   dce:creator "Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)" ,
-                                                               "Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)" ,
-                                                               "Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)" ,
-                                                               "Sack, Harald (https://orcid.org/0000-0001-7069-9804)" ,
-                                                               "Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)" ;
                                                    dcterms:bibliographicCitation "Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0-alpha1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1" ;
-                                                   dcterms:contributor "Azócar Guzmán, Abril (https://orcid.org/0000-0001-7564-7990)" ,
-                                                                       "Fathalla, Said (https://orcid.org/0000-0002-2818-5890)" ,
-                                                                       "Fritzen, Felix (https://orcid.org/0000-0003-4926-0068)" ,
-                                                                       "Gedsun, Angelika (https://orcid.org/0000-0002-1141-7704)" ,
-                                                                       "Hofmann, Volker (https://orcid.org/0000-0002-5149-603X)" ,
-                                                                       "Laadhar, Amir (https://orcid.org/0000-0001-9106-8825)" ,
-                                                                       "Sandfeld, Stefan (https://orcid.org/0000-0001-9560-4728)" ,
-                                                                       "Zainul Ihsan, Ahmad (https://orcid.org/0000-0002-1008-4530)" ;
-                                                   dcterms:created "2025-03-27" ;
+                                                   dcterms:contributor <https://orcid.org/0000-0001-7564-7990> ,
+                                                                       <https://orcid.org/0000-0001-9106-8825> ,
+                                                                       <https://orcid.org/0000-0001-9560-4728> ,
+                                                                       <https://orcid.org/0000-0002-1008-4530> ,
+                                                                       <https://orcid.org/0000-0002-1141-7704> ,
+                                                                       <https://orcid.org/0000-0002-2818-5890> ,
+                                                                       <https://orcid.org/0000-0002-5149-603X> ,
+                                                                       <https://orcid.org/0000-0003-4926-0068> ;
+                                                   dcterms:created "2025-03-28" ;
+                                                   dcterms:creator <https://orcid.org/0000-0001-7069-9804> ,
+                                                                   <https://orcid.org/0000-0001-7192-7143> ,
+                                                                   <https://orcid.org/0000-0002-2691-6995> ,
+                                                                   <https://orcid.org/0000-0002-3092-0532> ,
+                                                                   <https://orcid.org/0000-0003-2612-8515> ;
                                                    dcterms:description """The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
@@ -1962,25 +1962,25 @@ As a sub-property of \"has continuant part\", this property indicates that the m
 
 ###  https://w3id.org/pmd/co/PMD_0060000
 <https://w3id.org/pmd/co/PMD_0060000> rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf obo:BFO_0000178 .
+                                      rdfs:subPropertyOf obo:BFO_0000178 ;
+                                      obo:IAO_0000119 "http://purl.obolibrary.org/obo/OBI_0001938" ;
+                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
+                                      rdfs:label "has value specification"@en ;
+                                      skos:definition "A relation between an information content entity and a value specification that specifies its value." .
 
 
 ###  https://w3id.org/pmd/co/PMD_0060001
 <https://w3id.org/pmd/co/PMD_0060001> rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf obo:IAO_0000136 .
+                                      rdfs:subPropertyOf obo:IAO_0000136 ;
+                                      obo:IAO_0000119 "http://purl.obolibrary.org/obo/OBI_0001927" ;
+                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
+                                      rdfs:label "specifies value of"@en ;
+                                      skos:definition "A relation between a value specification and an entity which the specification is about." .
 
 
 #################################################################
 #    Data properties
 #################################################################
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001053
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001053> rdf:type owl:DatatypeProperty ;
-                                                      rdfs:subPropertyOf owl:topDataProperty ;
-                                                      rdfs:comment "The family name of some person." ;
-                                                      rdfs:isDefinedBy "http://xmlns.com/foaf/0.1/" ;
-                                                      rdfs:label "family name"@en .
-
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001142
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001142> rdf:type owl:DatatypeProperty ;
@@ -3845,6 +3845,23 @@ obo:IAO_8000013 rdf:type owl:Class ;
                                                       rdfs:label "expert discussion"@en .
 
 
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001001
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> rdf:type owl:Class ;
+                                                      owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/pmd/co/PMD_0060009>
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty obo:IAO_0000219 ;
+                                                                                                   owl:allValuesFrom ontology:NFDI_0000131
+                                                                                                 ]
+                                                                                               ) ;
+                                                                            rdf:type owl:Class
+                                                                          ] ;
+                                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> ;
+                                                      rdfs:comment "Event frequency datum describes how often an events occurs within a given time interval" ;
+                                                      rdfs:label "event frequency datum"@en ;
+                                                      skos:editorialNote "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?" ;
+                                                      skos:example "annual, weekly, twice per year, 72 beats per minute, every four years" .
+
+
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001002
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> rdf:type owl:Class ;
                                                       owl:equivalentClass [ rdf:type owl:Class ;
@@ -4040,7 +4057,7 @@ obo:IAO_8000013 rdf:type owl:Class ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001034
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060000> ;
+                                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> ;
                                                       rdfs:comment "Sustainability datum represents the duration or persistence of a process, system, or resource over time. It defines how long an entity is expected to remain viable or functional." ;
                                                       rdfs:label "sustainability datum"@en ;
                                                       skos:editorialNote "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the ‘Sustainability’ class was created to respond to competency questions like: what is the sustainability of a service." ;
@@ -4049,7 +4066,7 @@ obo:IAO_8000013 rdf:type owl:Class ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001035
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060000> ;
+                                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> ;
                                                       rdfs:comment "Data storage capacity datum represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB)." ,
                                                                    "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the this class was created to respond to competency questions like how much is the storage capacity of a service." ;
                                                       rdfs:label "data storage capacity datum"@en .
@@ -4388,16 +4405,15 @@ ontology:NFDI_0000002 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003
 ontology:NFDI_0000003 rdf:type owl:Class ;
-                      owl:equivalentClass [ owl:intersectionOf ( obo:BFO_0000141
-                                                                 [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty obo:BFO_0000196 ;
-                                                                   owl:someValuesFrom ontology:NFDI_0000229
-                                                                 ]
-                                                               ) ;
-                                            rdf:type owl:Class
-                                          ] ;
-                      rdfs:subClassOf obo:BFO_0000141 ,
-                                      ontology:NFDI_0000102 ;
+                      rdfs:subClassOf ontology:NFDI_0000102 ,
+                                      [ owl:intersectionOf ( obo:BFO_0000141
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty obo:BFO_0000196 ;
+                                                               owl:someValuesFrom ontology:NFDI_0000229
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
                       rdfs:comment "An immaterial entity that refers to a group of individuals, which structures and coordinates the activities of individuals or groups toward achieving common goal within a defined framework."@en ;
                       rdfs:label "organization"@en ;
                       skos:editorialNote "An organization of some kind, e.g. research organization or business organization"@en ;
@@ -4502,6 +4518,7 @@ ontology:NFDI_0000009 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000011
 ontology:NFDI_0000011 rdf:type owl:Class ;
+                      owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000014> ;
                       rdfs:subClassOf obo:BFO_0000017 ;
                       rdfs:comment "A realizable entity that represents a structured set of intended actions or steps designed to achieve specific objectives or outcomes."@en ;
                       rdfs:label "plan"@en .
@@ -4596,7 +4613,8 @@ ontology:NFDI_0000020 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000021
 ontology:NFDI_0000021 rdf:type owl:Class ;
-                      rdfs:subClassOf [ owl:intersectionOf ( ontology:NFDI_0000011
+                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000014> ,
+                                      [ owl:intersectionOf ( ontology:NFDI_0000011
                                                              [ rdf:type owl:Restriction ;
                                                                owl:onProperty obo:BFO_0000054 ;
                                                                owl:someValuesFrom ontology:NFDI_0000227
@@ -4969,7 +4987,14 @@ ontology:NFDI_0000190 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000193
 ontology:NFDI_0000193 rdf:type owl:Class ;
-                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                      rdfs:subClassOf [ owl:intersectionOf ( ontology:NFDI_0000229
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty obo:BFO_0000054 ;
+                                                               owl:someValuesFrom ontology:NFDI_0000014
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
                       rdfs:comment "A role inherent in an agent that is realized when the bearer participates in the publishing of the document."@en ;
                       rdfs:label "publisher role"@en .
 
@@ -5624,7 +5649,14 @@ ontology:NFDI_0001057 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001058
 ontology:NFDI_0001058 rdf:type owl:Class ;
-                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                      rdfs:subClassOf [ owl:intersectionOf ( ontology:NFDI_0000229
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty obo:BFO_0000197 ;
+                                                               owl:someValuesFrom ontology:NFDI_0000004
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
                       rdfs:comment "A role inherent in an agent that is realized when shareing the role of representing an organization, group, or initiative, typically communicating its views, policies, or findings to the public." ;
                       rdfs:label "co spokesperson role"@en .
 
@@ -5654,7 +5686,14 @@ ontology:NFDI_0001061 rdf:type owl:Class ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001062
 ontology:NFDI_0001062 rdf:type owl:Class ;
-                      rdfs:subClassOf ontology:NFDI_0000229 ;
+                      rdfs:subClassOf [ owl:intersectionOf ( ontology:NFDI_0000229
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty obo:BFO_0000197 ;
+                                                               owl:someValuesFrom ontology:NFDI_0000004
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
                       rdfs:comment "A role inherent in an agent that is realized when delivers presentations, lectures, or speeches at events, conferences, or public gatherings." ;
                       rdfs:label "speaker role"@en ;
                       skos:example "invited speakers at scientific symposiums, keynote presenters at technology expos, and guest lecturers at universities" .
@@ -6366,24 +6405,6 @@ More elaborate crystal descriptions may be found in http://emmo.info/domain-crys
                                       skos:definition "The aggregate state type is a nature constant that concretizes the aggregatge state quality."@en .
 
 
-###  https://w3id.org/pmd/co/PMD_0060000
-<https://w3id.org/pmd/co/PMD_0060000> rdf:type owl:Class ;
-                                      rdfs:subClassOf obo:IAO_0000027 .
-
-
-###  https://w3id.org/pmd/co/PMD_0060001
-<https://w3id.org/pmd/co/PMD_0060001> rdf:type owl:Class ;
-                                      owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/pmd/co/PMD_0060000>
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty obo:IAO_0000219 ;
-                                                                                   owl:allValuesFrom ontology:NFDI_0000131
-                                                                                 ]
-                                                                               ) ;
-                                                            rdf:type owl:Class
-                                                          ] ;
-                                      rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060000> .
-
-
 ###  https://w3id.org/pmd/co/PMD_0060006
 <https://w3id.org/pmd/co/PMD_0060006> rdf:type owl:Class ;
                                       rdfs:subClassOf obo:IAO_0000033 ;
@@ -6978,28 +6999,43 @@ ontology:NFDI_0001094 rdf:type owl:NamedIndividual ,
 <https://nfdi4culture.de/id/E3095> rdfs:label "Etienne Posthumus" .
 
 
+<https://orcid.org/0000-0001-7069-9804> rdfs:label "Harald Sack" .
+
+
 <https://orcid.org/0000-0001-7192-7143> rdfs:label "Jörg Waitelonis" .
+
+
+<https://orcid.org/0000-0001-7564-7990> rdfs:label "Abril Azócar Guzmán" .
+
+
+<https://orcid.org/0000-0001-9106-8825> rdfs:label "Amir Laadhar" .
+
+
+<https://orcid.org/0000-0001-9560-4728> rdfs:label "Stefan Sandfeld" .
+
+
+<https://orcid.org/0000-0002-1008-4530> rdfs:label "Ahmad Zainul Ihsan" .
+
+
+<https://orcid.org/0000-0002-1141-7704> rdfs:label "Angelika Gedsun" .
+
+
+<https://orcid.org/0000-0002-2691-6995> rdfs:label "Ebrahim Norouzi" .
+
+
+<https://orcid.org/0000-0002-2818-5890> rdfs:label "Said Fathalla" .
 
 
 <https://orcid.org/0000-0002-3092-0532> rdfs:label "Hossein Beygi Nasrabadi" .
 
 
-<https://w3id.org/pmd/co/PMD_0060000> obo:IAO_0000119 "http://purl.obolibrary.org/obo/OBI_0001938" ;
-                                      rdfs:comment "A specification datum is an Information Content Entity which represents a prescribed value, condition, or requirement that a system, material, or process should meet." ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "Specification datum"@en ,
-                                                 "has value specification"@en ;
-                                      skos:definition "A relation between an information content entity and a value specification that specifies its value." .
+<https://orcid.org/0000-0002-5149-603X> rdfs:label "Volker Hofmann" .
 
 
-<https://w3id.org/pmd/co/PMD_0060001> obo:IAO_0000119 "http://purl.obolibrary.org/obo/OBI_0001927" ;
-                                      rdfs:comment "Event frequency datum describes how often an events occurs within a given time interval" ;
-                                      rdfs:isDefinedBy <https://w3id.org/pmd/co/> ;
-                                      rdfs:label "event frequency datum"@en ,
-                                                 "specifies value of"@en ;
-                                      skos:definition "A relation between a value specification and an entity which the specification is about." ;
-                                      skos:editorialNote "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?" ;
-                                      skos:example "annual, weekly, twice per year, 72 beats per minute, every four years" .
+<https://orcid.org/0000-0003-2612-8515> rdfs:label "Kostiantyn Hubaiev" .
+
+
+<https://orcid.org/0000-0003-4926-0068> rdfs:label "Felix Fritzen" .
 
 
 #################################################################

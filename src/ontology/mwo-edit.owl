@@ -653,6 +653,10 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "GitHub, GitLab, Apache Software Foundation repositories")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
 
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000011> (plan)
+
+EquivalentClasses(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000011> <https://w3id.org/pmd/co/PMD_0000014>)
+
 
 ############################
 #   Named Individuals

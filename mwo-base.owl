@@ -12,22 +12,22 @@
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purls.helmholtz-metadaten.de/mwo/mwo.owl">
         <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1"/>
-        <dce:creator>Beygi Nasrabadi, Hossein (https://orcid.org/0000-0002-3092-0532)</dce:creator>
-        <dce:creator>Hubaiev, Kostiantyn (https://orcid.org/0000-0003-2612-8515)</dce:creator>
-        <dce:creator>Norouzi, Ebrahim (https://orcid.org/0000-0002-2691-6995)</dce:creator>
-        <dce:creator>Sack, Harald (https://orcid.org/0000-0001-7069-9804)</dce:creator>
-        <dce:creator>Waitelonis, Jörg (https://orcid.org/0000-0001-7192-7143)</dce:creator>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:bibliographicCitation>Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0-alpha1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0-alpha1</dcterms:bibliographicCitation>
-        <dcterms:contributor>Azócar Guzmán, Abril (https://orcid.org/0000-0001-7564-7990)</dcterms:contributor>
-        <dcterms:contributor>Fathalla, Said (https://orcid.org/0000-0002-2818-5890)</dcterms:contributor>
-        <dcterms:contributor>Fritzen, Felix (https://orcid.org/0000-0003-4926-0068)</dcterms:contributor>
-        <dcterms:contributor>Gedsun, Angelika (https://orcid.org/0000-0002-1141-7704)</dcterms:contributor>
-        <dcterms:contributor>Hofmann, Volker (https://orcid.org/0000-0002-5149-603X)</dcterms:contributor>
-        <dcterms:contributor>Laadhar, Amir (https://orcid.org/0000-0001-9106-8825)</dcterms:contributor>
-        <dcterms:contributor>Sandfeld, Stefan (https://orcid.org/0000-0001-9560-4728)</dcterms:contributor>
-        <dcterms:contributor>Zainul Ihsan, Ahmad (https://orcid.org/0000-0002-1008-4530)</dcterms:contributor>
-        <dcterms:created>2025-03-27</dcterms:created>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-7564-7990"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9106-8825"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-1008-4530"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-1141-7704"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-2818-5890"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-5149-603X"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4926-0068"/>
+        <dcterms:created>2025-03-28</dcterms:created>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0001-7069-9804"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-2691-6995"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-3092-0532"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-2612-8515"/>
         <dcterms:description>The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
@@ -66,12 +66,6 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/creator -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/type -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
@@ -93,6 +87,12 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     <!-- http://purl.org/dc/terms/created -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
@@ -158,6 +158,12 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000219"/>
     
 
 
@@ -348,17 +354,6 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001053 -->
-
-    <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001053">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:comment>The family name of some person.</rdfs:comment>
-        <rdfs:isDefinedBy>http://xmlns.com/foaf/0.1/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">family name</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001142 -->
 
     <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001142">
@@ -431,6 +426,29 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
         <rdfs:subClassOf rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018"/>
         <rdfs:comment>An event that involves a focused exchange of knowledge, opinions, and insights among specialists in a particular field to address complex topics, evaluate research findings, or explore emerging trends.</rdfs:comment>
         <rdfs:label xml:lang="en">expert discussion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001001 -->
+
+    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0060009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                        <owl:allValuesFrom rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060009"/>
+        <rdfs:comment>Event frequency datum describes how often an events occurs within a given time interval</rdfs:comment>
+        <rdfs:label xml:lang="en">event frequency datum</rdfs:label>
+        <skos:editorialNote>HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?</skos:editorialNote>
+        <skos:example>annual, weekly, twice per year, 72 beats per minute, every four years</skos:example>
     </owl:Class>
     
 
@@ -704,7 +722,7 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001034 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001034">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060000"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060009"/>
         <rdfs:comment>Sustainability datum represents the duration or persistence of a process, system, or resource over time. It defines how long an entity is expected to remain viable or functional.</rdfs:comment>
         <rdfs:label xml:lang="en">sustainability datum</rdfs:label>
         <skos:editorialNote>HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the ‘Sustainability’ class was created to respond to competency questions like: what is the sustainability of a service.</skos:editorialNote>
@@ -716,7 +734,7 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001035 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001035">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060000"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060009"/>
         <rdfs:comment>Data storage capacity datum represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB).</rdfs:comment>
         <rdfs:comment>HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the this class was created to respond to competency questions like how much is the storage capacity of a service.</rdfs:comment>
         <rdfs:label xml:lang="en">data storage capacity datum</rdfs:label>
@@ -1187,6 +1205,12 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
     
 
 
+    <!-- https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131 -->
+
+    <owl:Class rdf:about="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131"/>
+    
+
+
     <!-- https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190 -->
 
     <owl:Class rdf:about="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190"/>
@@ -1217,9 +1241,9 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
     
 
 
-    <!-- https://w3id.org/pmd/co/PMD_0060000 -->
+    <!-- https://w3id.org/pmd/co/PMD_0060009 -->
 
-    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0060000"/>
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0060009"/>
     
 
 
