@@ -1,0 +1,36 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0> a prov:Entity;
+	 dc:title "NFDI MatWerk Ontology";
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804>;
+	 dc:creator <https://orcid.org/0000-0001-7069-9804>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-7192-7143>;
+	 dc:creator <https://orcid.org/0000-0001-7192-7143>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-2691-6995>;
+	 dc:creator <https://orcid.org/0000-0002-2691-6995>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-3092-0532>;
+	 dc:creator <https://orcid.org/0000-0002-3092-0532>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0003-2612-8515>;
+	 dc:creator <https://orcid.org/0000-0003-2612-8515>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-7564-7990>;
+	 dc:contributor <https://orcid.org/0000-0001-7564-7990>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-9106-8825>;
+	 dc:contributor <https://orcid.org/0000-0001-9106-8825>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-9560-4728>;
+	 dc:contributor <https://orcid.org/0000-0001-9560-4728>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-1008-4530>;
+	 dc:contributor <https://orcid.org/0000-0002-1008-4530>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-1141-7704>;
+	 dc:contributor <https://orcid.org/0000-0002-1141-7704>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-2818-5890>;
+	 dc:contributor <https://orcid.org/0000-0002-2818-5890>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-5149-603X>;
+	 dc:contributor <https://orcid.org/0000-0002-5149-603X>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0003-4926-0068>;
+	 dc:contributor <https://orcid.org/0000-0003-4926-0068>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasRevisionOf <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/2.0.0>;
+	 prov:wasGeneratedAt "2025-03-28";
+.
