@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: NFDI MatWerk Ontology (MWO)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: Ontology
+authors:
+  - given-names: Hossein
+    family-names: Beygi Nasrabadi
+    email: hossein.beygi@gmx.de
+  - given-names: Ebrahim
+    family-names: Norouzi
+  - given-names: Kostiantyn
+    family-names: Hubaiev
+  - given-names: Jörg
+    family-names: Waitelonis
+  - given-names: Harald
+    family-names: Sack
+Related publication: 'https://doi.org/10.1002/adem.202502331'
+license: CC-BY-4.0
+version: 3.0.0
+date-released: '2025-03-28'
