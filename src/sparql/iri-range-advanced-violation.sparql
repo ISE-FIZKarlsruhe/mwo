@@ -18,4 +18,3 @@ WHERE {
   FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purls.helmholtz-metadaten.de/mwo/MWO_")))
   FILTER (!isIRI(?value))
 }
-
