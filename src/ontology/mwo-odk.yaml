@@ -13,16 +13,17 @@ export_formats:
   - owl
   - ttl
 import_group:
+  annotation_properties: ['rdfs:label', 'IAO:0000119','IAO:0000115', 'IAO:0000116', 'IAO:0000112', 'skos:definition', 'skos:example', 'skos:comment' ]
   products:
    - id: iao
      module_type: custom
    - id: nfdicore
      #mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl
-     mirror_from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.1
+     mirror_from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.4
      module_type: mirror
    - id: pmdco
      #mirror_from: https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/main/pmdco.owl
-     mirror_from: https://w3id.org/pmd/co/3.0.0-alpha1
+     mirror_from: https://w3id.org/pmd/co/3.0.0-rc2
      module_type: custom
 
 #documentation:
