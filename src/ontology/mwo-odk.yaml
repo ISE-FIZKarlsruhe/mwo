@@ -25,8 +25,8 @@ import_group:
      mirror_from: https://w3id.org/pmd/co/3.0.0-alpha1
      module_type: custom
 
-documentation:
-  documentation_system: mkdocs
+#documentation:
+#  documentation_system: mkdocs
 remove_owl_nothing: TRUE
 robot_java_args: "-Xmx8G"
 robot_report:
