@@ -5,15 +5,16 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @base <http://purls.helmholtz-metadaten.de/mwo/mwo.owl> .
 
 <http://purls.helmholtz-metadaten.de/mwo/mwo.owl> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0> ;
+                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.1> ;
                                                    dce:type obo:IAO_8000001 ;
-                                                   dcterms:bibliographicCitation "Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0" ;
+                                                   dcterms:bibliographicCitation "Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.1" ;
                                                    dcterms:contributor <https://orcid.org/0000-0001-7564-7990> ,
                                                                        <https://orcid.org/0000-0001-9106-8825> ,
                                                                        <https://orcid.org/0000-0001-9560-4728> ,
@@ -22,7 +23,7 @@
                                                                        <https://orcid.org/0000-0002-2818-5890> ,
                                                                        <https://orcid.org/0000-0002-5149-603X> ,
                                                                        <https://orcid.org/0000-0003-4926-0068> ;
-                                                   dcterms:created "2025-03-28" ;
+                                                   dcterms:created "2026-02-09" ;
                                                    dcterms:creator <https://orcid.org/0000-0001-7069-9804> ,
                                                                    <https://orcid.org/0000-0001-7192-7143> ,
                                                                    <https://orcid.org/0000-0002-2691-6995> ,
@@ -35,10 +36,11 @@ C) NFDI MatWerk services, events, educational cources, and international collabr
 D) MSE related instruments, facilities, materials, processes, and properties.
 Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/mwo""" ;
                                                    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-                                                   dcterms:title "NFDI MatWerk Ontology" ;
+                                                   dcterms:title "NFDI Matwerk Ontology" ;
+                                                   doap:repository <https://github.com/ISE-FIZKarlsruhe/mwo> ;
                                                    rdfs:label "NFDI Matwerk Ontology"@en ;
-                                                   owl:priorVersion <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/2.0.0> ;
-                                                   owl:versionInfo "3.0.0" .
+                                                   owl:priorVersion <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0> ;
+                                                   owl:versionInfo "3.0.1" .
 
 #################################################################
 #    Annotation properties
@@ -50,6 +52,14 @@ obo:IAO_0000118 rdf:type owl:AnnotationProperty .
 
 ###  http://purl.obolibrary.org/obo/IAO_0000119
 obo:IAO_0000119 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0100001
+obo:IAO_0100001 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/contributor
+dce:contributor rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/elements/1.1/type
@@ -84,6 +94,10 @@ dcterms:license rdf:type owl:AnnotationProperty .
 dcterms:title rdf:type owl:AnnotationProperty .
 
 
+###  http://usefulinc.com/ns/doap#repository
+doap:repository rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#editorialNote
 skos:editorialNote rdf:type owl:AnnotationProperty .
 
@@ -95,14 +109,6 @@ skos:example rdf:type owl:AnnotationProperty .
 #################################################################
 #    Object Properties
 #################################################################
-
-###  http://purl.obolibrary.org/obo/BFO_0000056
-obo:BFO_0000056 rdf:type owl:ObjectProperty .
-
-
-###  http://purl.obolibrary.org/obo/BFO_0000057
-obo:BFO_0000057 rdf:type owl:ObjectProperty .
-
 
 ###  http://purl.obolibrary.org/obo/BFO_0000132
 obo:BFO_0000132 rdf:type owl:ObjectProperty .
@@ -116,11 +122,22 @@ obo:IAO_0000136 rdf:type owl:ObjectProperty .
 obo:IAO_0000219 rdf:type owl:ObjectProperty .
 
 
+###  http://purl.obolibrary.org/obo/OBI_0000299
+obo:OBI_0000299 rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000056
+obo:RO_0000056 rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000057
+obo:RO_0000057 rdf:type owl:ObjectProperty .
+
+
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001025
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> rdf:type owl:ObjectProperty ;
                                                       owl:inverseOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> ;
                                                       rdfs:domain obo:BFO_0000004 ;
-                                                      rdfs:range <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001> ;
                                                       rdfs:comment "inverse of property \"implemented by\"" ;
                                                       rdfs:label "implements"@en ;
                                                       skos:editorialNote "A shortcut for expressing the relation when 'independent continuant' is participant of some 'implementing process' which has output of 'NFDI resource'." .
@@ -128,7 +145,6 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001028
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001028> rdf:type owl:ObjectProperty ;
-                                                      rdfs:domain <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001> ;
                                                       rdfs:range obo:BFO_0000004 ;
                                                       rdfs:comment "The property relates an entity to an agent that has adapted or developed the entity for a specific purpose and actively uses it within a particular context." ;
                                                       rdfs:label "implemented by"@en ;
@@ -138,18 +154,18 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001114
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001114> rdf:type owl:ObjectProperty ;
-                                                      rdfs:subPropertyOf obo:BFO_0000057 ;
+                                                      rdfs:subPropertyOf obo:RO_0000057 ;
                                                       owl:inverseOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001115> ;
                                                       rdfs:domain <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002> ;
-                                                      rdfs:range <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> ;
+                                                      rdfs:range obo:OBI_0000245 ;
                                                       rdfs:comment "The property relates a project to the organization that applied for that" ;
                                                       rdfs:label "has applicant organization"@en .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001115
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001115> rdf:type owl:ObjectProperty ;
-                                                      rdfs:subPropertyOf obo:BFO_0000056 ;
-                                                      rdfs:domain <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> ;
+                                                      rdfs:subPropertyOf obo:RO_0000056 ;
+                                                      rdfs:domain obo:OBI_0000245 ;
                                                       rdfs:range <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002> ;
                                                       rdfs:comment "inverse of property \"has applicant organization\"" ;
                                                       rdfs:label "applicant organization of"@en .
@@ -232,14 +248,6 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
                                                       rdfs:label "adapts"@en .
 
 
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> rdf:type owl:ObjectProperty .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000202
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000202> rdf:type owl:ObjectProperty .
-
-
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226
 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226> rdf:type owl:ObjectProperty .
 
@@ -257,17 +265,15 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001143
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> rdf:type owl:DatatypeProperty ;
                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010015> ;
                                                       rdfs:comment "A relation between an information content entity and its specific acronym." ;
-                                                      rdfs:label "has acronym"@en .
+                                                      rdfs:label "obsolete has acronym"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 #################################################################
 #    Classes
 #################################################################
-
-###  http://purl.obolibrary.org/obo/BFO_0000001
-obo:BFO_0000001 rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/BFO_0000004
 obo:BFO_0000004 rdf:type owl:Class .
@@ -287,6 +293,18 @@ obo:IAO_0000109 rdf:type owl:Class .
 
 ###  http://purl.obolibrary.org/obo/IAO_0000300
 obo:IAO_0000300 rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0020000
+obo:IAO_0020000 rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/OBI_0000011
+obo:OBI_0000011 rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/OBI_0000245
+obo:OBI_0000245 rdf:type owl:Class .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001000
@@ -385,7 +403,7 @@ obo:IAO_0000300 rdf:type owl:Class .
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> rdf:type owl:Class ;
                                                       owl:equivalentClass [ owl:intersectionOf ( <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001039>
                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty obo:BFO_0000056 ;
+                                                                                                   owl:onProperty obo:RO_0000056 ;
                                                                                                    owl:someValuesFrom <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002>
                                                                                                  ]
                                                                                                ) ;
@@ -393,7 +411,7 @@ obo:IAO_0000300 rdf:type owl:Class .
                                                                           ] ;
                                                       rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001039> ,
                                                                       [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty obo:BFO_0000056 ;
+                                                                        owl:onProperty obo:RO_0000056 ;
                                                                         owl:someValuesFrom <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002>
                                                                       ] ;
                                                       obo:IAO_0000118 "National Research Data Infrastructure for Materials Science & Engineering"@en ,
@@ -415,9 +433,10 @@ obo:IAO_0000300 rdf:type owl:Class .
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001027
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001027> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001206> ;
                                                       rdfs:comment "A Large-Scale Facility is a service product that provides specialized, high-capacity infrastructure for scientific research, engineering, or computational purposes, supporting large-scale experiments, simulations, and data analysis in various domains." ;
-                                                      rdfs:label "large scale facility"@en ;
+                                                      rdfs:label "obsolete large scale facility"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:editorialNote "HBN: Concerning the content of ‘Large-Scale Facility’ datasheet and its related knowledge graph, the ‘Large-Scale Facility’ class and its subclasses were created to define the types of used facilituies and respond to competency questions like: what large-scale facilities support research in field X, which organization provide facility Y, what is the contact point with facility Z, etc." ;
                                                       skos:example "European Synchrotron Radiation Facility (ESRF), the Leibniz Supercomputing Centre (LRZ), CERN's Large Hadron Collider (LHC)" .
 
@@ -446,12 +465,16 @@ obo:IAO_0000300 rdf:type owl:Class .
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ,
                                                                       [ owl:intersectionOf ( <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>
                                                                                              [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty obo:BFO_0000057 ;
-                                                                                               owl:someValuesFrom obo:BFO_0000004
+                                                                                               owl:onProperty obo:OBI_0000299 ;
+                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                    owl:unionOf ( obo:BFO_0000004
+                                                                                                                                  obo:IAO_0000030
+                                                                                                                                )
+                                                                                                                  ]
                                                                                              ]
                                                                                              [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> ;
-                                                                                               owl:someValuesFrom <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>
+                                                                                               owl:onProperty obo:RO_0000057 ;
+                                                                                               owl:someValuesFrom obo:BFO_0000004
                                                                                              ]
                                                                                            ) ;
                                                                         rdf:type owl:Class
@@ -462,23 +485,28 @@ obo:IAO_0000300 rdf:type owl:Class .
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001031
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000005> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001208> ;
                                                       rdfs:comment "A place that provides a controlled environment equipped with specialized instruments and facilities for conducting scientific research, experiments, measurements, and testing across various disciplines." ;
-                                                      rdfs:label "laboratory"@en ;
+                                                      rdfs:label "obsolete laboratory"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "materials characterization laboratories, chemical analysis labs, high-energy physics laboratories" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001032
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> rdf:type owl:Class ;
-                                                      rdfs:subClassOf [ owl:intersectionOf ( <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030>
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> ,
+                                                                      [ owl:intersectionOf ( <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030>
                                                                                              [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> ;
-                                                                                               owl:someValuesFrom <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>
+                                                                                               owl:onProperty obo:OBI_0000299 ;
+                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                    owl:unionOf ( obo:BFO_0000004
+                                                                                                                                  obo:IAO_0000030
+                                                                                                                                )
+                                                                                                                  ]
                                                                                              ]
                                                                                              [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty obo:BFO_0000057 ;
-                                                                                               owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-                                                                                               owl:onClass obo:BFO_0000004
+                                                                                               owl:onProperty obo:RO_0000057 ;
+                                                                                               owl:someValuesFrom obo:BFO_0000004
                                                                                              ]
                                                                                            ) ;
                                                                         rdf:type owl:Class
@@ -492,12 +520,16 @@ obo:IAO_0000300 rdf:type owl:Class .
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ,
                                                                       [ owl:intersectionOf ( <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>
                                                                                              [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty obo:BFO_0000057 ;
-                                                                                               owl:someValuesFrom obo:BFO_0000004
+                                                                                               owl:onProperty obo:OBI_0000299 ;
+                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                    owl:unionOf ( obo:BFO_0000004
+                                                                                                                                  obo:IAO_0000030
+                                                                                                                                )
+                                                                                                                  ]
                                                                                              ]
                                                                                              [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> ;
-                                                                                               owl:someValuesFrom <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>
+                                                                                               owl:onProperty obo:RO_0000057 ;
+                                                                                               owl:someValuesFrom obo:BFO_0000004
                                                                                              ]
                                                                                            ) ;
                                                                         rdf:type owl:Class
@@ -523,103 +555,21 @@ obo:IAO_0000300 rdf:type owl:Class .
                                                       rdfs:label "data storage capacity datum"@en .
 
 
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001041
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      rdfs:comment "Computational Materials Science is a sub-discipline of Materials Science that applies computational methods and simulations to study and predict material properties and behaviors." ;
-                                                      rdfs:label "computational materials science"@en ;
-                                                      skos:example "Molecular dynamics simulations of metal alloys and first-principles calculations using Density Functional Theory (DFT)" .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001042
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      obo:IAO_0000119 "Meyers, M. A., & Chawla, K. K. (2009). Mechanical Behavior of Materials. Cambridge University Press." ;
-                                                      rdfs:comment "Materials Mechanical Behavior is a sub-discipline of Material Science that examines how materials respond to applied forces, including elasticity, plasticity, hardness, toughness, and fracture mechanics." ;
-                                                      rdfs:label "materials mechanical behavior"@en ;
-                                                      skos:example "Investigating stress-strain behavior in metals, polymer viscoelasticity, and ceramic fracture toughness are part of Materials Mechanical Behavior." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001043
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      obo:IAO_0000119 "Dieter, G. E. (1986). Mechanical Metallurgy. McGraw-Hill." ;
-                                                      rdfs:comment "Materials Deformation Processes is a sub-discipline of Material Science that studies how materials change shape under external forces, including plastic deformation, elastic deformation, and failure mechanisms." ;
-                                                      rdfs:label "materials deformation processes"@en ;
-                                                      skos:example "Research on metal forming, fatigue behavior, creep deformation, and fracture mechanics falls under Materials Deformation Processes." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001044
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      rdfs:comment "Materials Characterization is a sub-discipline of Material Science that focuses on analyzing and measuring the structure, composition, and properties of materials using experimental techniques and analytical tools." ;
-                                                      rdfs:label "materials characterization"@en ;
-                                                      skos:example "Techniques such as X-ray diffraction (XRD), scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDS), and atomic force microscopy (AFM) are widely used in Materials Characterization." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001045
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      obo:IAO_0000119 "Gaskell, D. R. (2008). Introduction to the Thermodynamics of Materials. CRC Press." ;
-                                                      rdfs:comment "Materials Thermodynamics is a sub-discipline of Material Science that examines the energy interactions, phase equilibria, and thermodynamic stability of materials." ;
-                                                      rdfs:label "materials thermodynamics"@en ;
-                                                      skos:example "Studies of phase diagrams, Gibbs free energy, and diffusion kinetics in alloys and ceramics belong to Materials Thermodynamics." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001046
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      obo:IAO_0000119 "Ashby, M. F. (2010). Materials Selection in Mechanical Design. Butterworth-Heinemann." ;
-                                                      rdfs:comment "Materials Design is a sub-discipline of Material Science that focuses on developing and optimizing materials for specific applications based on composition, structure, and property relationships." ;
-                                                      rdfs:label "materials design"@en ;
-                                                      skos:example "The development of lightweight aerospace alloys, biomaterials for medical implants, and high-strength composites are examples of Materials Design." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001047
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      obo:IAO_0000119 "Zangwill, A. (1988). Physics at Surfaces. Cambridge University Press." ;
-                                                      rdfs:comment "Materials Surface Science is a sub-discipline of Material Science that explores the properties, chemistry, and interactions at material surfaces and interfaces." ;
-                                                      rdfs:label "materials surface science"@en ;
-                                                      skos:example "Studying corrosion mechanisms, thin film deposition, and tribology (friction, wear, and lubrication) falls under Materials Surface Science." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001048
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      obo:IAO_0000119 "Reed-Hill, R. E. (1992). Physical Metallurgy Principles. PWS Publishing." ;
-                                                      rdfs:comment "Materials Microstructural is a sub-discipline of Material Science that studies the internal structure of materials at micro- and nano-scales, including grains, phases, and defects." ;
-                                                      rdfs:label "materials microstructural"@en ;
-                                                      skos:example "Studies using transmission electron microscopy (TEM) to analyze dislocations and grain boundaries fall under Materials Microstructural." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001049
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      rdfs:comment "Data-Driven Material Science is a sub-discipline of Material Science that utilizes data analytics, machine learning, and artificial intelligence techniques to analyze material properties, optimize material design, and accelerate materials discovery." ;
-                                                      rdfs:label "data driven material science"@en ;
-                                                      skos:example "Using neural networks to predict the mechanical properties of composites, applying high-throughput screening methods for new material synthesis, and employing AI-driven materials informatics platforms are examples of Data-Driven Material Science." .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001050
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001050> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> ;
-                                                      obo:IAO_0000119 "Kalpakjian, S., & Schmid, S. R. (2016). Manufacturing Engineering and Technology. Pearson." ;
-                                                      rdfs:comment "Materials Processing is a sub-discipline of Material Science that investigates techniques for transforming raw materials into functional products through methods such as casting, welding, and additive manufacturing." ;
-                                                      rdfs:label "materials processing"@en ;
-                                                      skos:example "Processes like powder metallurgy, hot rolling, laser sintering, and electrochemical machining are studied under Materials Processing." .
-
-
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001051
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> rdf:type owl:Class ;
-                                                      rdfs:subClassOf [ owl:intersectionOf ( obo:BFO_0000015
+                                                      rdfs:subClassOf obo:OBI_0000011 ,
+                                                                      [ owl:intersectionOf ( obo:BFO_0000015
                                                                                              [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty obo:BFO_0000057 ;
-                                                                                               owl:someValuesFrom obo:BFO_0000004
+                                                                                               owl:onProperty obo:OBI_0000299 ;
+                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                    owl:unionOf ( obo:BFO_0000004
+                                                                                                                                  obo:IAO_0000030
+                                                                                                                                )
+                                                                                                                  ]
                                                                                              ]
                                                                                              [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> ;
-                                                                                               owl:someValuesFrom <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001>
+                                                                                               owl:onProperty obo:RO_0000057 ;
+                                                                                               owl:someValuesFrom obo:BFO_0000004
                                                                                              ]
                                                                                            ) ;
                                                                         rdf:type owl:Class
@@ -630,8 +580,8 @@ obo:IAO_0000300 rdf:type owl:Class .
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001056
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> ;
                                                       obo:IAO_0000119 "https://doi.org/10.1016/j.actamat.2025.120735" ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001203> ;
                                                       rdfs:comment "A Reference Dataset is a dataset that serves as a benchmark or standardized collection of data used for validation, comparison, and reproducibility in scientific research and engineering applications." ,
                                                                    """Reference data of materials
 - are documented according to certain standards as well as
@@ -647,88 +597,89 @@ materials characteristics (e.g., creep tests) in terms of domain standards. Thes
 result of a steered community process.
 Standards should integrate as much as possible existing standards (e.g., the individual MatWerk domain
 standards should be as much as possible consistent).""" ;
-                                                      rdfs:label "reference dataset"@en ;
+                                                      rdfs:label "obsolete reference dataset"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "BAM reference data: results of ASTM E139 -11 creep tests on a reference material of Nimonic 75 nickel-base alloy (https://doi.org/10.5281/zenodo.7764161)" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001057
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001057> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001205> ;
                                                       rdfs:comment "A Simulation Dataset is a dataset that contains data generated from computational models, numerical simulations, or digital twin environments to predict material behaviors, properties, and interactions." ;
-                                                      rdfs:label "simulation dataset"@en ;
+                                                      rdfs:label "obsolete simulation dataset"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "Examples include DFT simulation datasets, molecular dynamics (MD) trajectory files, and phase-field modeling results." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001058
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001058> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001203> ;
                                                       rdfs:comment "An Experimental Dataset is a dataset that contains measured or observed data collected from laboratory experiments, physical tests, or scientific investigations." ;
-                                                      rdfs:label "experimental dataset"@en .
+                                                      rdfs:label "obsolete experimental dataset"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001059
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001059> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001209> ;
                                                       rdfs:comment "A Journal Article is a peer-reviewed scholarly publication that presents original research, review studies, or theoretical discussions, typically published in academic journals." ;
-                                                      rdfs:label "journal article"@en ;
-                                                      rdfs:seeAlso "http://purl.obolibrary.org/obo/IAO_0000013" .
+                                                      rdfs:label "obsolete journal article"@en ;
+                                                      rdfs:seeAlso "http://purl.obolibrary.org/obo/IAO_0000013" ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001060
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> rdf:type owl:Class ;
-                                                      owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000202> ;
-                                                                            owl:someValuesFrom obo:BFO_0000001
-                                                                          ] ;
-                                                      rdfs:subClassOf obo:IAO_0000030 ,
-                                                                      <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000222> ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000202> ;
-                                                                        owl:someValuesFrom obo:BFO_0000001
-                                                                      ] ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001095> ;
                                                       rdfs:comment "A SPARQL Endpoint is a web application software that provides a queryable interface for accessing and retrieving structured data from RDF-based knowledge graphs using the SPARQL query language." ;
-                                                      rdfs:label "sparql endpoint"@en ;
+                                                      rdfs:label "obsolete sparql endpoint"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "Wikidata Query Service, DBpedia SPARQL Endpoint, Linked Data Fragments" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001088
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001105> ;
                                                       rdfs:comment "A Conference Paper is a scholarly publication that presents research findings at an academic or professional conference, typically published in conference proceedings." ;
-                                                      rdfs:label "conference paper"@en .
+                                                      rdfs:label "obsolete conference paper"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001089
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001089> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001106> ;
                                                       rdfs:comment "A Conference Poster is a visual presentation of research findings, displayed at an academic or professional conference to facilitate discussion and knowledge exchange." ;
-                                                      rdfs:label "conference poster"@en .
+                                                      rdfs:label "obsolete conference poster"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001090
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001090> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190> ;
+                                                      dce:contributor <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001104> ;
                                                       rdfs:comment "A Conference Abstract is a brief summary of research findings or scholarly work submitted for presentation at an academic or professional conference, often serving as a precursor to a full paper or presentation." ;
-                                                      rdfs:label "conference abstract"@en .
+                                                      rdfs:label "obsolete conference abstract"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001092
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001092> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000029> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001200> ;
                                                       rdfs:comment "An Interim Report is a report that provides a temporary or progress-based assessment of an ongoing project, research, or operational activity, documenting current findings, challenges, and future directions before the final report is completed." ;
-                                                      rdfs:label "interim report"@en .
+                                                      rdfs:label "obsolete interim report"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001093
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001207> ;
                                                       rdfs:comment "A Presentation Document is a document that consists of structured visual and textual content designed for conveying information to an audience, typically used in meetings, conferences, and educational settings." ;
-                                                      rdfs:label "presentation document"@en .
+                                                      rdfs:label "obsolete presentation document"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001099
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> ;
+                                                      rdfs:subClassOf obo:IAO_0020000 ;
                                                       rdfs:comment "Material designation is an identifier assigned to a material to specify its name, Id, classification, composition, or standardized reference in scientific, engineering, or industrial contexts." ;
                                                       rdfs:label "material designation"@en ;
                                                       skos:example "ASTM A36 for structural steel, UNS C11000 for copper, DIN 1.4404 for stainless steel" .
@@ -736,9 +687,10 @@ standards should be as much as possible consistent).""" ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001100
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001100> rdf:type owl:Class ;
-                                                      rdfs:subClassOf obo:IAO_0000300 ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001103> ;
                                                       rdfs:comment "A goal textual entity is a textual entity that describes the intended objectives, aims, or targets of a project, initiative, organization, or research effort, providing a clear statement of purpose and expected outcomes." ;
-                                                      rdfs:label "goal textual entity"@en .
+                                                      rdfs:label "obsolete goal textual entity"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001101
@@ -750,34 +702,38 @@ standards should be as much as possible consistent).""" ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001104
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> rdf:type owl:Class ;
-                                                      rdfs:subClassOf obo:IAO_0000300 ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001101> ;
                                                       rdfs:comment "An added value textual entity is a textual entity that describes the achievements, benefits, or additional value generated by a project, service, or initiative, highlighting its impact, improvements, or contributions." ;
-                                                      rdfs:label "added value textual entity"@en ;
+                                                      rdfs:label "obsolete added value textual entity"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:editorialNote "In responce to competency questions like what are the added values of project X1 or service X2." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001105
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001105> rdf:type owl:Class ;
-                                                      rdfs:subClassOf obo:IAO_0000300 ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001102> ;
                                                       rdfs:comment "An affiliation is a textual entity that specifies the organizational or institutional association of an individual, group, or entity, typically used in academic, professional, or research contexts." ;
-                                                      rdfs:label "affiliation"@en ;
+                                                      rdfs:label "obsolete affiliation"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example """FIZ Karlsruhe – Leibniz-Institute for Information Infrastructure
 Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal Description Methods""" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001107
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001107> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001202> ;
                                                       rdfs:comment "A Repository Hosting Data Portal is a data portal that provides infrastructure and tools for hosting datasets, code, and publications in a structured and accessible format." ;
-                                                      rdfs:label "repository hosting data portal"@en ;
+                                                      rdfs:label "obsolete repository hosting data portal"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "Zenodo, Figshare, Dataverse" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001108
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001108> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001201> ;
                                                       rdfs:comment "A Research Data Repository is a data portal designed for the preservation, management, and sharing of research datasets, ensuring long-term accessibility and compliance with open science principles." ;
-                                                      rdfs:label "research data repository"@en ;
+                                                      rdfs:label "obsolete  research data repository"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "Open Science Framework (OSF), Harvard Dataverse" .
 
 
@@ -798,62 +754,37 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001111
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001111> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001212> ;
                                                       rdfs:comment "A data analysis portal is a data portal that provides tools, services, and computational resources for performing data analysis, visualization, and interpretation." ;
-                                                      rdfs:label "data analysis portal"@en ;
+                                                      rdfs:label "obsolete data analysis portal"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "JupyterHub platforms, KNIME analytics portals, R Shiny-based analysis environments" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001112
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001112> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001211> ;
                                                       rdfs:comment "A Linked Data Portal is a data portal that supports the publication, access, and exploration of linked datasets using semantic web technologies and standardized data formats." ;
-                                                      rdfs:label "linked data portal"@en ;
+                                                      rdfs:label "obsolete linked data portal"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "Wikidata Query Service, DBpedia, Europeana Linked Open Data portal" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001113
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123> ;
+                                                      obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001210> ;
                                                       rdfs:comment "A Software Repository is a data portal designed to store, manage, and distribute software packages, source code, and related documentation for research, development, and deployment purposes." ;
-                                                      rdfs:label "software repository"@en ;
+                                                      rdfs:label "obsolete  software repository"@en ;
+                                                      owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "GitHub, GitLab, Apache Software Foundation repositories" .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000001> rdf:type owl:Class .
 
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002
 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002> rdf:type owl:Class .
 
 
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000003> rdf:type owl:Class .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000005
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000005> rdf:type owl:Class .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> rdf:type owl:Class .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> rdf:type owl:Class .
-
-
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018
 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018> rdf:type owl:Class .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022> rdf:type owl:Class .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000029
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000029> rdf:type owl:Class .
 
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123
@@ -864,24 +795,12 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131> rdf:type owl:Class .
 
 
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190> rdf:type owl:Class .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000222
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000222> rdf:type owl:Class .
-
-
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232
 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232> rdf:type owl:Class .
 
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001039
 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001039> rdf:type owl:Class .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010016> rdf:type owl:Class .
 
 
 ###  https://w3id.org/pmd/co/PMD_0060009
