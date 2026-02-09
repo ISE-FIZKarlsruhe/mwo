@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Ontology structure - NFDI MatWerk Ontology</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Ontology structure";
+        var mkdocs_page_input_path = "ontology.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> NFDI MatWerk Ontology
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Welcome</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../intro/">Introduction</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Ontology structure</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#reused-upper-level-ontologies">Reused upper-level ontologies</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#key-concepts">Key concepts</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#classes">Classes</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#object-properties">Object properties</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#data-properties">Data properties</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#annotation-properties">Annotation properties</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#individuals">Individuals</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../patterns/">Patterns and use cases</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../versions/">Versions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../acknowledgements/">Acknowledgements</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../refs/">References and publications</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">NFDI MatWerk Ontology</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Ontology structure</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="ontology-structure">Ontology structure</h1>
+<p>MWO v3.0 is a domain-level ontology designed to enhance data integration and retrieval, fostering collaboration and improving knowledge representation across MSE domains. It covers essential aspects of MSE research data, including the NFDI-MatWerk community structure, key NFDI resources, services, and MSE-related research data description. By enabling the integration of diverse data sources and supporting complex research data workflows, MWO bridges MSE research metadata with concepts from upper-level ontologies.</p>
+<h2 id="reused-upper-level-ontologies">Reused upper-level ontologies</h2>
+<p>Building the MWO based on standardized upper-level ontologies provides a well-designed and standardized semantic structure, ensuring clear definitions of entities and their relationships. These ontologies enhance interoperability across different domains, support ontology development, and promote consistency in knowledge representation. The following upper-level ontologies have been incorporated for MWO development:  </p>
+<ul>
+<li>
+<p><strong>Basic Formal Ontology (BFO 2020)</strong>: BFO was selected as the top-level ontology due to its well-structured design, broad applicability, and ability to integrate with various ontologies [8]. As a foundational framework, BFO provides abstract, cross-domain semantic structures, ensuring comprehensive integration and compliance with top-level ontology standards. Its adherence to the ISO/IEC 21838-2 standard [5] further enhances interoperability in developed ontologies, facilitating knowledge representation, data exchange, and interdisciplinary collaboration.   </p>
+</li>
+<li>
+<p><strong>NFDIcore ontology (v3.0)</strong>: As a mid-level ontology, NFDIcore plays a central role in structuring and integrating research data across consortia. NFDIcore features a modular structure for improved interoperability among NFDI consortia. It provides a shared vocabulary that represents both the organizational structure of the NFDI and the diverse datasets contributed by project partners. The ontology encompasses key concepts such as organizations, consortia, projects, datasets, research outputs, geographical locations, and technical standards. These structured representations enable efficient data management, integration, and reuse across disciplines [9].</p>
+</li>
+<li>
+<p><strong>Platform MaterialDigital core ontology (PMDco v3.0)</strong>: The PMDco is a mid-level ontology in the MSE domain, and provides bridging mid-level concepts for detailed description of processes, experiments, and computational workflows enabling the reproducibility of process and materials data. These general MSE concepts are designed to be extendable for specific applications within application ontologies. The PMDco is designed in a collaborative effort within the MaterialDigital initiative and intended to be easily used by MSE domain experts [10].</p>
+</li>
+<li>
+<p><strong>Information Artifact Ontology (IAO)</strong>: Since BFO 2020 (the version currently adopted by NFDIcore) is not fully supported by IAO [11], some relevant IAO concepts could not be reused. In such cases, NFDIcore-specific classes have been introduced, such as dataset, document and identifier.</p>
+</li>
+<li>
+<p>Other reused ontologies and vocabularies like Software Ontology (SWO) [12], Data Catalog Vocabulary (DCAT) [13], and schema.org vocabulary [14].  </p>
+</li>
+</ul>
+<h2 id="key-concepts">Key concepts</h2>
+<h3 id="classes">Classes</h3>
+<p>Below figure illustrates the development of MWO concepts by reusing upper-level ontologies. The top-level (red-colored entities at the upper side) is based on BFO, while the mid-level consists of NFDI Core (blue), PMD (yellow), and IAO (purple). The domain-level, represented in green, corresponds to MWO-specific concepts. Notably, most MWO extensions appear under the bfo:GenericallyDependentContinuant class, indicating a strong focus on information-related research data descriptions. This hierarchical structure ensures alignment with foundational ontological principles while accommodating domain-specific needs. </p>
+<p><img alt="2025 03 MWO copy" src="https://github.com/user-attachments/assets/f145c536-cf1a-4e00-9cf8-352511488c67" /></p>
+<p>Regarding the scope of the ontology, the key concepts in MWO v3.0 are categorized into four main groups. Below is an overview of these core concepts. The full list of concepts is available in the generated ontology description: <a href="https://nfdi.fiz-karlsruhe.de/mwo/">https://nfdi.fiz-karlsruhe.de/mwo/</a>.     </p>
+<p><strong>A) Consortium Structure:</strong> Covers the NFDI MatWerk consortium, including MatWerk TA, IUC, PP organizations, as well as the specifications of involved people and organizations.    </p>
+<ul>
+<li>
+<p>NFDI MatWerk Consortium: NFDI-MatWerk will focus on the research areas of materials science and materials engineering. The key challenges in these fields are the digital mapping of materials and their process and loading parameters. This process touches core aspects of scientific ways of working starting with scientific exchange, data handling and the resulting technological possibilities. The digital transformation of materials science and materials engineering is an opportunity to promote, structure and optimize this exchange - provided that transparent communication standards are created. This fundamental change is therefore being tackled in a joint effort by the consortium and the specialist community.</p>
+</li>
+<li>
+<p>MatWerk Project: A MatWerk project is a project within the NFDI MatWerk consortium that involves coordinated research, development, or infrastructure activities aimed at advancing materials science and engineering through data-driven methodologies and digitalization.</p>
+</li>
+<li>
+<p>MatWerk Participating project: Participant Projects (PPs) are projects by NFDI-MatWerk partners that address specific scientific and technological challenges, providing practical examples and feedback for the development and validation of the infrastructure.</p>
+</li>
+<li>
+<p>Persons, organizations and their roles: a wide varieties of roles in project and related person and organization entities were created in subcleaase of nfdicore:Agent and nfdicore:AgentRole.</p>
+</li>
+</ul>
+<p><strong>B) NFDI resources:</strong> including implemented tools, software, publications, datasets, data portals, and metadata specifications.</p>
+<ul>
+<li>
+<p>Materials science subject areas classified in 10 groups of computational materials science, data driven material science, materials characterization, materials deformation processes, materials design, materials mechanical behavior, materials microstructural, materials processing, materials surface science, and materials thermodynamics.</p>
+</li>
+<li>
+<p>Data portals subclasses of data analysis portal, linked data portal, material science database, material science knowledge base, repository hosting data portal, research data repository, and software repository.</p>
+</li>
+<li>
+<p>Software subclasses like data analysis software, electronic lab notebook, image processing software, operating system, simulation software, and workflow management software.</p>
+</li>
+<li>
+<p>Documents (e.g., presentation document) and publication types like conference abstract, conference paper, conference poster, and, journal article.</p>
+</li>
+<li>
+<p>Document parts like authors/creators/contributors list and institutions list.</p>
+</li>
+<li>
+<p>Metadata specification, a detailed document that describes metadata structures, guidelines, and usage policies for standardization and adoption.</p>
+</li>
+<li>
+<p>Datasets (experimental, simulation and reference dataset). A Reference Dataset is a dataset that serves as a benchmark or standardized collection of data used for validation, comparison, and reproducibility in scientific research and engineering applications.</p>
+</li>
+<li>
+<p>Information access specification, a directive information entity that defines the policies, conditions, and mechanisms governing the accessibility of digital or physical information resources for users or organizations.</p>
+</li>
+</ul>
+<p><strong>C) Service, events, educational coerces, and collaborations:</strong> 
+-   Collaboration: A collaboration is a process in which multiple entities, such as individuals, organizations, or institutions, work together toward shared goals, contributing resources, expertise, or services to achieve mutual benefits.</p>
+<ul>
+<li>
+<p>Infrastructure Use Case (IUC): a service product that defines a specific application scenario, requirement, or implementation of research infrastructure, demonstrating its functionality, benefits, and impact in a given scientific or industrial domain.</p>
+</li>
+<li>
+<p>Event implementation specification: a directive information entity that provides formal guidelines, constraints, and details on how an event should be executed. It specifies the mode of implementation, including logistical, technical, and procedural aspects required to carry out an event successfully.</p>
+</li>
+<li>
+<p>Status specification: a directive information entity that defines the current state, progress, or condition of an entity, process, or project based on predefined criteria and operational guidelines.</p>
+</li>
+<li>
+<p>Event frequency datum: describes how often an events occurs within a given time interval.</p>
+</li>
+<li>
+<p>Sustainability datum: represents the duration or persistence of a process, system, or resource over time. It defines how long an entity is expected to remain viable or functional.</p>
+</li>
+</ul>
+<p><strong>D) Specification of MSE-related materials, instruments, and facilities:</strong> While most of the MSE-related concepts of MWO were derived from PMDco ontologies, some MSE-related entities were also represented in mwo to fascinate description of materials, instruments, and facilities. For example;     </p>
+<ul>
+<li>
+<p>Large scale facility: A Large-Scale Facility is a service product that provides specialized, high-capacity infrastructure for scientific research, engineering, or computational purposes, supporting large-scale experiments, simulations, and data analysis in various domains.</p>
+</li>
+<li>
+<p>Material designation: Material designation is an identifier assigned to a material to specify its name, Id, classification, composition, or standardized reference in scientific, engineering, or industrial contexts.</p>
+</li>
+</ul>
+<h3 id="object-properties">Object properties</h3>
+<p>Ontologies based on BFO are generally extended by adding classes, while extensive modifications to object properties are discouraged to maintain consistency and interoperability. Studies show that ontology developers using a foundational ontology tend to add more classes and fewer object properties than those who do not. However, in some cases, new object properties may be necessary. Based on MatWerk community request, we added just specific object properties of <strong>developed_by</strong>, <strong>codeveloped_by</strong>, and <strong>adapted_by</strong> to shortcut the relation between a NFDI resource and independent continuant (e.g., TA/IUC/PP organization). These properties support respond to competency questions like which tools are 'developed', 'co developed', or 'adopted' by NFDI MatWerk consortium.</p>
+<h3 id="data-properties">Data properties</h3>
+<p>A limited number of data properties are used in MWO which more derived from NFDIcore ontology (e.g., has value, has url, and file extension).  Below data properties were also defined by MWO:   </p>
+<ul>
+<li>
+<p>has acronym: A relation between an information content entity and its specific acronym.</p>
+</li>
+<li>
+<p>has id: A relation between an information content entity and its specific ID.</p>
+</li>
+</ul>
+<h3 id="annotation-properties">Annotation properties</h3>
+<p>No annotation property was created in MWO, as all required annotation properties are well developed by dc, dcterms, rdfs, owl, skos, etc.</p>
+<h3 id="individuals">Individuals</h3>
+<ul>
+<li>
+<p>NFDI MatWerk Consortium instances: MatWerk task area (TA) organization, MatWerk participant project (PP) organization, and MatWerk infrastructure use case (IUC) organization,</p>
+</li>
+<li>
+<p>Status specifications: active, cancelled, finished, and paused statuses,</p>
+</li>
+<li>
+<p>Information access specifications: open, paywall or restricted accesses,</p>
+</li>
+<li>
+<p>Event implementation specifications: on-site, online and hybrid implementations.</p>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../intro/" class="btn btn-neutral float-left" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../patterns/" class="btn btn-neutral float-right" title="Patterns and use cases">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../intro/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../patterns/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
