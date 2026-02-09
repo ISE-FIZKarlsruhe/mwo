@@ -7,13 +7,13 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purls.helmholtz-metadaten.de/mwo/mwo.owl">
-        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0"/>
-        <terms:bibliographicCitation>Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.0. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0</terms:bibliographicCitation>
+        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.1"/>
+        <terms:bibliographicCitation>Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.1</terms:bibliographicCitation>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-7564-7990"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9106-8825"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
@@ -22,7 +22,7 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-2818-5890"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5149-603X"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4926-0068"/>
-        <terms:created>2025-03-28</terms:created>
+        <terms:created>2026-02-09</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0000-0001-7069-9804"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-2691-6995"/>
@@ -35,10 +35,11 @@ C) NFDI MatWerk services, events, educational cources, and international collabr
 D) MSE related instruments, facilities, materials, processes, and properties.
 Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/mwo</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <terms:title>NFDI MatWerk Ontology</terms:title>
+        <terms:title>NFDI Matwerk Ontology</terms:title>
+        <doap:repository rdf:resource="https://github.com/ISE-FIZKarlsruhe/mwo"/>
         <rdfs:label xml:lang="en">NFDI Matwerk Ontology</rdfs:label>
-        <owl:priorVersion rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/2.0.0"/>
-        <owl:versionInfo>3.0.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0"/>
+        <owl:versionInfo>3.0.1</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -54,21 +55,9 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
     
 
 
@@ -84,22 +73,11 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <obo:IAO_0000111 xml:lang="en">alternative label</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.</obo:IAO_0000115>
-        <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
         <rdfs:label xml:lang="en">alternative label</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -108,16 +86,28 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition source</rdfs:label>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <obo:IAO_0000115 xml:lang="en">Use on obsolete terms, relating the term to another term that can be used as a substitute</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">term replaced by</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     
 
 
@@ -169,15 +159,19 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
 
     <!-- http://purl.org/dc/terms/title -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
-        <rdfs:label>title</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+    <!-- http://usefulinc.com/ns/doap#repository -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#repository"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
     
 
 
@@ -189,19 +183,19 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
 
     <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote">
+        <rdfs:label xml:lang="en">editorial note</rdfs:label>
+        <skos:definition xml:lang="en">A note for an editor, translator or maintainer of the vocabulary.</skos:definition>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#example -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example">
+        <rdfs:label xml:lang="en">example</rdfs:label>
+        <skos:definition xml:lang="en">An example of the use of a concept.</skos:definition>
+    </owl:AnnotationProperty>
     
 
 
@@ -213,31 +207,6 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000056 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
-        <dc:identifier>250-BFO</dc:identifier>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/co/"/>
-        <rdfs:label xml:lang="en">participates in</rdfs:label>
-        <skos:definition xml:lang="en">(Elucidation) participates in holds between some b that is either a specifically dependent continuant or generically dependent continuant or independent continuant that is not a spatial region &amp; some process p such that b participates in p some way</skos:definition>
-        <skos:scopeNote xml:lang="en">Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: &lt;Link&gt;</skos:scopeNote>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000057 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
-        <dc:identifier>248-BFO</dc:identifier>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/co/"/>
-        <rdfs:label xml:lang="en">has participant</rdfs:label>
-        <skos:definition xml:lang="en">p has participant c =Def c participates in p</skos:definition>
-        <skos:scopeNote xml:lang="en">Users that require more sophisticated representations of time are encouraged to import a temporal extension of BFO-Core provided by the BFO development team. See documentation for guidance: &lt;Link&gt;</skos:scopeNote>
-    </owl:ObjectProperty>
     
 
 
@@ -258,16 +227,13 @@ Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
         <owl:inverseOf rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226"/>
         <obo:IAO_0000112 xml:lang="en">This document is about information artifacts and their representations</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">A (currently) primitive relation that relates an information artifact to an entity.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of &quot;mentions&quot; relation. Weaken the is_about relationship to be primitive. 
 
 We will try to build it back up by elaborating the various subproperties that are more precisely defined.
 
 Some currently missing phenomena that should be considered &quot;about&quot; are predications - &quot;The only person who knows the answer is sitting beside me&quot; , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Smith, Ceusters, Ruttenberg, 2000 years of philosophy</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/co/"/>
         <rdfs:label xml:lang="en">is about</rdfs:label>
     </owl:ObjectProperty>
     
@@ -284,10 +250,44 @@ g denotes r =def
 r is a portion of reality
 there is some c that is a concretization of g 
 every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
         <rdfs:label xml:lang="en">denotes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <obo:IAO_0000115 xml:lang="en">The inverse property of is specified output of</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has specified output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
+        <obo:IAO_0000112 xml:lang="en">this blood coagulation has participant this blood clot</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigation has participant this investigator</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this process has participant this input material (or this output material)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a process and a continuant, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">has participant</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -317,7 +317,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001114 -->
 
     <owl:ObjectProperty rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001114">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <owl:inverseOf rdf:resource="http://purls.helmholtz-metadaten.de/mwo/MWO_0001115"/>
         <rdfs:comment>The property relates a project to the organization that applied for that</rdfs:comment>
         <rdfs:label xml:lang="en">has applicant organization</rdfs:label>
@@ -328,7 +328,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001115 -->
 
     <owl:ObjectProperty rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001115">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
         <rdfs:comment>inverse of property &quot;has applicant organization&quot;</rdfs:comment>
         <rdfs:label xml:lang="en">applicant organization of</rdfs:label>
     </owl:ObjectProperty>
@@ -440,32 +440,12 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     
 
 
-    <!-- https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153 -->
-
-    <owl:ObjectProperty rdf:about="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
-        <rdfs:comment>p has output x =Def x is produced or generated as a result of executing p.</rdfs:comment>
-        <rdfs:label xml:lang="en">has output</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000202 -->
-
-    <owl:ObjectProperty rdf:about="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000202">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-        <rdfs:comment xml:lang="en">inverse of  property &quot;has sparql endpoint&quot;</rdfs:comment>
-        <rdfs:label xml:lang="en">sparql endpoint of</rdfs:label>
-        <skos:editorialNote xml:lang="en">2024-04-09. Sasha Bruns: Following e.g. the Software Ontology (SWO), relations between two ICE are categorized under the overarching property &quot;is about.&quot; Consequently, inverse properties become subproperties of a single superproperty (see e.g. swo:is_license_for and swo:has_license).</skos:editorialNote>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226 -->
 
     <owl:ObjectProperty rdf:about="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226">
         <rdfs:comment>inverse of the relation &apos;is about&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">is subject of</rdfs:label>
+        <skos:altLabel>is described by</skos:altLabel>
     </owl:ObjectProperty>
     
 
@@ -493,8 +473,10 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001143 -->
 
     <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001143">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0010015"/>
         <rdfs:comment>A relation between an information content entity and its specific acronym.</rdfs:comment>
-        <rdfs:label xml:lang="en">has acronym</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete has acronym</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:DatatypeProperty>
     
 
@@ -624,7 +606,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001022">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purls.helmholtz-metadaten.de/mwo/MWO_0001002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -652,8 +634,10 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001027 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001027">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001206"/>
         <rdfs:comment>A Large-Scale Facility is a service product that provides specialized, high-capacity infrastructure for scientific research, engineering, or computational purposes, supporting large-scale experiments, simulations, and data analysis in various domains.</rdfs:comment>
-        <rdfs:label xml:lang="en">large scale facility</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete large scale facility</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:editorialNote>HBN: Concerning the content of ‘Large-Scale Facility’ datasheet and its related knowledge graph, the ‘Large-Scale Facility’ class and its subclasses were created to define the types of used facilituies and respond to competency questions like: what large-scale facilities support research in field X, which organization provide facility Y, what is the contact point with facility Z, etc.</skos:editorialNote>
         <skos:example>European Synchrotron Radiation Facility (ESRF), the Leibniz Supercomputing Centre (LRZ), CERN&apos;s Large Hadron Collider (LHC)</skos:example>
     </owl:Class>
@@ -688,8 +672,10 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001031 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001031">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001208"/>
         <rdfs:comment>A place that provides a controlled environment equipped with specialized instruments and facilities for conducting scientific research, experiments, measurements, and testing across various disciplines.</rdfs:comment>
-        <rdfs:label xml:lang="en">laboratory</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete laboratory</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>materials characterization laboratories, chemical analysis labs, high-energy physics laboratories</skos:example>
     </owl:Class>
     
@@ -698,6 +684,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001032 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001032">
+        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/mwo/MWO_0001030"/>
         <rdfs:comment>A developing process that involves the collaborative creation, adaptation, or refinement of an entity, requiring the active participation of at least two agents, leading to shared outcomes.</rdfs:comment>
         <rdfs:label xml:lang="en">co developing process</rdfs:label>
     </owl:Class>
@@ -735,113 +722,6 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001041 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001041">
-        <rdfs:comment>Computational Materials Science is a sub-discipline of Materials Science that applies computational methods and simulations to study and predict material properties and behaviors.</rdfs:comment>
-        <rdfs:label xml:lang="en">computational materials science</rdfs:label>
-        <skos:example>Molecular dynamics simulations of metal alloys and first-principles calculations using Density Functional Theory (DFT)</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001042 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001042">
-        <obo:IAO_0000119>Meyers, M. A., &amp; Chawla, K. K. (2009). Mechanical Behavior of Materials. Cambridge University Press.</obo:IAO_0000119>
-        <rdfs:comment>Materials Mechanical Behavior is a sub-discipline of Material Science that examines how materials respond to applied forces, including elasticity, plasticity, hardness, toughness, and fracture mechanics.</rdfs:comment>
-        <rdfs:label xml:lang="en">materials mechanical behavior</rdfs:label>
-        <skos:example>Investigating stress-strain behavior in metals, polymer viscoelasticity, and ceramic fracture toughness are part of Materials Mechanical Behavior.</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001043 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001043">
-        <obo:IAO_0000119>Dieter, G. E. (1986). Mechanical Metallurgy. McGraw-Hill.</obo:IAO_0000119>
-        <rdfs:comment>Materials Deformation Processes is a sub-discipline of Material Science that studies how materials change shape under external forces, including plastic deformation, elastic deformation, and failure mechanisms.</rdfs:comment>
-        <rdfs:label xml:lang="en">materials deformation processes</rdfs:label>
-        <skos:example>Research on metal forming, fatigue behavior, creep deformation, and fracture mechanics falls under Materials Deformation Processes.</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001044 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001044">
-        <rdfs:comment>Materials Characterization is a sub-discipline of Material Science that focuses on analyzing and measuring the structure, composition, and properties of materials using experimental techniques and analytical tools.</rdfs:comment>
-        <rdfs:label xml:lang="en">materials characterization</rdfs:label>
-        <skos:example>Techniques such as X-ray diffraction (XRD), scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDS), and atomic force microscopy (AFM) are widely used in Materials Characterization.</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001045 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001045">
-        <obo:IAO_0000119>Gaskell, D. R. (2008). Introduction to the Thermodynamics of Materials. CRC Press.</obo:IAO_0000119>
-        <rdfs:comment>Materials Thermodynamics is a sub-discipline of Material Science that examines the energy interactions, phase equilibria, and thermodynamic stability of materials.</rdfs:comment>
-        <rdfs:label xml:lang="en">materials thermodynamics</rdfs:label>
-        <skos:example>Studies of phase diagrams, Gibbs free energy, and diffusion kinetics in alloys and ceramics belong to Materials Thermodynamics.</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001046 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001046">
-        <obo:IAO_0000119>Ashby, M. F. (2010). Materials Selection in Mechanical Design. Butterworth-Heinemann.</obo:IAO_0000119>
-        <rdfs:comment>Materials Design is a sub-discipline of Material Science that focuses on developing and optimizing materials for specific applications based on composition, structure, and property relationships.</rdfs:comment>
-        <rdfs:label xml:lang="en">materials design</rdfs:label>
-        <skos:example>The development of lightweight aerospace alloys, biomaterials for medical implants, and high-strength composites are examples of Materials Design.</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001047 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001047">
-        <obo:IAO_0000119>Zangwill, A. (1988). Physics at Surfaces. Cambridge University Press.</obo:IAO_0000119>
-        <rdfs:comment>Materials Surface Science is a sub-discipline of Material Science that explores the properties, chemistry, and interactions at material surfaces and interfaces.</rdfs:comment>
-        <rdfs:label xml:lang="en">materials surface science</rdfs:label>
-        <skos:example>Studying corrosion mechanisms, thin film deposition, and tribology (friction, wear, and lubrication) falls under Materials Surface Science.</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001048 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001048">
-        <obo:IAO_0000119>Reed-Hill, R. E. (1992). Physical Metallurgy Principles. PWS Publishing.</obo:IAO_0000119>
-        <rdfs:comment>Materials Microstructural is a sub-discipline of Material Science that studies the internal structure of materials at micro- and nano-scales, including grains, phases, and defects.</rdfs:comment>
-        <rdfs:label xml:lang="en">materials microstructural</rdfs:label>
-        <skos:example>Studies using transmission electron microscopy (TEM) to analyze dislocations and grain boundaries fall under Materials Microstructural.</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001049 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001049">
-        <rdfs:comment>Data-Driven Material Science is a sub-discipline of Material Science that utilizes data analytics, machine learning, and artificial intelligence techniques to analyze material properties, optimize material design, and accelerate materials discovery.</rdfs:comment>
-        <rdfs:label xml:lang="en">data driven material science</rdfs:label>
-        <skos:example>Using neural networks to predict the mechanical properties of composites, applying high-throughput screening methods for new material synthesis, and employing AI-driven materials informatics platforms are examples of Data-Driven Material Science.</skos:example>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001050 -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001050">
-        <obo:IAO_0000119>Kalpakjian, S., &amp; Schmid, S. R. (2016). Manufacturing Engineering and Technology. Pearson.</obo:IAO_0000119>
-        <rdfs:comment>Materials Processing is a sub-discipline of Material Science that investigates techniques for transforming raw materials into functional products through methods such as casting, welding, and additive manufacturing.</rdfs:comment>
-        <rdfs:label xml:lang="en">materials processing</rdfs:label>
-        <skos:example>Processes like powder metallurgy, hot rolling, laser sintering, and electrochemical machining are studied under Materials Processing.</skos:example>
-    </owl:Class>
-    
-
-
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001051 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001051">
@@ -855,6 +735,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001056">
         <obo:IAO_0000119>https://doi.org/10.1016/j.actamat.2025.120735</obo:IAO_0000119>
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001203"/>
         <rdfs:comment>A Reference Dataset is a dataset that serves as a benchmark or standardized collection of data used for validation, comparison, and reproducibility in scientific research and engineering applications.</rdfs:comment>
         <rdfs:comment>Reference data of materials
 - are documented according to certain standards as well as
@@ -870,7 +751,8 @@ materials characteristics (e.g., creep tests) in terms of domain standards. Thes
 result of a steered community process.
 Standards should integrate as much as possible existing standards (e.g., the individual MatWerk domain
 standards should be as much as possible consistent).</rdfs:comment>
-        <rdfs:label xml:lang="en">reference dataset</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete reference dataset</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>BAM reference data: results of ASTM E139 -11 creep tests on a reference material of Nimonic 75 nickel-base alloy (https://doi.org/10.5281/zenodo.7764161)</skos:example>
     </owl:Class>
     
@@ -879,8 +761,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001057 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001057">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001205"/>
         <rdfs:comment>A Simulation Dataset is a dataset that contains data generated from computational models, numerical simulations, or digital twin environments to predict material behaviors, properties, and interactions.</rdfs:comment>
-        <rdfs:label xml:lang="en">simulation dataset</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete simulation dataset</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>Examples include DFT simulation datasets, molecular dynamics (MD) trajectory files, and phase-field modeling results.</skos:example>
     </owl:Class>
     
@@ -889,8 +773,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001058 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001058">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001203"/>
         <rdfs:comment>An Experimental Dataset is a dataset that contains measured or observed data collected from laboratory experiments, physical tests, or scientific investigations.</rdfs:comment>
-        <rdfs:label xml:lang="en">experimental dataset</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete experimental dataset</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -898,9 +784,11 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001059 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001059">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001209"/>
         <rdfs:comment>A Journal Article is a peer-reviewed scholarly publication that presents original research, review studies, or theoretical discussions, typically published in academic journals.</rdfs:comment>
-        <rdfs:label xml:lang="en">journal article</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete journal article</rdfs:label>
         <rdfs:seeAlso>http://purl.obolibrary.org/obo/IAO_0000013</rdfs:seeAlso>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -908,8 +796,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001060 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001060">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001095"/>
         <rdfs:comment>A SPARQL Endpoint is a web application software that provides a queryable interface for accessing and retrieving structured data from RDF-based knowledge graphs using the SPARQL query language.</rdfs:comment>
-        <rdfs:label xml:lang="en">sparql endpoint</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete sparql endpoint</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>Wikidata Query Service, DBpedia SPARQL Endpoint, Linked Data Fragments</skos:example>
     </owl:Class>
     
@@ -918,8 +808,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001088 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001088">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001105"/>
         <rdfs:comment>A Conference Paper is a scholarly publication that presents research findings at an academic or professional conference, typically published in conference proceedings.</rdfs:comment>
-        <rdfs:label xml:lang="en">conference paper</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete conference paper</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -927,8 +819,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001089 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001089">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001106"/>
         <rdfs:comment>A Conference Poster is a visual presentation of research findings, displayed at an academic or professional conference to facilitate discussion and knowledge exchange.</rdfs:comment>
-        <rdfs:label xml:lang="en">conference poster</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete conference poster</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -936,8 +830,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001090 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001090">
+        <dc:contributor rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001104"/>
         <rdfs:comment>A Conference Abstract is a brief summary of research findings or scholarly work submitted for presentation at an academic or professional conference, often serving as a precursor to a full paper or presentation.</rdfs:comment>
-        <rdfs:label xml:lang="en">conference abstract</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete conference abstract</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -945,8 +841,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001092 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001092">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001200"/>
         <rdfs:comment>An Interim Report is a report that provides a temporary or progress-based assessment of an ongoing project, research, or operational activity, documenting current findings, challenges, and future directions before the final report is completed.</rdfs:comment>
-        <rdfs:label xml:lang="en">interim report</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete interim report</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -954,8 +852,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001093 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001093">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001207"/>
         <rdfs:comment>A Presentation Document is a document that consists of structured visual and textual content designed for conveying information to an audience, typically used in meetings, conferences, and educational settings.</rdfs:comment>
-        <rdfs:label xml:lang="en">presentation document</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete presentation document</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -973,8 +873,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001100 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001100">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001103"/>
         <rdfs:comment>A goal textual entity is a textual entity that describes the intended objectives, aims, or targets of a project, initiative, organization, or research effort, providing a clear statement of purpose and expected outcomes.</rdfs:comment>
-        <rdfs:label xml:lang="en">goal textual entity</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete goal textual entity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -991,8 +893,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001104 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001104">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001101"/>
         <rdfs:comment>An added value textual entity is a textual entity that describes the achievements, benefits, or additional value generated by a project, service, or initiative, highlighting its impact, improvements, or contributions.</rdfs:comment>
-        <rdfs:label xml:lang="en">added value textual entity</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete added value textual entity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:editorialNote>In responce to competency questions like what are the added values of project X1 or service X2.</skos:editorialNote>
     </owl:Class>
     
@@ -1001,8 +905,10 @@ standards should be as much as possible consistent).</rdfs:comment>
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001105 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001105">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001102"/>
         <rdfs:comment>An affiliation is a textual entity that specifies the organizational or institutional association of an individual, group, or entity, typically used in academic, professional, or research contexts.</rdfs:comment>
-        <rdfs:label xml:lang="en">affiliation</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete affiliation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>FIZ Karlsruhe – Leibniz-Institute for Information Infrastructure
 Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal Description Methods</skos:example>
     </owl:Class>
@@ -1012,8 +918,10 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001107 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001107">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001202"/>
         <rdfs:comment>A Repository Hosting Data Portal is a data portal that provides infrastructure and tools for hosting datasets, code, and publications in a structured and accessible format.</rdfs:comment>
-        <rdfs:label xml:lang="en">repository hosting data portal</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete repository hosting data portal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>Zenodo, Figshare, Dataverse</skos:example>
     </owl:Class>
     
@@ -1022,8 +930,10 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001108 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001108">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001201"/>
         <rdfs:comment>A Research Data Repository is a data portal designed for the preservation, management, and sharing of research datasets, ensuring long-term accessibility and compliance with open science principles.</rdfs:comment>
-        <rdfs:label xml:lang="en">research data repository</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete  research data repository</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>Open Science Framework (OSF), Harvard Dataverse</skos:example>
     </owl:Class>
     
@@ -1051,8 +961,10 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001111 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001111">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001212"/>
         <rdfs:comment>A data analysis portal is a data portal that provides tools, services, and computational resources for performing data analysis, visualization, and interpretation.</rdfs:comment>
-        <rdfs:label xml:lang="en">data analysis portal</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete data analysis portal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>JupyterHub platforms, KNIME analytics portals, R Shiny-based analysis environments</skos:example>
     </owl:Class>
     
@@ -1061,8 +973,10 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001112 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001112">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001211"/>
         <rdfs:comment>A Linked Data Portal is a data portal that supports the publication, access, and exploration of linked datasets using semantic web technologies and standardized data formats.</rdfs:comment>
-        <rdfs:label xml:lang="en">linked data portal</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete linked data portal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>Wikidata Query Service, DBpedia, Europeana Linked Open Data portal</skos:example>
     </owl:Class>
     
@@ -1071,8 +985,10 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001113 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001113">
+        <obo:IAO_0100001 rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001210"/>
         <rdfs:comment>A Software Repository is a data portal designed to store, manage, and distribute software packages, source code, and related documentation for research, development, and deployment purposes.</rdfs:comment>
-        <rdfs:label xml:lang="en">software repository</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete  software repository</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:example>GitHub, GitLab, Apache Software Foundation repositories</skos:example>
     </owl:Class>
     

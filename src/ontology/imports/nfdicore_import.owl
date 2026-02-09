@@ -17,9 +17,9 @@ Prefix(ontology:=<https://nfdi.fiz-karlsruhe.de/ontology/>)
 
 
 Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/nfdicore_import.owl>
-<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2026-02-06/imports/nfdicore_import.owl>
+<http://purls.helmholtz-metadaten.de/mwo/mwo/releases/2026-02-09/imports/nfdicore_import.owl>
 Annotation(dc:source <https://nfdi.fiz-karlsruhe.de/ontology/3.0.4>)
-Annotation(owl:versionInfo "2026-02-06")
+Annotation(owl:versionInfo "2026-02-09")
 
 Declaration(Class(<http://edamontology.org/format_2197>))
 Declaration(Class(<http://edamontology.org/format_2376>))
