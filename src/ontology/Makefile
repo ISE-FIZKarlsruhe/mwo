@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                2beb5e9fc1d57e4a053409b4908963544137ff6b228991714bc89c85f78bbf76
+CONFIG_HASH=                10d3ea54066402ba5e054e205f125549745044c13692f1747d90d2f902f2a65b
 
 
 # ----------------------------------------
@@ -392,7 +392,7 @@ $(IMPORTSEED): $(PRESEED) | $(TMPDIR)
 
 T_IMPORTSEED = --term-file $(IMPORTSEED)
 
-ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 OMO:0002000 
+ANNOTATION_PROPERTIES=rdfs:label IAO:0000119 IAO:0000115 IAO:0000116 IAO:0000112 skos:definition skos:example skos:comment 
 
 # ----------------------------------------
 # Import modules
@@ -488,14 +488,14 @@ mirror-iao: | $(TMPDIR)
 .PHONY: mirror-nfdicore
 .PRECIOUS: $(MIRRORDIR)/nfdicore.owl
 mirror-nfdicore: | $(TMPDIR)
-	$(ROBOT) convert -I https://nfdi.fiz-karlsruhe.de/ontology/3.0.1 -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I https://nfdi.fiz-karlsruhe.de/ontology/3.0.4 -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: pmdco
 .PHONY: mirror-pmdco
 .PRECIOUS: $(MIRRORDIR)/pmdco.owl
 mirror-pmdco: | $(TMPDIR)
-	$(ROBOT) convert -I https://w3id.org/pmd/co/3.0.0-alpha1 -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I https://w3id.org/pmd/co/3.0.0-rc2 -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
