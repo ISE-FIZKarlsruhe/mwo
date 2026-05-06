@@ -11,6 +11,7 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<http://purls.helmholtz-metadaten.de/mwo/mwo.owl>
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/iao_import.owl>)
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/nfdicore_import.owl>)
+Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/obi_import.owl>)
 Import(<http://purls.helmholtz-metadaten.de/mwo/mwo/imports/pmdco_import.owl>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-7564-7990>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-9106-8825>)
@@ -47,7 +48,15 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001007>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001008>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001009>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001010>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001012>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001026>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001027>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001029>))
@@ -57,12 +66,35 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001032>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001033>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001044>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001045>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001046>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001047>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001048>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001049>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001056>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001057>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001058>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001059>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001060>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001061>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001062>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001063>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001064>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001065>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001068>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001088>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001089>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001090>))
@@ -80,6 +112,30 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001110>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001111>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001112>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001200>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001201>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001202>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001203>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001205>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001206>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001207>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001209>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001210>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001211>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001212>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001213>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001214>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001215>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001216>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001217>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001219>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001221>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001222>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001223>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001224>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001039>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001040>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001050>))
@@ -96,7 +152,6 @@ Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001115>
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001116>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001117>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118>))
-Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001119>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001134>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001135>))
 Declaration(ObjectProperty(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001136>))
@@ -115,6 +170,10 @@ Declaration(AnnotationProperty(dcterms:license))
 ############################
 #   Object Properties
 ############################
+
+# Object Property: <http://purl.obolibrary.org/obo/IAO_0000039> (has measurement unit label)
+
+InverseObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001025> (implements)
 
@@ -169,13 +228,6 @@ ObjectPropertyDomain(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001117> <http
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> "inverse of  property \"has measurement unit label\"")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> "measurement unit label of"@en)
 SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> <http://purl.obolibrary.org/obo/IAO_0000136>)
-InverseObjectProperties(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119>)
-
-# Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> (has measurement unit label)
-
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> "The property is a relation between an entity and a measurement unit label.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> "has measurement unit label"@en)
-SubObjectPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226>)
 
 # Object Property: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001134> (developed by)
 
@@ -242,14 +294,14 @@ SubDataPropertyOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001143> owl:topD
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> (expert discussion)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> "An event that involves a focused exchange of knowledge, opinions, and insights among specialists in a particular field to address complex topics, evaluate research findings, or explore emerging trends.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> "expert discussion"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> "An event that involves a focused exchange of knowledge, opinions, and insights among specialists in a particular field to address complex topics, evaluate research findings, or explore emerging trends.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000018>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> (event frequency datum)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "Event frequency datum describes how often an events occurs within a given time interval")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "event frequency datum"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "Event frequency datum describes how often an events occurs within a given time interval")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> "annual, weekly, twice per year, 72 beats per minute, every four years")
 EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0060009> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000131>)))
@@ -257,76 +309,130 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> <https://w3id.o
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> (matwerk project)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> "A MatWerk project is a project within the NFDI MatWerk consortium that involves coordinated research, development, or infrastructure activities aimed at advancing materials science and engineering through data-driven methodologies and digitalization.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> "matwerk project"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> "A MatWerk project is a project within the NFDI MatWerk consortium that involves coordinated research, development, or infrastructure activities aimed at advancing materials science and engineering through data-driven methodologies and digitalization.")
 EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> ObjectOneOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001019>))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> (collaboration)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> "A collaboration is a process in which multiple entities, such as individuals, organizations, or institutions, work together toward shared goals, contributing resources, expertise, or services to achieve mutual benefits.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> "collaboration"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> "A collaboration is a process in which multiple entities, such as individuals, organizations, or institutions, work together toward shared goals, contributing resources, expertise, or services to achieve mutual benefits.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> "HBN: Concerning the content of ‘International Collaboration’ datasheet and its related knowledge graph, the ‘Collaboration’ class and its subclasses were created to defind the type of collaborations, and respond to competency questions like: what type of collaboration exists between organizations A and B, which agents are involved in collaboration C, which collaborations has agent D, etc.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> (strategic collaboration)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> "Strategic Collaboration is a collaboration process in which multiple entities align their long-term objectives and resources to achieve significant mutual benefits in research, business, or policy initiatives.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> "strategic collaboration"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> "Strategic Collaboration is a collaboration process in which multiple entities align their long-term objectives and resources to achieve significant mutual benefits in research, business, or policy initiatives.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> (networking)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> "Networking is a collaboration process that involves building and maintaining professional, academic, or organizational relationships to exchange knowledge, expertise, or resources.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> "networking"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> "Networking is a collaboration process that involves building and maintaining professional, academic, or organizational relationships to exchange knowledge, expertise, or resources.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> (project collaboration)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> "Project Collaboration is a collaboration process in which multiple entities contribute expertise, resources, and labor toward the successful completion of a specific project.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> "project collaboration"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> "Project Collaboration is a collaboration process in which multiple entities contribute expertise, resources, and labor toward the successful completion of a specific project.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> (joint efforting)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> "Joint Efforting is a collaboration process in which multiple entities combine efforts, knowledge, or labor toward a common goal, often in research, policy-making, or community initiatives.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> "joint efforting"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> "Joint Efforting is a collaboration process in which multiple entities combine efforts, knowledge, or labor toward a common goal, often in research, policy-making, or community initiatives.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> (joint servicing)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> "Joint Servicing is a collaboration process in which two or more entities jointly provide or maintain a service, ensuring operational efficiency and shared responsibility.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> "joint servicing"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> "Joint Servicing is a collaboration process in which two or more entities jointly provide or maintain a service, ensuring operational efficiency and shared responsibility.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> (alliancing)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> "Alliancing is a collaboration process in which two or more entities form a long-term cooperative relationship based on shared objectives, often in research, industry, or government sectors.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> "alliancing"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> "Alliancing is a collaboration process in which two or more entities form a long-term cooperative relationship based on shared objectives, often in research, industry, or government sectors.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> (parenting)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> "Partnering is a collaboration process in which two or more entities form a structured partnership to achieve specific research, business, or development goals.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> "parenting"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> "Partnering is a collaboration process in which two or more entities form a structured partnership to achieve specific research, business, or development goals.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> (date process ended)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> "date process ended"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> "The date and time at which the experimental process was completed.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> (assay identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> "assay identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> "Assay identifier is an identifier that uniquely designates a specific assay.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0000070>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> (object identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> "object identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> "Object identifier is an identifier that uniquely designates a specific object.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/BFO_0000030>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> (device identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> "device identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> "Device identifier is an identifier that uniquely designates a specific device.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000602>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> (equation textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> "equation textual entity"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> "An equation textual entity is a textual entity that expresses a mathematical equation specifying relationships between quantities or variables.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> (material deformation mechanism)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> "material deformation mechanism"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> "A material deformation mechanism is a categorical value specification that identifies and records the specific microstructural or crystallographic process—such as dislocation creep, diffusional flow, or grain boundary sliding—that is determined to be the primary physical cause of the deformation process of a material.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001930> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/co/PMD_0000596>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> <http://purl.obolibrary.org/obo/OBI_0001930>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> (nfdi matwerk consortium)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "National Research Data Infrastructure for Materials Science & Engineering"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "Nationale Forschungsdateninfrastruktur für Materialwissenschaft & Werkstofftechnik"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "https://nfdi-matwerk.de/")
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "NFDI-MatWerk will focus on the research areas of materials science and materials engineering. The key challenges in these fields are the digital mapping of materials and their process and loading parameters. This process touches core aspects of scientific ways of working starting with scientific exchange, data handling and the resulting technological possibilities. The digital transformation of materials science and materials engineering is an opportunity to promote, structure and optimize this exchange - provided that transparent communication standards are created. This fundamental change is therefore being tackled in a joint effort by the consortium and the specialist community.")
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "The National Research Data Infrastructure for Materials Science & Engineering (NFDI-MatWerk) is a consortium in Germany dedicated to developing a national infrastructure for managing research data in the field of materials science and engineering. Established in 2021, NFDI-MatWerk focuses on integrating and standardizing data from various sources, including experimental and simulation data, along with their associated metadata. This comprehensive approach supports the entire data lifecycle—from planning and collection to analysis, preservation, sharing, and reuse—aiming to enhance data accessibility, interoperability, and reusability within the scientific community. By providing tools and frameworks for efficient data management, NFDI-MatWerk facilitates innovative research and fosters collaboration among scientists. The consortium also emphasizes the development of standardized metadata and terminologies to ensure seamless data integration and sharing across different platforms and stakeholders. Through these efforts, NFDI-MatWerk aims to advance materials science and engineering by promoting effective data management practices and long-term accessibility of high-quality research data.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "nfdi matwerk consortium"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> "NFDI-MatWerk will focus on the research areas of materials science and materials engineering. The key challenges in these fields are the digital mapping of materials and their process and loading parameters. This process touches core aspects of scientific ways of working starting with scientific exchange, data handling and the resulting technological possibilities. The digital transformation of materials science and materials engineering is an opportunity to promote, structure and optimize this exchange - provided that transparent communication standards are created. This fundamental change is therefore being tackled in a joint effort by the consortium and the specialist community.")
 EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001022> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001039>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> (device type specification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> "device type specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> "A device type specification is a categorical value specification that classifies a device according to its type.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001930> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/co/PMD_0000602>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> <http://purl.obolibrary.org/obo/OBI_0001930>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> (material failure mechanism)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "material failure mechanism"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "Material failure mechanism is a categorical value specification that are the underlying physical, chemical, or mechanical processes—such as fatigue, corrosion, or ductile yielding—that cause a component to lose its ability to perform its intended function")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001930> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> <http://purl.obolibrary.org/obo/OBI_0001930>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> (infrastructure use case)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> "IUC")
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> "An Infrastructure Use Case (IUC) is a service product that defines a specific application scenario, requirement, or implementation of research infrastructure, demonstrating its functionality, benefits, and impact in a given scientific or industrial domain.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> "infrastructure use case"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> "An Infrastructure Use Case (IUC) is a service product that defines a specific application scenario, requirement, or implementation of research infrastructure, demonstrating its functionality, benefits, and impact in a given scientific or industrial domain.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> "NFDI MatWerk Infrastructure Use Cases (IUCs) are exmplary scenarios used to demonstrate and validate the functionality of the NFDI-MatWerk infrastructure in real-world research contexts. They illustrate how the digital infrastructure can be applied to various stages of materials science research, including data acquisition, processing, sharing, and analysis. Developed in collaboration with the research community, IUCs provide detailed examples of how researchers can effectively use the infrastructure to enhance their workflows. By showcasing specific applications, IUCs highlight the capabilities and benefits of the infrastructure, guiding its development to meet actual research needs and ensuring that it aligns with the dynamic requirements of materials science and engineering.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000232>)
 
@@ -341,15 +447,15 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> (matwerk participant project)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> "Participant Projects (PPs) are projects by NFDI-MatWerk partners that address specific scientific and technological challenges, providing practical examples and feedback for the development and validation of the infrastructure.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> "matwerk participant project"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> "Participant Projects (PPs) are projects by NFDI-MatWerk partners that address specific scientific and technological challenges, providing practical examples and feedback for the development and validation of the infrastructure.")
 EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000132> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001029> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> (developing process)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> "A process that involves the creation, adaptation, or refinement of an entity, with the participation of some participants, leading to specific outcomes.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> "developing process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> "A process that involves the creation, adaptation, or refinement of an entity, with the participation of some participants, leading to specific outcomes.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/IAO_0000030>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000004>)))
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001031> (obsolete laboratory)
@@ -362,36 +468,134 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> (co developing process)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> "A developing process that involves the collaborative creation, adaptation, or refinement of an entity, requiring the active participation of at least two agents, leading to shared outcomes.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> "co developing process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> "A developing process that involves the collaborative creation, adaptation, or refinement of an entity, requiring the active participation of at least two agents, leading to shared outcomes.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/IAO_0000030>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000004>)))
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> (adapting process)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "A process that involves modifying or adjusting an existing entity, with the participation of some participants, to improve its suitability for a specific purpose or context, leading to a refined or optimized outcome.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "adapting process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> "A process that involves modifying or adjusting an existing entity, with the participation of some participants, to improve its suitability for a specific purpose or context, leading to a refined or optimized outcome.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/IAO_0000030>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000004>)))
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> (sustainability datum)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "Sustainability datum represents the duration or persistence of a process, system, or resource over time. It defines how long an entity is expected to remain viable or functional.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "sustainability datum"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "Sustainability datum represents the duration or persistence of a process, system, or resource over time. It defines how long an entity is expected to remain viable or functional.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the ‘Sustainability’ class was created to respond to competency questions like: what is the sustainability of a service.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> "Continusly, 10 years, 2-4 years, until 2030")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> <https://w3id.org/pmd/co/PMD_0060009>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> (data storage capacity datum)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "Data storage capacity datum represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB).")
 AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the this class was created to respond to competency questions like how much is the storage capacity of a service.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "data storage capacity datum"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> "Data storage capacity datum represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB).")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> <https://w3id.org/pmd/co/PMD_0060009>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> (material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> "material state"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> "A descriptor defining the processing history or physical condition of the material before or after testing.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> <http://purl.obolibrary.org/obo/OBI_0001930>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> (as manufactured material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> "as manufactured material state"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> "The condition of the material immediately after the primary manufacturing process (casting/forging) without further treatment.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/pmd/co/PMD_0000833>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> (as tested material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> "as tested material state"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> "The specific state of the material at the exact moment the test begins (including all pre-test preparations).")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/OBI_0000070>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> (fractured material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> "fractured material state"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> "The condition of the test piece after the creep rupture limit has been reached and the material has separated.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> (heat treated material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> "heat treated material state"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> "The condition of the material resulting from a controlled heating and cooling process to alters its physical properties.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/pmd/co/PMD_0000779>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> (aged material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> "aged material state"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> "State resulting from precipitation hardening (holding at an intermediate temperature) to increase strength.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/pmd/co/PMD_0000513>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> (annealed material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> "annealed material state"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> "State resulting from heating to a specific temperature and cooling at a controlled rate to remove internal stresses.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> (normalized material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> "normalized material state"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> "State resulting from heating to an austenitizing temperature and cooling in air to refine the grain structure.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> (test piece origin)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> "test piece origin"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> "A test piece origin is a 3D spatial region that specifies the spatial location from an object from which a test piece is taken.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> <http://purl.obolibrary.org/obo/BFO_0000028>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> (operator role)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> "operator role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> "Operator role is an agent role that is realized by operating, controlling, or supervising a device, instrument, machine, system, or process.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> (failure process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "fracture")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "failure process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> "Failure process is a process that results in the loss, degradation, or cessation of the function, integrity, or performance of a material, component, system, or device.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> (annealing process)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> "annealing process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> "Annealing process is a heat treatment process that alters the properties or microstructure of a material by heating and controlled cooling.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> <https://w3id.org/pmd/co/PMD_0000779>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> (normalizing process)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> "normalizing process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> "Normalizing process is a heat treatment process that alters the microstructure and properties of a material by heating it to a specified temperature and subsequently cooling it in air or under controlled conditions.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> <https://w3id.org/pmd/co/PMD_0000779>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> (crystal plasticity simulation)
+
+AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> "Crystal plasticity simulation is a simulation process that models the deformation behavior of crystalline materials based on crystallographic slip, microstructural properties, and constitutive mechanical relations.")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> "crystal plasticity simulation"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> <https://w3id.org/pmd/co/PMD_0000866>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> (implementing process)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "A process that applies, integrates, or refines an entity, encompassing development, co-development, and adaptation, with participant involvement to achieve a functional outcome.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "implementing process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> "A process that applies, integrates, or refines an entity, encompassing development, co-development, and adaptation, with participant involvement to achieve a functional outcome.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/IAO_0000030>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000004>)))
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> (research group role)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> "research group role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> "Research group role is an agent role that is borne by an organizational unit and is realized through conducting, coordinating, or supporting scientific research activities within one or more research domains.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001056> (obsolete reference dataset)
 
@@ -447,6 +651,57 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(owl:deprecated <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001060> "Wikidata Query Service, DBpedia SPARQL Endpoint, Linked Data Fragments")
 
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> (department role)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> "department role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> "Department role is an agent role that is borne by an organizational unit and is realized through carrying out administrative, educational, research, operational, or managerial functions within an organization.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> (devision role)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> "devision role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> "Division role is an agent role that is borne by an organizational unit and is realized through carrying out administrative, managerial, operational, or research-related functions within an organization.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> (institute role)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> "institute role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> "Institute role is an agent role that is borne by an organization and is realized through conducting, supporting, managing, or promoting research, education, professional activities, or specialized services within one or more domains.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> (licensing agent role)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> "licensing agent role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> "Licensing agent role is an agent role that is realized through granting, managing, administering, or overseeing permissions, rights, or licenses related to resources, intellectual property, data, software, or services.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> (license holder role)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> "license holder role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> "License holder role is an agent role that is realized through holding or exercising rights granted by a license.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> (licensing process)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "licensing process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> "Licensing process is a process that grants, transfers, manages, or administers permissions or rights for the access, use, distribution, or modification of a resource, dataset, software entity, or other asset.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000245> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001064>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> (funding process)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> "funding process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> "Funding process is a process that allocates, distributes, administers, or provides financial resources to support a project, organization, activity, research effort, or other undertaking.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000245> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000139>)))))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> (funding identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> "funding identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> "Funding identifier is an identifier that denotes a funding award, funding program, grant, or financial support entity and is used to uniquely reference, distinguish, or track it within an administrative, organizational, or information system context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>)
+
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> (obsolete conference paper)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001105>)
@@ -482,11 +737,13 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> "obsolete presentation document"@en)
 AnnotationAssertion(owl:deprecated <http://purls.helmholtz-metadaten.de/mwo/MWO_0001093> "true"^^xsd:boolean)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> (material designation)
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> (material identifier)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "Material designation is an identifier assigned to a material to specify its name, Id, classification, composition, or standardized reference in scientific, engineering, or industrial contexts.")
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "material designation"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "material designation")
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "material identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "Material designation is an identifier assigned to a material to specify its name, Id, classification, composition, or standardized reference in scientific, engineering, or industrial contexts.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "ASTM A36 for structural steel, UNS C11000 for copper, DIN 1.4404 for stainless steel")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000000>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001100> (obsolete goal textual entity)
@@ -498,8 +755,8 @@ AnnotationAssertion(owl:deprecated <http://purls.helmholtz-metadaten.de/mwo/MWO_
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> (measure textual entity)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> "A measure textual entity is a textual entity that describes quantitative or qualitative assessments, metrics, or evaluation criteria used to analyze, compare, or monitor a specific process, performance, or characteristic.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> "measure textual entity"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> "A measure textual entity is a textual entity that describes quantitative or qualitative assessments, metrics, or evaluation criteria used to analyze, compare, or monitor a specific process, performance, or characteristic.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> <http://purl.obolibrary.org/obo/IAO_0000300>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001104> (obsolete added value textual entity)
@@ -537,15 +794,15 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> (material science database)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> "A Material Science Database is a data portal that provides access to structured data related to materials science.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> "material science database"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> "A Material Science Database is a data portal that provides access to structured data related to materials science.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> "Materials Project database, NOMAD Archive, Open Quantum Materials Database (OQMD)")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> (material science knowledge base)
 
-AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> "A Material Science Knowledge Base is a data portal that provides structured information, conceptual models, and reasoning capabilities related to materials science research and applications.")
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> "material science knowledge base"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> "A Material Science Knowledge Base is a data portal that provides structured information, conceptual models, and reasoning capabilities related to materials science research and applications.")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001111> (obsolete data analysis portal)
@@ -571,6 +828,167 @@ AnnotationAssertion(rdfs:comment <http://purls.helmholtz-metadaten.de/mwo/MWO_00
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "obsolete  software repository"@en)
 AnnotationAssertion(owl:deprecated <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001113> "GitHub, GitLab, Apache Software Foundation repositories")
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001200> (reporting process)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001200> "reporting process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001200> "A process of collecting, organizing, and presenting information or results in a structured form for communication or documentation.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001200> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0000088>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001200> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> (data portal identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> "data portal identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> "an identifier that denotes a data portal and is used to uniquely reference, distinguish, or track that data portal within a given informational, organizational, or digital infrastructure context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001202> (simulation identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001202> "simulation identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001202> "Simulation identifier is a process identifier that denotes a simulation process and is used to uniquely reference, distinguish, or track that simulation within a scientific, computational, or information system context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001202> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000583>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001202> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001203> (certified reference material role)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001203> "certified reference material role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001203> "A role played by a material that provides certified property values to support calibration, validation, or quality assurance activities.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001203> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> (process identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> "process identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> "an identifier that denotes a process and is used to uniquely reference, distinguish, or track that process within a given information system, workflow, or representational context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/BFO_0000015>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001205> (project identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001205> "project identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001205> "an identifier that denotes a project and is used to uniquely reference, distinguish, or track that project within a given organizational, administrative, or information system context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001205> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001205> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001206> (operator identification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001206> "operator identification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001206> "A textual entity intended to identify a particular operator")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001206> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000590> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001206> <http://purl.obolibrary.org/obo/IAO_0000590>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001207> (workflow identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001207> "workflow identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001207> "Workflow identifier is a process identifier that denotes a workflow and is used to uniquely reference, distinguish, or track that workflow within a scientific, organizational, or information system context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001207> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000227>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001207> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> (digital resource identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> "digital resource identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> "Digital resource identifier is an identifier that denotes a digital resource and is used to uniquely reference, distinguish, or track that digital resource within a digital, informational, or computational context.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> (dataset identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> "dataset identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> "Dataset identifier is a digital resource identifier that denotes a dataset and is used to uniquely reference, distinguish, or track that dataset within a digital, scientific, or information system context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/IAO_0001000>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> (software identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> "software identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> "Software identifier is a digital resource identifier that denotes a software entity and is used to uniquely reference, distinguish, or track that software within a digital, computational, or information system context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/IAO_0000010>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> (chemical substance identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> "chemical substance identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> "Chemical substance identifier is an identifier that denotes a chemical substance and is used to uniquely reference, distinguish, or track that chemical substance within a chemical, scientific, or information system context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/CHEBI_59999>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001212> (CAS registry number)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001212> "CAS registry number"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001212> "CAS Registry Number is a chemical substance identifier that denotes an entry in the Chemical Abstracts Service (CAS) Registry.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001212> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001211>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> (crystallographic identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> "crystallographic identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> "Crystallographic identifier is an identifier that denotes a crystallographic entity and is used to uniquely reference, distinguish, or track that entity within a crystallographic, materials science, or structural data context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000853>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001214> (CSD identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001214> "CSD identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001214> "CSD identifier is a crystallographic identifier that denotes an entry in the Cambridge Structural Database (CSD).")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001214> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001215> (ICSD identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001215> "ICSD identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001215> "ICSD identifier is a crystallographic identifier that denotes an entry in the Inorganic Crystal Structure Database (ICSD).")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001215> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001216> (COD identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001216> "COD identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001216> "COD identifier is a crystallographic identifier that denotes an entry in the Crystallography Open Database (COD).")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001216> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> (organization identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> "organization identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> "Organization identifier is an identifier that denotes an organization and is used to uniquely reference, distinguish, or track that organization within a given organizational, administrative, or information system context.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0000245>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001219> (fair digital object)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001219> "fair digital object"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001219> "FAIR digital object is a data entity that is structured and described in accordance with FAIR principles so that it can be findable, accessible, interoperable, and reusable by humans and machines.")
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001219> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> (protocol)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> "protocol"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> "Protocol is a plan specification that prescribes the steps, conditions, rules, or procedures for carrying out a process, experiment, workflow, or activity.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000015>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> <http://purl.obolibrary.org/obo/IAO_0000104>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> (specimen preparation protocol)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> "specimen preparation protocol"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> "Specimen preparation protocol is a protocol that prescribes the steps, conditions, methods, and requirements for preparing a specimen for analysis, testing, characterization, or experimentation.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/co/PMD_0001042>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> (calibration protocol)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> "calibration protocol"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> "Calibration protocol is a protocol that prescribes the steps, conditions, methods, and requirements for performing a calibration process.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/co/PMD_0001039>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> (assay protocol)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> "assay protocol"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> "Assay protocol is a protocol that prescribes the steps, conditions, methods, and requirements for performing an assay.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000070>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001224> (calibration dataset)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001224> "calibration dataset"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001224> "Calibration dataset is a dataset that contains data used to calibrate an instrument, device, model, measurement system, or computational workflow.")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001224> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <https://w3id.org/pmd/co/PMD_0001039>)))
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001224> <http://purl.obolibrary.org/obo/IAO_0001000>)
 
 
 ############################

@@ -18,3 +18,12 @@ https://w3id.org/pmd/co/PMD_0000833 #manufacturing process
 https://w3id.org/pmd/co/PMD_0000950 #simulating process
 https://w3id.org/pmd/co/PMD_0060009 #specification datum
 https://w3id.org/pmd/co/PMD_0020004 #chemical composition datum
+
+https://w3id.org/pmd/co/PMD_0001039 #calibration process
+https://w3id.org/pmd/co/PMD_0001042 #test piece preparation process
+https://w3id.org/pmd/co/PMD_0000853 #crystallographic texture
+http://purl.obolibrary.org/obo/CHEBI_59999 #chemical substance
+https://w3id.org/pmd/co/PMD_0000596 #deformation
+https://w3id.org/pmd/co/PMD_0000779 #heat treatment
+https://w3id.org/pmd/co/PMD_0000513 #aging process
+https://w3id.org/pmd/co/PMD_0000866 #multiscale simulation

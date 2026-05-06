@@ -428,6 +428,12 @@ $(IMPORTDIR)/iao_import.owl: $(MIRRORDIR)/iao.owl
 	@echo "       This rule needs to be overwritten in mwo.Makefile!"
 	@false
 
+## Module for ontology: obi (custom)
+$(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl
+	@echo "ERROR: You have configured obi as a custom module;"
+	@echo "       This rule needs to be overwritten in pmdco.Makefile!"
+	@false
+
 ## Module for ontology: nfdicore (mirror)
 $(IMPORTDIR)/nfdicore_import.owl: $(MIRRORDIR)/nfdicore.owl | all_robot_plugins
 	$(ROBOT) annotate --input $< --remove-annotations \
@@ -483,19 +489,26 @@ mirror-iao: | $(TMPDIR)
 	curl -L $(OBOBASE)/iao.owl --create-dirs -o $(TMPDIR)/iao-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/iao-download.owl -o $(TMPDIR)/$@.owl
 
+## ONTOLOGY: obi
+.PHONY: mirror-obi
+.PRECIOUS: $(MIRRORDIR)/obi.owl
+mirror-obi: | $(TMPDIR)
+	curl -L $(OBOBASE)/obi.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/obi-download.owl -o $(TMPDIR)/$@.owl
+
 
 ## ONTOLOGY: nfdicore
 .PHONY: mirror-nfdicore
 .PRECIOUS: $(MIRRORDIR)/nfdicore.owl
 mirror-nfdicore: | $(TMPDIR)
-	$(ROBOT) convert -I https://nfdi.fiz-karlsruhe.de/ontology/3.0.4 -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: pmdco
 .PHONY: mirror-pmdco
 .PRECIOUS: $(MIRRORDIR)/pmdco.owl
 mirror-pmdco: | $(TMPDIR)
-	$(ROBOT) convert -I https://w3id.org/pmd/co/3.0.0-rc2 -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I https://w3id.org/pmd/co/3.0.0 -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
