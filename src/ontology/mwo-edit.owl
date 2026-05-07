@@ -113,23 +113,18 @@ Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001111>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001112>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001113>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001200>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001201>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001202>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001203>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001205>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001206>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001207>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001209>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001210>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001211>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001212>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001213>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001214>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001215>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001216>))
-Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001217>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001219>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001221>))
@@ -836,13 +831,6 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://pur
 EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001200> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0000088>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001200> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> (data portal identifier)
-
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> "data portal identifier"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> "an identifier that denotes a data portal and is used to uniquely reference, distinguish, or track that data portal within a given informational, organizational, or digital infrastructure context.")
-EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000123>)))
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001201> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208>)
-
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001202> (simulation identifier)
 
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001202> "simulation identifier"@en)
@@ -884,26 +872,6 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://pur
 EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001207> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000227>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001207> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> (digital resource identifier)
-
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> "digital resource identifier"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> "Digital resource identifier is an identifier that denotes a digital resource and is used to uniquely reference, distinguish, or track that digital resource within a digital, informational, or computational context.")
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> <http://purl.obolibrary.org/obo/IAO_0020000>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> (dataset identifier)
-
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> "dataset identifier"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> "Dataset identifier is a digital resource identifier that denotes a dataset and is used to uniquely reference, distinguish, or track that dataset within a digital, scientific, or information system context.")
-EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/IAO_0001000>)))
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001209> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208>)
-
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> (software identifier)
-
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> "software identifier"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> "Software identifier is a digital resource identifier that denotes a software entity and is used to uniquely reference, distinguish, or track that software within a digital, computational, or information system context.")
-EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/IAO_0000010>)))
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001210> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001208>)
-
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> (chemical substance identifier)
 
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> "chemical substance identifier"@en)
@@ -942,13 +910,6 @@ AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001216> "COD identifier is a crystallographic identifier that denotes an entry in the Crystallography Open Database (COD).")
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001216> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> (organization identifier)
-
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> "organization identifier"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> "Organization identifier is an identifier that denotes an organization and is used to uniquely reference, distinguish, or track that organization within a given organizational, administrative, or information system context.")
-EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0000245>)))
-SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001217> <http://purl.obolibrary.org/obo/IAO_0020000>)
-
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001219> (fair digital object)
 
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001219> "fair digital object"@en)
@@ -966,21 +927,22 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> <http://purl.ob
 
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> "specimen preparation protocol"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> "Specimen preparation protocol is a protocol that prescribes the steps, conditions, methods, and requirements for preparing a specimen for analysis, testing, characterization, or experimentation.")
-EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/co/PMD_0001042>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <https://w3id.org/pmd/co/PMD_0001042>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> (calibration protocol)
 
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> "calibration protocol"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> "Calibration protocol is a protocol that prescribes the steps, conditions, methods, and requirements for performing a calibration process.")
-EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/co/PMD_0001039>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <https://w3id.org/pmd/co/PMD_0001039>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> (assay protocol)
 
 AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> "assay protocol"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> "Assay protocol is a protocol that prescribes the steps, conditions, methods, and requirements for performing an assay.")
-EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000070>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> "tensile testing protocol")
+EquivalentClasses(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000070>)))
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220>)
 
 # Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001224> (calibration dataset)
