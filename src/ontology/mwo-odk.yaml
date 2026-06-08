@@ -17,14 +17,17 @@ import_group:
   products:
    - id: iao
      module_type: custom
+   - id: obi
+     module_type: custom
    - id: nfdicore
-     #mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl
-     mirror_from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.4
+     mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/refs/heads/main/nfdicore.ttl
+     #mirror_from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.5
      module_type: mirror
    - id: pmdco
      #mirror_from: https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/main/pmdco.owl
-     mirror_from: https://w3id.org/pmd/co/3.0.0-rc2
+     mirror_from: https://w3id.org/pmd/co/3.0.0
      module_type: custom
+
 
 #documentation:
 #  documentation_system: mkdocs
