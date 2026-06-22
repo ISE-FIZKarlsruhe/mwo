@@ -1,8 +1,8 @@
+set -e
 
-
-VERSION=3.0.1
-PRIOR_VERSION=3.0.0
-ONTBASE=http://purls.helmholtz-metadaten.de/mwo/ 
+VERSION=3.0.2
+PRIOR_VERSION=3.0.1
+ONTBASE=http://purls.helmholtz-metadaten.de/mwo 
 ANNOTATE_ONTOLOGY_VERSION="annotate -V $ONTBASE/$VERSION/\$@ --annotation owl:versionInfo $VERSION"
 
 
@@ -15,4 +15,4 @@ sh run.sh make VERSION=$VERSION PRIOR_VERSION=$PRIOR_VERSION update-ontology-ann
 
 
 # finally refresh imports again, so that version IRIs are updated back to "normal". 
-sh run.sh make IMP=false MIR=false refresh-imports
+# sh run.sh make IMP=false MIR=false refresh-imports

@@ -60,12 +60,12 @@ $(IMPORTDIR)/pmdco_import.owl: $(MIRRORDIR)/pmdco.owl
 # lets add some additional annotations to the release artefacts
 #############################################################################
 
-CITATION="'Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v$(VERSION). Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/$(VERSION)'"
+CITATION="'Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v$(VERSION). Retrieved from: http://purls.helmholtz-metadaten.de/mwo/$(VERSION)'"
 
-ALL_ANNOTATIONS=--ontology-iri http://purls.helmholtz-metadaten.de/mwo/mwo.owl -V http://purls.helmholtz-metadaten.de/mwo/mwo.owl/$(VERSION) \
+ALL_ANNOTATIONS=--ontology-iri http://purls.helmholtz-metadaten.de/mwo -V http://purls.helmholtz-metadaten.de/mwo/$(VERSION) \
 	--annotation http://purl.org/dc/terms/created "$(TODAY)" \
 	--annotation http://purl.org/dc/terms/bibliographicCitation "$(CITATION)"  \
-	--link-annotation owl:priorVersion http://purls.helmholtz-metadaten.de/mwo/mwo.owl/$(PRIOR_VERSION) \
+	--link-annotation owl:priorVersion http://purls.helmholtz-metadaten.de/mwo/$(PRIOR_VERSION) \
 
 update-ontology-annotations: 
 	$(ROBOT) annotate --input ../../mwo.owl $(ALL_ANNOTATIONS) --output ../../mwo.owl && \

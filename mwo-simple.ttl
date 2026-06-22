@@ -1,4 +1,4 @@
-@prefix : <http://purls.helmholtz-metadaten.de/mwo/mwo.owl#> .
+@prefix : <http://purls.helmholtz-metadaten.de/mwo#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -9,37 +9,37 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@base <http://purls.helmholtz-metadaten.de/mwo/mwo.owl> .
+@base <http://purls.helmholtz-metadaten.de/mwo> .
 
-<http://purls.helmholtz-metadaten.de/mwo/mwo.owl> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.1> ;
-                                                   terms:bibliographicCitation "Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.1. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.1" ;
-                                                   terms:contributor <https://orcid.org/0000-0001-7564-7990> ,
-                                                                     <https://orcid.org/0000-0001-9106-8825> ,
-                                                                     <https://orcid.org/0000-0001-9560-4728> ,
-                                                                     <https://orcid.org/0000-0002-1008-4530> ,
-                                                                     <https://orcid.org/0000-0002-1141-7704> ,
-                                                                     <https://orcid.org/0000-0002-2818-5890> ,
-                                                                     <https://orcid.org/0000-0002-5149-603X> ,
-                                                                     <https://orcid.org/0000-0003-4926-0068> ;
-                                                   terms:created "2026-02-09" ;
-                                                   terms:creator <https://orcid.org/0000-0001-7069-9804> ,
-                                                                 <https://orcid.org/0000-0001-7192-7143> ,
-                                                                 <https://orcid.org/0000-0002-2691-6995> ,
-                                                                 <https://orcid.org/0000-0002-3092-0532> ,
-                                                                 <https://orcid.org/0000-0003-2612-8515> ;
-                                                   terms:description """The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
+<http://purls.helmholtz-metadaten.de/mwo> rdf:type owl:Ontology ;
+                                           owl:versionIRI <http://purls.helmholtz-metadaten.de/mwo/3.0.2> ;
+                                           terms:bibliographicCitation "Hossein Beygi Nasrabadi, Jörg Waitelonis, Ebrahim Norouzi, Kostiantyn Hubaiev, Harald Sack. NFDI MatWerk Ontology (mwo). Revision: v3.0.2. Retrieved from: http://purls.helmholtz-metadaten.de/mwo/3.0.2" ;
+                                           terms:contributor <https://orcid.org/0000-0001-7564-7990> ,
+                                                             <https://orcid.org/0000-0001-9106-8825> ,
+                                                             <https://orcid.org/0000-0001-9560-4728> ,
+                                                             <https://orcid.org/0000-0002-1008-4530> ,
+                                                             <https://orcid.org/0000-0002-1141-7704> ,
+                                                             <https://orcid.org/0000-0002-2818-5890> ,
+                                                             <https://orcid.org/0000-0002-5149-603X> ,
+                                                             <https://orcid.org/0000-0003-4926-0068> ;
+                                           terms:created "2026-06-22" ;
+                                           terms:creator <https://orcid.org/0000-0001-7069-9804> ,
+                                                         <https://orcid.org/0000-0001-7192-7143> ,
+                                                         <https://orcid.org/0000-0002-2691-6995> ,
+                                                         <https://orcid.org/0000-0002-3092-0532> ,
+                                                         <https://orcid.org/0000-0003-2612-8515> ;
+                                           terms:description """The MatWerk ontology represents research data and related activities of the MSE community. The mwo v3 reuses BFO2020 and NFDi core ontologies and focuses on:
 A) Consortium structure: NFDI MatWerk consortium, its structures (task areas, infrastructure use cases, and participant projects), researches, and organizations
 B) NFDI resources: software, data portals, metadata schemas, scientific publications, published datasets, workflows, and ontologies
 C) NFDI MatWerk services, events, educational cources, and international collabrations
 D) MSE related instruments, facilities, materials, processes, and properties.
 Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/mwo""" ;
-                                                   terms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-                                                   terms:title "NFDI Matwerk Ontology" ;
-                                                   doap:repository <https://github.com/ISE-FIZKarlsruhe/mwo> ;
-                                                   rdfs:label "NFDI Matwerk Ontology"@en ;
-                                                   owl:priorVersion <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0> ;
-                                                   owl:versionInfo "3.0.1" .
+                                           terms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+                                           terms:title "NFDI Matwerk Ontology" ;
+                                           doap:repository <https://github.com/ISE-FIZKarlsruhe/mwo> ;
+                                           rdfs:label "NFDI Matwerk Ontology"@en ;
+                                           owl:priorVersion <http://purls.helmholtz-metadaten.de/mwo/3.0.1> ;
+                                           owl:versionInfo "3.0.2" .
 
 #################################################################
 #    Annotation properties
@@ -81,7 +81,9 @@ obo:IAO_0100001 rdf:type owl:AnnotationProperty ;
 
 
 ###  http://purl.org/dc/elements/1.1/contributor
-dc:contributor rdf:type owl:AnnotationProperty .
+dc:contributor rdf:type owl:AnnotationProperty ;
+               rdfs:label "Contributor"@en-us ,
+                          "Contributor" .
 
 
 ###  http://purl.org/dc/elements/1.1/identifier
@@ -127,7 +129,9 @@ skos:altLabel rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#definition
-skos:definition rdf:type owl:AnnotationProperty .
+skos:definition rdf:type owl:AnnotationProperty ;
+                rdfs:label "definition"@en ;
+                skos:definition "A statement or formal explanation of the meaning of a concept."@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#editorialNote
@@ -153,6 +157,13 @@ obo:BFO_0000132 rdf:type owl:ObjectProperty ,
                 rdfs:label "occurrent part of"@en ;
                 skos:definition "(Elucidation) occurrent part of is a relation between occurrents b and c when b is part of c"@en ;
                 skos:example "Mary's 5th birthday is an occurrent part of Mary's life; the first set of the tennis match is an occurrent part of the tennis match"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000039
+obo:IAO_0000039 rdf:type owl:ObjectProperty ;
+                owl:inverseOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:label "has measurement unit label"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000136
@@ -186,8 +197,16 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/OBI_0000299
 obo:OBI_0000299 rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf obo:RO_0000057 ;
-                obo:IAO_0000115 "The inverse property of is specified output of"@en ;
+                owl:inverseOf obo:OBI_0000312 ;
+                obo:IAO_0000115 "The inverse property of is specified output of" ;
                 rdfs:label "has specified output"@en .
+
+
+###  http://purl.obolibrary.org/obo/OBI_0000312
+obo:OBI_0000312 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf obo:RO_0000056 ;
+                obo:IAO_0000115 "A relation between a completely executed planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of."@en ;
+                rdfs:label "is specified output of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000056
@@ -208,6 +227,30 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
                obo:IAO_0000115 "a relation between a process and a continuant, in which the continuant is somehow involved in the process"@en ;
                obo:IAO_0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time."@en ;
                rdfs:label "has participant"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000058
+obo:RO_0000058 rdf:type owl:ObjectProperty ;
+               obo:IAO_0000112 "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The journal article (a generically dependent continuant) is concretized as the quality (a specifically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."@en ,
+                               "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)."@en ;
+               obo:IAO_0000115 "A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes."@en ,
+                               "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants."@en ;
+               rdfs:label "is concretized as"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000087
+obo:RO_0000087 rdf:type owl:ObjectProperty ;
+               obo:IAO_0000112 "this person has role this investigator role (more colloquially: this person has this role of investigator)"@en ;
+               obo:IAO_0000115 "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en ;
+               obo:IAO_0000116 "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists."@en ;
+               rdfs:label "has role"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002353
+obo:RO_0002353 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000056 ;
+               obo:IAO_0000115 "inverse of has output" ;
+               rdfs:label "output of"@en .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001025
@@ -259,16 +302,8 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001118
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001118> rdf:type owl:ObjectProperty ;
                                                       rdfs:subPropertyOf obo:IAO_0000136 ;
-                                                      owl:inverseOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> ;
                                                       rdfs:comment "inverse of  property \"has measurement unit label\"" ;
                                                       rdfs:label "measurement unit label of"@en .
-
-
-###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001119
-<http://purls.helmholtz-metadaten.de/mwo/MWO_0001119> rdf:type owl:ObjectProperty ;
-                                                      rdfs:subPropertyOf <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226> ;
-                                                      rdfs:comment "The property is a relation between an entity and a measurement unit label." ;
-                                                      rdfs:label "has measurement unit label"@en .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001134
@@ -318,9 +353,9 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
 
 ###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226
 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000226> rdf:type owl:ObjectProperty ;
-                                                      rdfs:comment "inverse of the relation 'is about'" ;
                                                       rdfs:label "is subject of"@en ;
-                                                      skos:altLabel "is described by" .
+                                                      skos:altLabel "is described by" ;
+                                                      skos:definition "inverse of the relation 'is about'" .
 
 
 #################################################################
@@ -347,78 +382,116 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001000
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001000> rdf:type owl:Class ;
-                                                      rdfs:comment "An event that involves a focused exchange of knowledge, opinions, and insights among specialists in a particular field to address complex topics, evaluate research findings, or explore emerging trends." ;
-                                                      rdfs:label "expert discussion"@en .
+                                                      rdfs:label "expert discussion"@en ;
+                                                      skos:definition "An event that involves a focused exchange of knowledge, opinions, and insights among specialists in a particular field to address complex topics, evaluate research findings, or explore emerging trends." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001001
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001001> rdf:type owl:Class ;
-                                                      rdfs:comment "Event frequency datum describes how often an events occurs within a given time interval" ;
                                                       rdfs:label "event frequency datum"@en ;
+                                                      skos:definition "Event frequency datum describes how often an events occurs within a given time interval" ;
                                                       skos:editorialNote "HBN: Concerning the content of ‘Events’ datasheet and its related knowledge graph, the ‘event frequency’ class was created to respond to competency questions like which frequency ab event take places?" ;
                                                       skos:example "annual, weekly, twice per year, 72 beats per minute, every four years" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001002
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002> rdf:type owl:Class ;
-                                                      rdfs:comment "A MatWerk project is a project within the NFDI MatWerk consortium that involves coordinated research, development, or infrastructure activities aimed at advancing materials science and engineering through data-driven methodologies and digitalization." ;
-                                                      rdfs:label "matwerk project"@en .
+                                                      rdfs:label "matwerk project"@en ;
+                                                      skos:definition "A MatWerk project is a project within the NFDI MatWerk consortium that involves coordinated research, development, or infrastructure activities aimed at advancing materials science and engineering through data-driven methodologies and digitalization." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001003
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> rdf:type owl:Class ;
-                                                      rdfs:comment "A collaboration is a process in which multiple entities, such as individuals, organizations, or institutions, work together toward shared goals, contributing resources, expertise, or services to achieve mutual benefits." ;
                                                       rdfs:label "collaboration"@en ;
+                                                      skos:definition "A collaboration is a process in which multiple entities, such as individuals, organizations, or institutions, work together toward shared goals, contributing resources, expertise, or services to achieve mutual benefits." ;
                                                       skos:editorialNote "HBN: Concerning the content of ‘International Collaboration’ datasheet and its related knowledge graph, the ‘Collaboration’ class and its subclasses were created to defind the type of collaborations, and respond to competency questions like: what type of collaboration exists between organizations A and B, which agents are involved in collaboration C, which collaborations has agent D, etc." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001004
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001004> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> ;
-                                                      rdfs:comment "Strategic Collaboration is a collaboration process in which multiple entities align their long-term objectives and resources to achieve significant mutual benefits in research, business, or policy initiatives." ;
-                                                      rdfs:label "strategic collaboration"@en .
+                                                      rdfs:label "strategic collaboration"@en ;
+                                                      skos:definition "Strategic Collaboration is a collaboration process in which multiple entities align their long-term objectives and resources to achieve significant mutual benefits in research, business, or policy initiatives." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001005
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001005> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> ;
-                                                      rdfs:comment "Networking is a collaboration process that involves building and maintaining professional, academic, or organizational relationships to exchange knowledge, expertise, or resources." ;
-                                                      rdfs:label "networking"@en .
+                                                      rdfs:label "networking"@en ;
+                                                      skos:definition "Networking is a collaboration process that involves building and maintaining professional, academic, or organizational relationships to exchange knowledge, expertise, or resources." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001006
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001006> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> ;
-                                                      rdfs:comment "Project Collaboration is a collaboration process in which multiple entities contribute expertise, resources, and labor toward the successful completion of a specific project." ;
-                                                      rdfs:label "project collaboration"@en .
+                                                      rdfs:label "project collaboration"@en ;
+                                                      skos:definition "Project Collaboration is a collaboration process in which multiple entities contribute expertise, resources, and labor toward the successful completion of a specific project." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001007
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001007> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> ;
-                                                      rdfs:comment "Joint Efforting is a collaboration process in which multiple entities combine efforts, knowledge, or labor toward a common goal, often in research, policy-making, or community initiatives." ;
-                                                      rdfs:label "joint efforting"@en .
+                                                      rdfs:label "joint efforting"@en ;
+                                                      skos:definition "Joint Efforting is a collaboration process in which multiple entities combine efforts, knowledge, or labor toward a common goal, often in research, policy-making, or community initiatives." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001008
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001008> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> ;
-                                                      rdfs:comment "Joint Servicing is a collaboration process in which two or more entities jointly provide or maintain a service, ensuring operational efficiency and shared responsibility." ;
-                                                      rdfs:label "joint servicing"@en .
+                                                      rdfs:label "joint servicing"@en ;
+                                                      skos:definition "Joint Servicing is a collaboration process in which two or more entities jointly provide or maintain a service, ensuring operational efficiency and shared responsibility." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001009
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001009> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> ;
-                                                      rdfs:comment "Alliancing is a collaboration process in which two or more entities form a long-term cooperative relationship based on shared objectives, often in research, industry, or government sectors." ;
-                                                      rdfs:label "alliancing"@en .
+                                                      rdfs:label "alliancing"@en ;
+                                                      skos:definition "Alliancing is a collaboration process in which two or more entities form a long-term cooperative relationship based on shared objectives, often in research, industry, or government sectors." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001010
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001010> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001003> ;
-                                                      rdfs:comment "Partnering is a collaboration process in which two or more entities form a structured partnership to achieve specific research, business, or development goals." ;
-                                                      rdfs:label "parenting"@en .
+                                                      rdfs:label "parenting"@en ;
+                                                      skos:definition "Partnering is a collaboration process in which two or more entities form a structured partnership to achieve specific research, business, or development goals." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001012
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> rdf:type owl:Class ;
+                                                      rdfs:label "date process ended"@en ;
+                                                      skos:definition "The date and time at which the experimental process was completed." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001013
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ;
+                                                      rdfs:label "assay identifier"@en ;
+                                                      skos:definition "Assay identifier is an identifier that uniquely designates a specific assay." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001015
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> rdf:type owl:Class ;
+                                                      rdfs:label "object identifier"@en ;
+                                                      skos:definition "Object identifier is an identifier that uniquely designates a specific object." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001016
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> ;
+                                                      rdfs:label "device identifier"@en ;
+                                                      skos:definition "Device identifier is an identifier that uniquely designates a specific device." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001020
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> rdf:type owl:Class ;
+                                                      rdfs:label "equation textual entity"@en ;
+                                                      skos:definition "An equation textual entity is a textual entity that expresses a mathematical equation specifying relationships between quantities or variables." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001021
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> rdf:type owl:Class ;
+                                                      rdfs:label "material deformation mechanism"@en ;
+                                                      skos:definition "A material deformation mechanism is a categorical value specification that identifies and records the specific microstructural or crystallographic process—such as dislocation creep, diffusional flow, or grain boundary sliding—that is determined to be the primary physical cause of the deformation process of a material." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001022
@@ -430,16 +503,32 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
                                                       obo:IAO_0000118 "National Research Data Infrastructure for Materials Science & Engineering"@en ,
                                                                       "Nationale Forschungsdateninfrastruktur für Materialwissenschaft & Werkstofftechnik"@de ;
                                                       obo:IAO_0000119 "https://nfdi-matwerk.de/" ;
-                                                      rdfs:comment "NFDI-MatWerk will focus on the research areas of materials science and materials engineering. The key challenges in these fields are the digital mapping of materials and their process and loading parameters. This process touches core aspects of scientific ways of working starting with scientific exchange, data handling and the resulting technological possibilities. The digital transformation of materials science and materials engineering is an opportunity to promote, structure and optimize this exchange - provided that transparent communication standards are created. This fundamental change is therefore being tackled in a joint effort by the consortium and the specialist community." ,
-                                                                   "The National Research Data Infrastructure for Materials Science & Engineering (NFDI-MatWerk) is a consortium in Germany dedicated to developing a national infrastructure for managing research data in the field of materials science and engineering. Established in 2021, NFDI-MatWerk focuses on integrating and standardizing data from various sources, including experimental and simulation data, along with their associated metadata. This comprehensive approach supports the entire data lifecycle—from planning and collection to analysis, preservation, sharing, and reuse—aiming to enhance data accessibility, interoperability, and reusability within the scientific community. By providing tools and frameworks for efficient data management, NFDI-MatWerk facilitates innovative research and fosters collaboration among scientists. The consortium also emphasizes the development of standardized metadata and terminologies to ensure seamless data integration and sharing across different platforms and stakeholders. Through these efforts, NFDI-MatWerk aims to advance materials science and engineering by promoting effective data management practices and long-term accessibility of high-quality research data." ;
-                                                      rdfs:label "nfdi matwerk consortium"@en .
+                                                      rdfs:comment "The National Research Data Infrastructure for Materials Science & Engineering (NFDI-MatWerk) is a consortium in Germany dedicated to developing a national infrastructure for managing research data in the field of materials science and engineering. Established in 2021, NFDI-MatWerk focuses on integrating and standardizing data from various sources, including experimental and simulation data, along with their associated metadata. This comprehensive approach supports the entire data lifecycle—from planning and collection to analysis, preservation, sharing, and reuse—aiming to enhance data accessibility, interoperability, and reusability within the scientific community. By providing tools and frameworks for efficient data management, NFDI-MatWerk facilitates innovative research and fosters collaboration among scientists. The consortium also emphasizes the development of standardized metadata and terminologies to ensure seamless data integration and sharing across different platforms and stakeholders. Through these efforts, NFDI-MatWerk aims to advance materials science and engineering by promoting effective data management practices and long-term accessibility of high-quality research data." ;
+                                                      rdfs:label "nfdi matwerk consortium"@en ;
+                                                      skos:definition "NFDI-MatWerk will focus on the research areas of materials science and materials engineering. The key challenges in these fields are the digital mapping of materials and their process and loading parameters. This process touches core aspects of scientific ways of working starting with scientific exchange, data handling and the resulting technological possibilities. The digital transformation of materials science and materials engineering is an opportunity to promote, structure and optimize this exchange - provided that transparent communication standards are created. This fundamental change is therefore being tackled in a joint effort by the consortium and the specialist community." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001023
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> rdf:type owl:Class ;
+                                                      rdfs:label "device type specification"@en ;
+                                                      skos:definition "A device type specification is a categorical value specification that classifies a device according to its type." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001024
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> rdf:type owl:Class ;
+                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty obo:IAO_0000136 ;
+                                                                        owl:someValuesFrom <http://purls.helmholtz-metadaten.de/mwo/MWO_0001046>
+                                                                      ] ;
+                                                      rdfs:label "material failure mechanism"@en ;
+                                                      skos:definition "Material failure mechanism is a categorical value specification that are the underlying physical, chemical, or mechanical processes—such as fatigue, corrosion, or ductile yielding—that cause a component to lose its ability to perform its intended function" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001026
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001026> rdf:type owl:Class ;
                                                       obo:IAO_0000118 "IUC" ;
-                                                      rdfs:comment "An Infrastructure Use Case (IUC) is a service product that defines a specific application scenario, requirement, or implementation of research infrastructure, demonstrating its functionality, benefits, and impact in a given scientific or industrial domain." ;
                                                       rdfs:label "infrastructure use case"@en ;
+                                                      skos:definition "An Infrastructure Use Case (IUC) is a service product that defines a specific application scenario, requirement, or implementation of research infrastructure, demonstrating its functionality, benefits, and impact in a given scientific or industrial domain." ;
                                                       skos:example "NFDI MatWerk Infrastructure Use Cases (IUCs) are exmplary scenarios used to demonstrate and validate the functionality of the NFDI-MatWerk infrastructure in real-world research contexts. They illustrate how the digital infrastructure can be applied to various stages of materials science research, including data acquisition, processing, sharing, and analysis. Developed in collaboration with the research community, IUCs provide detailed examples of how researchers can effectively use the infrastructure to enhance their workflows. By showcasing specific applications, IUCs highlight the capabilities and benefits of the infrastructure, guiding its development to meet actual research needs and ensuring that it aligns with the dynamic requirements of materials science and engineering." .
 
 
@@ -459,15 +548,15 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
                                                                         owl:onProperty obo:BFO_0000132 ;
                                                                         owl:someValuesFrom <http://purls.helmholtz-metadaten.de/mwo/MWO_0001002>
                                                                       ] ;
-                                                      rdfs:comment "Participant Projects (PPs) are projects by NFDI-MatWerk partners that address specific scientific and technological challenges, providing practical examples and feedback for the development and validation of the infrastructure." ;
-                                                      rdfs:label "matwerk participant project"@en .
+                                                      rdfs:label "matwerk participant project"@en ;
+                                                      skos:definition "Participant Projects (PPs) are projects by NFDI-MatWerk partners that address specific scientific and technological challenges, providing practical examples and feedback for the development and validation of the infrastructure." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001030
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ;
-                                                      rdfs:comment "A process that involves the creation, adaptation, or refinement of an entity, with the participation of some participants, leading to specific outcomes." ;
-                                                      rdfs:label "developing process"@en .
+                                                      rdfs:label "developing process"@en ;
+                                                      skos:definition "A process that involves the creation, adaptation, or refinement of an entity, with the participation of some participants, leading to specific outcomes." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001031
@@ -482,36 +571,134 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001032
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001032> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001030> ;
-                                                      rdfs:comment "A developing process that involves the collaborative creation, adaptation, or refinement of an entity, requiring the active participation of at least two agents, leading to shared outcomes." ;
-                                                      rdfs:label "co developing process"@en .
+                                                      rdfs:label "co developing process"@en ;
+                                                      skos:definition "A developing process that involves the collaborative creation, adaptation, or refinement of an entity, requiring the active participation of at least two agents, leading to shared outcomes." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001033
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001033> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> ;
-                                                      rdfs:comment "A process that involves modifying or adjusting an existing entity, with the participation of some participants, to improve its suitability for a specific purpose or context, leading to a refined or optimized outcome." ;
-                                                      rdfs:label "adapting process"@en .
+                                                      rdfs:label "adapting process"@en ;
+                                                      skos:definition "A process that involves modifying or adjusting an existing entity, with the participation of some participants, to improve its suitability for a specific purpose or context, leading to a refined or optimized outcome." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001034
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001034> rdf:type owl:Class ;
-                                                      rdfs:comment "Sustainability datum represents the duration or persistence of a process, system, or resource over time. It defines how long an entity is expected to remain viable or functional." ;
                                                       rdfs:label "sustainability datum"@en ;
+                                                      skos:definition "Sustainability datum represents the duration or persistence of a process, system, or resource over time. It defines how long an entity is expected to remain viable or functional." ;
                                                       skos:editorialNote "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the ‘Sustainability’ class was created to respond to competency questions like: what is the sustainability of a service." ;
                                                       skos:example "Continusly, 10 years, 2-4 years, until 2030" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001035
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001035> rdf:type owl:Class ;
-                                                      rdfs:comment "Data storage capacity datum represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB)." ,
-                                                                   "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the this class was created to respond to competency questions like how much is the storage capacity of a service." ;
-                                                      rdfs:label "data storage capacity datum"@en .
+                                                      rdfs:comment "HBN: Concerning the content of ‘Service’ datasheet and its related knowledge graph, the this class was created to respond to competency questions like how much is the storage capacity of a service." ;
+                                                      rdfs:label "data storage capacity datum"@en ;
+                                                      skos:definition "Data storage capacity datum represents the maximum amount of digital information it can hold, typically measured in bytes (e.g., GB, TB, PB)." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001036
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> rdf:type owl:Class ;
+                                                      rdfs:label "material state"@en ;
+                                                      skos:definition "A descriptor defining the processing history or physical condition of the material before or after testing." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001037
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> ;
+                                                      rdfs:label "as manufactured material state"@en ;
+                                                      skos:definition "The condition of the material immediately after the primary manufacturing process (casting/forging) without further treatment." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001038
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> ;
+                                                      rdfs:label "as tested material state"@en ;
+                                                      skos:definition "The specific state of the material at the exact moment the test begins (including all pre-test preparations)." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001039
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> ;
+                                                      rdfs:label "fractured material state"@en ;
+                                                      skos:definition "The condition of the test piece after the creep rupture limit has been reached and the material has separated." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001040
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> ;
+                                                      rdfs:label "heat treated material state"@en ;
+                                                      skos:definition "The condition of the material resulting from a controlled heating and cooling process to alters its physical properties." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001041
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> ;
+                                                      rdfs:label "aged material state"@en ;
+                                                      skos:definition "State resulting from precipitation hardening (holding at an intermediate temperature) to increase strength." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001042
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> ;
+                                                      rdfs:label "annealed material state"@en ;
+                                                      skos:definition "State resulting from heating to a specific temperature and cooling at a controlled rate to remove internal stresses." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001043
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> ;
+                                                      rdfs:label "normalized material state"@en ;
+                                                      skos:definition "State resulting from heating to an austenitizing temperature and cooling in air to refine the grain structure." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001044
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001044> rdf:type owl:Class ;
+                                                      rdfs:label "test piece origin"@en ;
+                                                      skos:definition "A test piece origin is a 3D spatial region that specifies the spatial location from an object from which a test piece is taken." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001045
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001045> rdf:type owl:Class ;
+                                                      rdfs:label "operator role"@en ;
+                                                      skos:definition "Operator role is an agent role that is realized by operating, controlling, or supervising a device, instrument, machine, system, or process." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001046
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001046> rdf:type owl:Class ;
+                                                      obo:IAO_0000118 "fracture" ;
+                                                      rdfs:label "failure process"@en ;
+                                                      skos:definition "Failure process is a process that results in the loss, degradation, or cessation of the function, integrity, or performance of a material, component, system, or device." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001047
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001047> rdf:type owl:Class ;
+                                                      rdfs:label "annealing process"@en ;
+                                                      skos:definition "Annealing process is a heat treatment process that alters the properties or microstructure of a material by heating and controlled cooling." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001048
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001048> rdf:type owl:Class ;
+                                                      rdfs:label "normalizing process"@en ;
+                                                      skos:definition "Normalizing process is a heat treatment process that alters the microstructure and properties of a material by heating it to a specified temperature and subsequently cooling it in air or under controlled conditions." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001049
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001049> rdf:type owl:Class ;
+                                                      rdfs:comment "Crystal plasticity simulation is a simulation process that models the deformation behavior of crystalline materials based on crystallographic slip, microstructural properties, and constitutive mechanical relations." ;
+                                                      rdfs:label "crystal plasticity simulation"@en .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001051
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001051> rdf:type owl:Class ;
-                                                      rdfs:comment "A process that applies, integrates, or refines an entity, encompassing development, co-development, and adaptation, with participant involvement to achieve a functional outcome." ;
-                                                      rdfs:label "implementing process"@en .
+                                                      rdfs:label "implementing process"@en ;
+                                                      skos:definition "A process that applies, integrates, or refines an entity, encompassing development, co-development, and adaptation, with participant involvement to achieve a functional outcome." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001055
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001055> rdf:type owl:Class ;
+                                                      rdfs:label "research group role"@en ;
+                                                      skos:definition "Research group role is an agent role that is borne by an organizational unit and is realized through conducting, coordinating, or supporting scientific research activities within one or more research domains." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001056
@@ -573,6 +760,59 @@ standards should be as much as possible consistent).""" ;
                                                       skos:example "Wikidata Query Service, DBpedia SPARQL Endpoint, Linked Data Fragments" .
 
 
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001061
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001061> rdf:type owl:Class ;
+                                                      rdfs:label "department role"@en ;
+                                                      skos:definition "Department role is an agent role that is borne by an organizational unit and is realized through carrying out administrative, educational, research, operational, or managerial functions within an organization." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001062
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001062> rdf:type owl:Class ;
+                                                      rdfs:label "devision role"@en ;
+                                                      skos:definition "Division role is an agent role that is borne by an organizational unit and is realized through carrying out administrative, managerial, operational, or research-related functions within an organization." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001063
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001063> rdf:type owl:Class ;
+                                                      rdfs:label "institute role"@en ;
+                                                      skos:definition "Institute role is an agent role that is borne by an organization and is realized through conducting, supporting, managing, or promoting research, education, professional activities, or specialized services within one or more domains." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001064
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001064> rdf:type owl:Class ;
+                                                      rdfs:label "licensing agent role"@en ;
+                                                      skos:definition "Licensing agent role is an agent role that is realized through granting, managing, administering, or overseeing permissions, rights, or licenses related to resources, intellectual property, data, software, or services." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001065
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001065> rdf:type owl:Class ;
+                                                      rdfs:label "license holder role"@en ;
+                                                      skos:definition "License holder role is an agent role that is realized through holding or exercising rights granted by a license." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001066
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001066> rdf:type owl:Class ;
+                                                      rdfs:label "licensing process"@en ;
+                                                      skos:definition "Licensing process is a process that grants, transfers, manages, or administers permissions or rights for the access, use, distribution, or modification of a resource, dataset, software entity, or other asset." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001067
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001067> rdf:type owl:Class ;
+                                                      rdfs:label "funding process"@en ;
+                                                      skos:definition "Funding process is a process that allocates, distributes, administers, or provides financial resources to support a project, organization, activity, research effort, or other undertaking." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001068
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001068> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty obo:IAO_0000219 ;
+                                                                        owl:someValuesFrom <http://purls.helmholtz-metadaten.de/mwo/MWO_0001067>
+                                                                      ] ;
+                                                      rdfs:label "funding identifier"@en ;
+                                                      skos:definition "Funding identifier is an identifier that denotes a funding award, funding program, grant, or financial support entity and is used to uniquely reference, distinguish, or track it within an administrative, organizational, or information system context." .
+
+
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001088
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001088> rdf:type owl:Class ;
                                                       obo:IAO_0100001 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001105> ;
@@ -615,8 +855,9 @@ standards should be as much as possible consistent).""" ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001099
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> rdf:type owl:Class ;
-                                                      rdfs:comment "Material designation is an identifier assigned to a material to specify its name, Id, classification, composition, or standardized reference in scientific, engineering, or industrial contexts." ;
-                                                      rdfs:label "material designation"@en ;
+                                                      obo:IAO_0000118 "material designation" ;
+                                                      rdfs:label "material identifier"@en ;
+                                                      skos:definition "Material designation is an identifier assigned to a material to specify its name, Id, classification, composition, or standardized reference in scientific, engineering, or industrial contexts." ;
                                                       skos:example "ASTM A36 for structural steel, UNS C11000 for copper, DIN 1.4404 for stainless steel" .
 
 
@@ -630,8 +871,8 @@ standards should be as much as possible consistent).""" ;
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001101
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001101> rdf:type owl:Class ;
-                                                      rdfs:comment "A measure textual entity is a textual entity that describes quantitative or qualitative assessments, metrics, or evaluation criteria used to analyze, compare, or monitor a specific process, performance, or characteristic." ;
-                                                      rdfs:label "measure textual entity"@en .
+                                                      rdfs:label "measure textual entity"@en ;
+                                                      skos:definition "A measure textual entity is a textual entity that describes quantitative or qualitative assessments, metrics, or evaluation criteria used to analyze, compare, or monitor a specific process, performance, or characteristic." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001104
@@ -673,15 +914,15 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001109
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001109> rdf:type owl:Class ;
-                                                      rdfs:comment "A Material Science Database is a data portal that provides access to structured data related to materials science." ;
                                                       rdfs:label "material science database"@en ;
+                                                      skos:definition "A Material Science Database is a data portal that provides access to structured data related to materials science." ;
                                                       skos:example "Materials Project database, NOMAD Archive, Open Quantum Materials Database (OQMD)" .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001110
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001110> rdf:type owl:Class ;
-                                                      rdfs:comment "A Material Science Knowledge Base is a data portal that provides structured information, conceptual models, and reasoning capabilities related to materials science research and applications." ;
-                                                      rdfs:label "material science knowledge base"@en .
+                                                      rdfs:label "material science knowledge base"@en ;
+                                                      skos:definition "A Material Science Knowledge Base is a data portal that provides structured information, conceptual models, and reasoning capabilities related to materials science research and applications." .
 
 
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001111
@@ -709,6 +950,135 @@ Karlsruhe Institute of Technology, Institute of Applied Informatics and Formal D
                                                       rdfs:label "obsolete  software repository"@en ;
                                                       owl:deprecated "true"^^xsd:boolean ;
                                                       skos:example "GitHub, GitLab, Apache Software Foundation repositories" .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001200
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001200> rdf:type owl:Class ;
+                                                      rdfs:label "reporting process"@en ;
+                                                      skos:definition "A process of collecting, organizing, and presenting information or results in a structured form for communication or documentation." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001202
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001202> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ;
+                                                      rdfs:label "simulation identifier"@en ;
+                                                      skos:definition "Simulation identifier is a process identifier that denotes a simulation process and is used to uniquely reference, distinguish, or track that simulation within a scientific, computational, or information system context." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001203
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001203> rdf:type owl:Class ;
+                                                      rdfs:label "certified reference material role"@en ;
+                                                      skos:definition "A role played by a material that provides certified property values to support calibration, validation, or quality assurance activities." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001204
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> rdf:type owl:Class ;
+                                                      rdfs:label "process identifier"@en ;
+                                                      skos:definition "an identifier that denotes a process and is used to uniquely reference, distinguish, or track that process within a given information system, workflow, or representational context." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001205
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001205> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ;
+                                                      rdfs:label "project identifier"@en ;
+                                                      skos:definition "an identifier that denotes a project and is used to uniquely reference, distinguish, or track that project within a given organizational, administrative, or information system context." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001206
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001206> rdf:type owl:Class ;
+                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty obo:IAO_0000219 ;
+                                                                        owl:someValuesFrom <http://purls.helmholtz-metadaten.de/mwo/MWO_0001045>
+                                                                      ] ;
+                                                      rdfs:label "operator identification"@en ;
+                                                      skos:definition "A textual entity intended to identify a particular operator" .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001207
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001207> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> ;
+                                                      rdfs:label "workflow identifier"@en ;
+                                                      skos:definition "Workflow identifier is a process identifier that denotes a workflow and is used to uniquely reference, distinguish, or track that workflow within a scientific, organizational, or information system context." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001211
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> rdf:type owl:Class ;
+                                                      rdfs:label "chemical substance identifier"@en ;
+                                                      skos:definition "Chemical substance identifier is an identifier that denotes a chemical substance and is used to uniquely reference, distinguish, or track that chemical substance within a chemical, scientific, or information system context." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001212
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001212> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001211> ;
+                                                      rdfs:label "CAS registry number"@en ;
+                                                      skos:definition "CAS Registry Number is a chemical substance identifier that denotes an entry in the Chemical Abstracts Service (CAS) Registry." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001213
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> rdf:type owl:Class ;
+                                                      rdfs:label "crystallographic identifier"@en ;
+                                                      skos:definition "Crystallographic identifier is an identifier that denotes a crystallographic entity and is used to uniquely reference, distinguish, or track that entity within a crystallographic, materials science, or structural data context." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001214
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001214> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> ;
+                                                      rdfs:label "CSD identifier"@en ;
+                                                      skos:definition "CSD identifier is a crystallographic identifier that denotes an entry in the Cambridge Structural Database (CSD)." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001215
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001215> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> ;
+                                                      rdfs:label "ICSD identifier"@en ;
+                                                      skos:definition "ICSD identifier is a crystallographic identifier that denotes an entry in the Inorganic Crystal Structure Database (ICSD)." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001216
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001216> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001213> ;
+                                                      rdfs:label "COD identifier"@en ;
+                                                      skos:definition "COD identifier is a crystallographic identifier that denotes an entry in the Crystallography Open Database (COD)." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001219
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001219> rdf:type owl:Class ;
+                                                      rdfs:label "fair digital object"@en ;
+                                                      skos:definition "FAIR digital object is a data entity that is structured and described in accordance with FAIR principles so that it can be findable, accessible, interoperable, and reusable by humans and machines." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001220
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> rdf:type owl:Class ;
+                                                      rdfs:label "protocol"@en ;
+                                                      skos:definition "Protocol is a plan specification that prescribes the steps, conditions, rules, or procedures for carrying out a process, experiment, workflow, or activity." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001221
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001221> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ;
+                                                      rdfs:label "specimen preparation protocol"@en ;
+                                                      skos:definition "Specimen preparation protocol is a protocol that prescribes the steps, conditions, methods, and requirements for preparing a specimen for analysis, testing, characterization, or experimentation." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001222
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001222> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ;
+                                                      rdfs:label "calibration protocol"@en ;
+                                                      skos:definition "Calibration protocol is a protocol that prescribes the steps, conditions, methods, and requirements for performing a calibration process." .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001223
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001223> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://purls.helmholtz-metadaten.de/mwo/MWO_0001220> ;
+                                                      rdfs:label "assay protocol"@en ;
+                                                      skos:definition "Assay protocol is a protocol that prescribes the steps, conditions, methods, and requirements for performing an assay." ;
+                                                      skos:example "tensile testing protocol" .
+
+
+###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001224
+<http://purls.helmholtz-metadaten.de/mwo/MWO_0001224> rdf:type owl:Class ;
+                                                      rdfs:label "calibration dataset"@en ;
+                                                      skos:definition "Calibration dataset is a dataset that contains data used to calibrate an instrument, device, model, measurement system, or computational workflow." .
 
 
 #################################################################
